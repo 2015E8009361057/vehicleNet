@@ -8,26 +8,21 @@
 
 package com.cit.its.server;
 
-import java.io.IOException;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
-import java.util.concurrent.ConcurrentHashMap;
-
-import org.apache.activemq.ActiveMQConnectionFactory;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
-
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.PooledByteBufAllocator;
 import io.netty.channel.AdaptiveRecvByteBufAllocator;
-import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelOption;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.activemq.ActiveMQConnectionFactory;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 
 /** 
  * @Title: MsgRecvServer
@@ -54,11 +49,11 @@ public class MsgRecvServer {
 	 */
 	public static void main(String[] args) throws Exception {	
 		 Properties props = new Properties();
-	     props.load(MsgRecvServer.class.getClassLoader().getResourceAsStream("nettyAndActiveMQConfig.properties"));
+		 props.load(MsgRecvServer.class.getClassLoader().getResourceAsStream("config.properties"));
 	     port=Integer.valueOf(props.getProperty("netty.port"));
 	     brokerURL=props.getProperty("activemq.brokerURL");
 	     factory=new ActiveMQConnectionFactory(brokerURL);
-	     PropertyConfigurator.configure("src/log4j.properties" );
+	     PropertyConfigurator.configure("log4j.properties" );
 	     SpringContainer.getInstance().loadContextByXMLPath("spring-context.xml");
 		 new MsgRecvServer().run();	
 	}

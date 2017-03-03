@@ -1,5 +1,6 @@
 package com.cit.its.util;
 
+import java.io.UnsupportedEncodingException;
 import java.text.ParseException;
 import java.util.Date;
 
@@ -383,5 +384,25 @@ public class ByteUtil {
         int targets = (res[0] & 0xff) | ((res[1] << 8) & 0xff00); // | 表示安位或  
         return targets;  
     }  
+    
+    public static byte[] int2binaryBytes(int data) throws UnsupportedEncodingException {
+    	String binaryStr = java.lang.Integer.toBinaryString(data);
+    	System.out.println("The result is : " + binaryStr);
+    	byte[] result = binaryStr.getBytes("utf8");
+    	for (int i = 0; i < result.length; i++) {
+    		result[i] = (byte) (result[i] - '0');
+    	}
+    	return result;
+    }
+    
+    public static byte[] byte2binaryBytesArray(byte data) throws UnsupportedEncodingException {
+    	String binaryStr = java.lang.Byte.toString(data);
+    	System.out.println("The result is : " + binaryStr);
+    	byte[] result = binaryStr.getBytes("utf8");
+    	for (int i = 0;  i < result.length; i++) {
+    		result[i] = (byte) (result[i] - '0');
+    	}
+    	return result;
+    }
     
 }

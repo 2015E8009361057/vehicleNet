@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<environments default="development">
+<environment id="development">
+<transactionManager type="JDBC" />
+<!-- 121.40.223.169/vehicle_manage -->
+<dataSource type="POOLED">
+		<property name="driver" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://123.206.190.57/car_network?useUnicode=true&amp;characterEncoding=utf-8" /> 
+ 		<property name="username" value="root" />
+		<property name="password" value="carnetwork" /> 
+		 <!-- <property name="username" value="root" />
+		<property name="password" value="" /> -->
+		<property name="poolMaximumActiveConnections" value="50"/>
+	 	<property name="poolMaximumIdleConnections" value="0"/>
+		<property name="poolTimeToWait" value="20000"/>
+		<property name="poolPingQuery" value="select 1"/>
+		<property name="poolPingEnabled" value="true"/>
+		<property name="poolPingConnectionsNotUsedFor" value="3600000"/>
+
+</dataSource>
+</environment>
+</environments>
+<mappers>
+        <mapper resource="mapper/GpsMapper.xml"/>  	
+        <mapper resource="mapper/ObdMapper.xml"/>
+        <mapper resource="mapper/PaiQiMapper.xml"/> 
+        <mapper resource="mapper/CarInfoMapper.xml"/>  	 
+        <mapper resource="mapper/EcarCanMsgMapper.xml"/>    
+</mappers>
+</configuration>

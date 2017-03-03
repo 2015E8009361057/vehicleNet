@@ -110,10 +110,10 @@ public class IntByteArrayUtil {
 			
 		}		
 	}
-  public static void main(String[] args){
+/*  public static void main(String[] args){
 	String s="1533";
 	System.out.println(hexString2Bytes(s)[0]);
-  }
+  }*/
   public static byte[] hexString2Bytes(String src) {  
       int l = src.length() / 2;  
       byte[] ret = new byte[l];  
