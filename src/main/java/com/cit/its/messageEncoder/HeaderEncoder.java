@@ -12,6 +12,7 @@ package com.cit.its.messageEncoder;
 
 import org.apache.log4j.Logger;
 
+import com.cit.its.messageStruct.CommandType;
 import com.cit.its.messageStruct.Header;
 import com.cit.its.util.ByteUtil;
 
@@ -25,7 +26,7 @@ public class HeaderEncoder {
 	public static Header setHeader(String vehicleVIN, short commandIdentifier, int dataLength) {
 		
 		Header header = new Header();
-		// 设置命令标识（参数查询、参数设置、车载终端控制）
+		// 设置命令标识
 		header.setCommandIdentifier(commandIdentifier);
 		
 		// 设置应答标志为0xFE，表示此包为命令包
@@ -87,12 +88,12 @@ public class HeaderEncoder {
 		
 		// 此时pos的值应为24，如果不是说明编码有误
 		if (pos == 24) {
-			logger.info(header.getVehicleVIN() + " " + header.getCommandIdentifier() + " encode succeed!");
-			System.out.println(header.getVehicleVIN() + " " + header.getCommandIdentifier() + " encode succeed!");
+			logger.info(header.getVehicleVIN() + " " + CommandType.getCommandTypeByValue(header.getCommandIdentifier()) + " header encode succeed!");
+			System.out.println(header.getVehicleVIN() + " " + CommandType.getCommandTypeByValue(header.getCommandIdentifier()) + " header encode succeed!");
 		}
 		else {
-			logger.info(header.getVehicleVIN() + " " + header.getCommandIdentifier() + " encode failed!");
-			System.out.println(header.getVehicleVIN() + " " + header.getCommandIdentifier() + " encode failed!");
+			logger.info(header.getVehicleVIN() + " " + CommandType.getCommandTypeByValue(header.getCommandIdentifier()) + " header encode failed!");
+			System.out.println(header.getVehicleVIN() + " " + CommandType.getCommandTypeByValue(header.getCommandIdentifier()) + " header encode failed!");
 		}
 		
 		return result;

@@ -11,7 +11,7 @@ public class CheckCode {
 	
 	public static byte calculateCheckCode(byte[] bytes) {
 		int length = bytes.length;
-		byte checkCode = bytes[1];
+		byte checkCode = bytes[2];
 		for (int i = 2; i < length - 1; i++) {
 			checkCode ^= bytes[i];
 		}
@@ -24,10 +24,12 @@ public class CheckCode {
 		if (checkCode != bytes[bytes.length - 1]) {
 			result = false;
 			logger.info(vehicleVIN + " " + commandType + " checkCode is not correct!");
+			System.out.println(vehicleVIN + " " + commandType + " checkCode is not correct!");
 		}
 		else {
 			result = true;
 			logger.info(vehicleVIN + " " + commandType + " checkCode is correct!");
+			System.out.println(vehicleVIN + " " + commandType + " checkCode is not correct!");
 		}
 		return result;
 	}

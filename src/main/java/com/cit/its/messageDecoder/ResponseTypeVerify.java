@@ -48,9 +48,11 @@ public class ResponseTypeVerify {
 		
 		if (result == true) {
 			logger.info(vehicleVIN + " CommandType : " + commandType + " ResponseType : " + responseType + " is correct!");
+			System.out.println(vehicleVIN + " CommandType : " + commandType + " ResponseType : " + responseType + " is correct!");
 		}
 		else {
 			logger.info(vehicleVIN + " CommandType : " + commandType + " ResponseType : " + responseType + " is not correct!");
+			System.out.println(vehicleVIN + " CommandType : " + commandType + " ResponseType : " + responseType + " is not correct!");
 		}
 		
 		return result;

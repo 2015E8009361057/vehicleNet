@@ -24,6 +24,8 @@ public class IdentityVerification {
 			// 查询车辆最新状态表，若该车辆为已登入，则身份验证通过
 		}
 		
+		System.out.println(vehicleVIN + " commandType is " + commandType + ", identity verify success!");
+		
 		return result;
 	}
 

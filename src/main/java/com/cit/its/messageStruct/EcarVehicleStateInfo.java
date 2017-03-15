@@ -11,7 +11,7 @@ public class EcarVehicleStateInfo {
 	
 	private String vehicleVIN;					// 车辆VIN码
 	
-	private String time;						// 时间
+//	private String time;						// 时间
 	
 	// Car State 1
 	
@@ -68,7 +68,10 @@ public class EcarVehicleStateInfo {
 	private short charging_Time;				// byte 6-5：本次充电时间（1min/位，范围 0-6000）, 应该是充电时长
 //	private int insulation_Resistance;			// byte 8-7：绝缘电阻值（无效为 0xFF 0xFF） 整车数据中已包含绝缘电阻
 	
+	// Car State
+	private int speed;							// 速度 ： 有效值范围 0 ~ 2200
 	
+	private int direction;						// 方向 : 有效值范围 0 ~ 359， 正北为0，顺时针
 	
 	// set, get方法
 	public void setVehicleVIN(String vehicleVIN) {
@@ -78,7 +81,7 @@ public class EcarVehicleStateInfo {
 	public String getVehicleVIN() {
 		return vehicleVIN;
 	}
-	
+/*	
 	public void setTime(String time) {
 		this.time = time;
 	}
@@ -86,7 +89,7 @@ public class EcarVehicleStateInfo {
 	public String getTime() {
 		return time;
 	}
-	
+	*/
 	// Car State 1
 	public void setGearOfPRND(byte gearOfPRND) {
 		this.gearOfPRND = gearOfPRND;
@@ -307,6 +310,23 @@ public class EcarVehicleStateInfo {
 	}
 	
 	*/
+	
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+	
+	public int getSpeed() {
+		return speed;
+	}
+	
+	public void setDirection(int direction) {
+		this.direction = direction;
+	}
+	
+	public int getDirection() {
+		return direction;
+	}
+	
 	
 	// Translate the code to String
 	public String getPRND() {
@@ -665,12 +685,46 @@ public class EcarVehicleStateInfo {
 		return charging_Time + " min";
 	}
 	
+	public String getStrSpeed() {
+		return speed / 10.0 + " km/h";
+	}
 	
+	public String getStrDirection() {
+		String strDir;
+		if (direction == 0 || direction == 359) {
+			strDir = "正北";
+		}
+		else if (direction > 0 && direction < 90) {
+			strDir = "西北";
+		}
+		else if (direction == 90) {
+			strDir = "正西";
+		}
+		else if (direction > 90 && direction < 180) {
+			strDir = "西南";
+		}
+		else if (direction == 180) {
+			strDir = "正南";
+		}
+		else if (direction > 180 && direction < 270) {
+			strDir = "东南";
+		}
+		else if (direction == 270) {
+			strDir = "正东";
+		}
+		else if (direction > 270 && direction < 359) {
+			strDir = "东北";
+		}
+		else {
+			strDir = "方向有误";
+		}
+		return strDir;
+	}
 	
 	// 重写toString()方法
 	public String toString() {
 		System.out.println("车辆VIN码 : " + vehicleVIN + "\n" + 
-						   "时间 : " + time + "\n" + 
+					//	   "时间 : " + time + "\n" + 
 						   "PRND挡 : " + getPRND() + "\n" + 
 						   "L挡 : " + getL123() + "\n" + 
 						   "驱动单元（DCU）工作状态 : " + getDCUState() + "\n" + 
@@ -693,7 +747,9 @@ public class EcarVehicleStateInfo {
 						   "充电过程 : " + getChargingProcess() + "\n" + 
 						   "充电连接 : " + getChargingConnection() + "\n" + 
 						   "本次充电量 : " + getChargingAmount() + "\n" + 
-						   "本次充电时间 : " + getChargingTime());
+						   "本次充电时间 : " + getChargingTime() + "\n" + 
+						   "速度 : " + getStrSpeed() + "\n" + 
+						   "方向 : " + getStrDirection());
 		return "";
 	}
 

@@ -1,10 +1,1389 @@
-2017-03-03 15:37:11  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Fri Mar 03 15:37:11 CST 2017]; root of context hierarchy
-2017-03-03 15:37:11  [ main:66 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
-2017-03-03 15:37:12  [ main:637 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
-2017-03-03 15:37:13  [ main:1935 ] - [ INFO ]  bind port10004
-2017-03-03 15:37:14  [ main:2268 ] - [ INFO ]  Start the Server: OK
-2017-03-03 15:44:03  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Fri Mar 03 15:44:03 CST 2017]; root of context hierarchy
-2017-03-03 15:44:03  [ main:93 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
-2017-03-03 15:44:04  [ main:751 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
-2017-03-03 15:44:05  [ main:2039 ] - [ INFO ]  bind port10004
-2017-03-03 15:44:05  [ main:2345 ] - [ INFO ]  Start the Server: OK
+2017-03-14 15:23:20  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 15:23:20 CST 2017]; root of context hierarchy
+2017-03-14 15:23:20  [ main:174 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 15:23:22  [ main:1903 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 15:23:25  [ main:4686 ] - [ INFO ]  bind port10004
+2017-03-14 15:23:25  [ main:4959 ] - [ INFO ]  Start the Server: OK
+2017-03-14 15:23:31  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:23:31  [ nioEventLoopGroup-3-1:10257 ] - [ INFO ]  a device online
+2017-03-14 15:23:31  [ nioEventLoopGroup-2-1:81 ] - [ INFO ]  abcdefg1234567890 8 encode succeed!
+2017-03-14 15:23:31  [ nioEventLoopGroup-2-1:88 ] - [ INFO ]  abcdefg1234567890 7 encode succeed!
+2017-03-14 15:23:31  [ nioEventLoopGroup-2-1:96 ] - [ WARN ]  
+2017-03-14 15:23:31  [ nioEventLoopGroup-2-1:99 ] - [ INFO ]  connect break
+2017-03-14 15:23:31  [ nioEventLoopGroup-3-1:10377 ] - [ INFO ]  connect break
+2017-03-14 15:27:25  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 15:27:25 CST 2017]; root of context hierarchy
+2017-03-14 15:27:25  [ main:56 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 15:27:26  [ main:518 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 15:27:27  [ main:1545 ] - [ INFO ]  bind port10004
+2017-03-14 15:27:27  [ main:1748 ] - [ INFO ]  Start the Server: OK
+2017-03-14 15:27:32  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:27:32  [ nioEventLoopGroup-3-1:6717 ] - [ INFO ]  a device online
+2017-03-14 15:27:32  [ nioEventLoopGroup-2-1:23 ] - [ INFO ]  abcdefg1234567890 8 encode succeed!
+2017-03-14 15:27:32  [ nioEventLoopGroup-2-1:28 ] - [ INFO ]  abcdefg1234567890 7 encode succeed!
+2017-03-14 15:27:32  [ nioEventLoopGroup-2-1:36 ] - [ WARN ]  
+2017-03-14 15:27:32  [ nioEventLoopGroup-2-1:38 ] - [ INFO ]  connect break
+2017-03-14 15:27:32  [ nioEventLoopGroup-3-1:6770 ] - [ INFO ]  connect break
+2017-03-14 15:41:53  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 15:41:53 CST 2017]; root of context hierarchy
+2017-03-14 15:41:53  [ main:69 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 15:41:53  [ main:516 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 15:41:54  [ main:1530 ] - [ INFO ]  bind port10004
+2017-03-14 15:41:54  [ main:1737 ] - [ INFO ]  Start the Server: OK
+2017-03-14 15:42:01  [ nioEventLoopGroup-3-1:8737 ] - [ INFO ]  a device online
+2017-03-14 15:42:01  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:42:01  [ nioEventLoopGroup-2-1:29 ] - [ INFO ]  abcdefg1234567890 8 encode succeed!
+2017-03-14 15:42:01  [ nioEventLoopGroup-2-1:47 ] - [ INFO ]  abcdefg1234567890 7 encode succeed!
+2017-03-14 15:42:01  [ nioEventLoopGroup-2-1:52 ] - [ INFO ]  abcdefg1234567890 128 encode succeed!
+2017-03-14 15:42:02  [ nioEventLoopGroup-2-1:75 ] - [ INFO ]  abcdefg1234567890 128 encode succeed!
+2017-03-14 15:42:02  [ nioEventLoopGroup-3-1:8963 ] - [ INFO ]  connect break
+2017-03-14 15:42:02  [ nioEventLoopGroup-2-1:82 ] - [ WARN ]  
+2017-03-14 15:42:02  [ nioEventLoopGroup-2-1:87 ] - [ INFO ]  connect break
+2017-03-14 15:44:32  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 15:44:32 CST 2017]; root of context hierarchy
+2017-03-14 15:44:32  [ main:57 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 15:44:33  [ main:649 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 15:44:34  [ main:1746 ] - [ INFO ]  bind port10004
+2017-03-14 15:44:34  [ main:1981 ] - [ INFO ]  Start the Server: OK
+2017-03-14 15:44:38  [ nioEventLoopGroup-3-1:5395 ] - [ INFO ]  a device online
+2017-03-14 15:44:38  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:44:38  [ nioEventLoopGroup-2-1:50 ] - [ INFO ]  abcdefg1234567890 8 encode succeed!
+2017-03-14 15:44:38  [ nioEventLoopGroup-2-1:68 ] - [ INFO ]  abcdefg1234567890 7 encode succeed!
+2017-03-14 15:44:38  [ nioEventLoopGroup-2-1:76 ] - [ WARN ]  
+2017-03-14 15:44:38  [ nioEventLoopGroup-3-1:5542 ] - [ INFO ]  connect break
+2017-03-14 15:44:38  [ nioEventLoopGroup-2-1:80 ] - [ INFO ]  connect break
+2017-03-14 15:45:41  [ nioEventLoopGroup-3-2:68418 ] - [ INFO ]  a device online
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:33 ] - [ INFO ]  abcdefg1234567890 8 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:42 ] - [ INFO ]  abcdefg1234567890 7 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:44 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:45 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:46 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:48 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:49 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:51 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:53 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:55 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:56 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:57 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:60 ] - [ INFO ]  abcdefg1234567891 4 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:62 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:63 ] - [ INFO ]  abcdefg1234567891 8 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:63 ] - [ INFO ]  abcdefg1234567891 7 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:64 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:65 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:67 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:71 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:74 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:75 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:77 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:80 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:82 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:84 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:85 ] - [ INFO ]  abcdefg1234567892 4 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-3-2:68513 ] - [ INFO ]  abcdefg1234567890 msg_type is : VEHICLE_LOGIN
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:86 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:87 ] - [ INFO ]  abcdefg1234567892 8 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:87 ] - [ INFO ]  abcdefg1234567892 7 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-3-2:68516 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN checkCode is not correct!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:88 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:89 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:91 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:93 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-3-2:68522 ] - [ INFO ]  JDvrCUD3SZnby1lGw msg_type is : null
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:94 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:96 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-3-2:68522 ] - [ INFO ]  JDvrCUD3SZnby1lGw null checkCode is not correct!
+2017-03-14 15:45:41  [ nioEventLoopGroup-3-2:68525 ] - [ WARN ]  
+2017-03-14 15:45:41  [ nioEventLoopGroup-3-2:68526 ] - [ INFO ]  connect break
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:110 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:124 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:127 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:140 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:142 ] - [ INFO ]  abcdefg1234567893 4 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:144 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:145 ] - [ INFO ]  abcdefg1234567893 8 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:146 ] - [ INFO ]  abcdefg1234567893 7 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:147 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:148 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:150 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:156 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:158 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:160 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:163 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:178 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:183 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:184 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:187 ] - [ INFO ]  abcdefg1234567894 4 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:191 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:192 ] - [ INFO ]  abcdefg1234567894 8 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:192 ] - [ INFO ]  abcdefg1234567894 7 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:194 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:203 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:204 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:206 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:242 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:261 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:262 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:263 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:264 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:267 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:269 ] - [ INFO ]  abcdefg1234567895 4 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:270 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:271 ] - [ INFO ]  abcdefg1234567895 8 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:272 ] - [ INFO ]  abcdefg1234567895 7 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:272 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:274 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:275 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:282 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:283 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:352 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:354 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:358 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:365 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:366 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:377 ] - [ INFO ]  abcdefg1234567896 4 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:378 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:379 ] - [ INFO ]  abcdefg1234567896 8 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:380 ] - [ INFO ]  abcdefg1234567896 7 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:380 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:385 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:386 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:387 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:390 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:397 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:398 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:399 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:400 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:402 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:403 ] - [ INFO ]  abcdefg1234567897 4 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:403 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:404 ] - [ INFO ]  abcdefg1234567897 8 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:405 ] - [ INFO ]  abcdefg1234567897 7 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:405 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:406 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:408 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:409 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:410 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:411 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:412 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:413 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:414 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:416 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:417 ] - [ INFO ]  abcdefg1234567898 4 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:418 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:418 ] - [ INFO ]  abcdefg1234567898 8 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:419 ] - [ INFO ]  abcdefg1234567898 7 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:420 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:421 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:422 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:423 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:425 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:426 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:426 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:427 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:429 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:430 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:432 ] - [ INFO ]  abcdefg1234567899 4 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:433 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:433 ] - [ INFO ]  abcdefg1234567899 8 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:434 ] - [ INFO ]  abcdefg1234567899 7 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:435 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:436 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:437 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:438 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:439 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:441 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:442 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:443 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:453 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:456 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:459 ] - [ INFO ]  abcdefg1234567890 4 encode succeed!
+2017-03-14 15:45:41  [ nioEventLoopGroup-2-1:464 ] - [ INFO ]  connect break
+2017-03-14 15:50:13  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 15:50:13 CST 2017]; root of context hierarchy
+2017-03-14 15:50:13  [ main:56 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 15:50:14  [ main:551 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 15:50:15  [ main:1688 ] - [ INFO ]  bind port10004
+2017-03-14 15:50:15  [ main:1890 ] - [ INFO ]  Start the Server: OK
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-3-1:7571 ] - [ INFO ]  a device online
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:30 ] - [ INFO ]  abcdefg1234567890 8 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:37 ] - [ INFO ]  abcdefg1234567890 7 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:41 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:43 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:46 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:47 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:49 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:52 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:54 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:55 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:57 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:61 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:99 ] - [ INFO ]  abcdefg1234567891 4 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:100 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:101 ] - [ INFO ]  abcdefg1234567891 8 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:102 ] - [ INFO ]  abcdefg1234567891 7 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:102 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:104 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:105 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:107 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:109 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:110 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:112 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:113 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:115 ] - [ INFO ]  abcdefg1234567891 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:116 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:117 ] - [ INFO ]  abcdefg1234567892 4 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:118 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:120 ] - [ INFO ]  abcdefg1234567892 8 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:120 ] - [ INFO ]  abcdefg1234567892 7 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:121 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:123 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:125 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:127 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-3-1:7703 ] - [ INFO ]  abcdefg1234567890 msg_type is : VEHICLE_LOGIN
+2017-03-14 15:50:21  [ nioEventLoopGroup-3-1:7706 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN checkCode is not correct!
+2017-03-14 15:50:21  [ nioEventLoopGroup-3-1:7707 ] - [ INFO ]  tm4vDsUJl2gR7rIlA msg_type is : null
+2017-03-14 15:50:21  [ nioEventLoopGroup-3-1:7708 ] - [ INFO ]  tm4vDsUJl2gR7rIlA null checkCode is not correct!
+2017-03-14 15:50:21  [ nioEventLoopGroup-3-1:7710 ] - [ WARN ]  
+2017-03-14 15:50:21  [ nioEventLoopGroup-3-1:7710 ] - [ INFO ]  connect break
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:155 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:165 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:166 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:170 ] - [ INFO ]  abcdefg1234567892 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:171 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:173 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:174 ] - [ INFO ]  abcdefg1234567893 4 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:176 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:178 ] - [ INFO ]  abcdefg1234567893 8 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:178 ] - [ INFO ]  abcdefg1234567893 7 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:180 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:182 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:183 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:184 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:190 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:192 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:194 ] - [ INFO ]  abcdefg1234567893 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:206 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:209 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:212 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:214 ] - [ INFO ]  abcdefg1234567894 4 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:216 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:219 ] - [ INFO ]  abcdefg1234567894 8 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:220 ] - [ INFO ]  abcdefg1234567894 7 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:221 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:222 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:224 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:225 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:226 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:229 ] - [ INFO ]  abcdefg1234567894 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:231 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:236 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:238 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:240 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:241 ] - [ INFO ]  abcdefg1234567895 4 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:242 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:246 ] - [ INFO ]  abcdefg1234567895 8 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:247 ] - [ INFO ]  abcdefg1234567895 7 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:248 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:250 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:264 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:265 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:266 ] - [ INFO ]  abcdefg1234567895 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:274 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:275 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:276 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:277 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:280 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:281 ] - [ INFO ]  abcdefg1234567896 4 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:282 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:283 ] - [ INFO ]  abcdefg1234567896 8 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:283 ] - [ INFO ]  abcdefg1234567896 7 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:284 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:285 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:285 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:287 ] - [ INFO ]  abcdefg1234567896 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:288 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:289 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:290 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:292 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:296 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:298 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:298 ] - [ INFO ]  abcdefg1234567897 4 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:299 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:300 ] - [ INFO ]  abcdefg1234567897 8 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:301 ] - [ INFO ]  abcdefg1234567897 7 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:302 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:303 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:304 ] - [ INFO ]  abcdefg1234567897 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:306 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:307 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:308 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:309 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:310 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:327 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:329 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:330 ] - [ INFO ]  abcdefg1234567898 4 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:331 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:331 ] - [ INFO ]  abcdefg1234567898 8 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:332 ] - [ INFO ]  abcdefg1234567898 7 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:333 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:334 ] - [ INFO ]  abcdefg1234567898 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:335 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:336 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:337 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:338 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:339 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:340 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:341 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:341 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:342 ] - [ INFO ]  abcdefg1234567899 4 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:342 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:343 ] - [ INFO ]  abcdefg1234567899 8 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:344 ] - [ INFO ]  abcdefg1234567899 7 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:345 ] - [ INFO ]  abcdefg1234567899 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:346 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:348 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:349 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:350 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:351 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:352 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:352 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:353 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:354 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:355 ] - [ INFO ]  abcdefg1234567890 4 encode succeed!
+2017-03-14 15:50:21  [ nioEventLoopGroup-2-1:360 ] - [ INFO ]  connect break
+2017-03-14 15:53:35  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 15:53:35 CST 2017]; root of context hierarchy
+2017-03-14 15:53:35  [ main:51 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 15:53:35  [ main:516 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 15:53:36  [ main:1573 ] - [ INFO ]  bind port10004
+2017-03-14 15:53:36  [ main:1812 ] - [ INFO ]  Start the Server: OK
+2017-03-14 15:53:41  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 15:53:41  [ nioEventLoopGroup-3-1:6376 ] - [ INFO ]  a device online
+2017-03-14 15:53:41  [ nioEventLoopGroup-2-1:29 ] - [ INFO ]  abcdefg1234567890 8 encode succeed!
+2017-03-14 15:53:41  [ nioEventLoopGroup-2-1:36 ] - [ INFO ]  abcdefg1234567890 7 encode succeed!
+2017-03-14 15:53:41  [ nioEventLoopGroup-2-1:40 ] - [ INFO ]  abcdefg1234567890 128 encode succeed!
+2017-03-14 15:53:41  [ nioEventLoopGroup-2-1:64 ] - [ INFO ]  abcdefg1234567890 128 encode succeed!
+2017-03-14 15:53:41  [ nioEventLoopGroup-2-1:69 ] - [ INFO ]  abcdefg1234567890 128 encode succeed!
+2017-03-14 15:53:41  [ nioEventLoopGroup-2-1:105 ] - [ WARN ]  
+2017-03-14 15:53:41  [ nioEventLoopGroup-3-1:6481 ] - [ INFO ]  connect break
+2017-03-14 15:53:41  [ nioEventLoopGroup-2-1:116 ] - [ INFO ]  connect break
+2017-03-14 16:00:51  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 16:00:51 CST 2017]; root of context hierarchy
+2017-03-14 16:00:51  [ main:54 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 16:00:51  [ main:524 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 16:00:52  [ main:1600 ] - [ INFO ]  bind port10004
+2017-03-14 16:00:53  [ main:1802 ] - [ INFO ]  Start the Server: OK
+2017-03-14 16:00:59  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 16:00:59  [ nioEventLoopGroup-3-1:7742 ] - [ INFO ]  a device online
+2017-03-14 16:00:59  [ nioEventLoopGroup-2-1:28 ] - [ INFO ]  abcdefg1234567890 8 encode succeed!
+2017-03-14 16:00:59  [ nioEventLoopGroup-2-1:34 ] - [ INFO ]  abcdefg1234567890 7 encode succeed!
+2017-03-14 16:00:59  [ nioEventLoopGroup-2-1:39 ] - [ WARN ]  
+2017-03-14 16:00:59  [ nioEventLoopGroup-2-1:42 ] - [ INFO ]  connect break
+2017-03-14 16:00:59  [ nioEventLoopGroup-3-1:7798 ] - [ INFO ]  connect break
+2017-03-14 16:03:47  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 16:03:47 CST 2017]; root of context hierarchy
+2017-03-14 16:03:47  [ main:57 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 16:03:47  [ main:575 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 16:03:48  [ main:1748 ] - [ INFO ]  bind port10004
+2017-03-14 16:03:49  [ main:1952 ] - [ INFO ]  Start the Server: OK
+2017-03-14 16:03:54  [ nioEventLoopGroup-2-1:1 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 16:03:54  [ nioEventLoopGroup-3-1:7646 ] - [ INFO ]  a device online
+2017-03-14 16:03:55  [ nioEventLoopGroup-2-1:1030 ] - [ INFO ]  abcdefg1234567890 8 encode succeed!
+2017-03-14 16:03:56  [ nioEventLoopGroup-2-1:2035 ] - [ INFO ]  abcdefg1234567890 7 encode succeed!
+2017-03-14 16:03:57  [ nioEventLoopGroup-3-1:10687 ] - [ INFO ]  connect break
+2017-03-14 16:03:57  [ nioEventLoopGroup-2-1:3046 ] - [ WARN ]  
+2017-03-14 16:03:57  [ nioEventLoopGroup-2-1:3051 ] - [ INFO ]  connect break
+2017-03-14 16:13:35  [ main:1 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 16:13:35 CST 2017]; root of context hierarchy
+2017-03-14 16:13:35  [ main:51 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 16:13:35  [ main:541 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 16:13:36  [ main:1565 ] - [ INFO ]  bind port10004
+2017-03-14 16:13:36  [ main:1778 ] - [ INFO ]  Start the Server: OK
+2017-03-14 16:14:09  [ nioEventLoopGroup-3-1:34546 ] - [ INFO ]  a device online
+2017-03-14 16:18:06  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 16:19:17  [ nioEventLoopGroup-2-1:70313 ] - [ INFO ]  abcdefg1234567890 8 encode succeed!
+2017-03-14 16:21:06  [ nioEventLoopGroup-2-1:179296 ] - [ INFO ]  abcdefg1234567890 7 encode succeed!
+2017-03-14 16:22:22  [ nioEventLoopGroup-3-1:527207 ] - [ INFO ]  connect break
+2017-03-14 16:22:22  [ nioEventLoopGroup-2-1:255412 ] - [ WARN ]  
+2017-03-14 16:22:51  [ nioEventLoopGroup-2-1:284442 ] - [ INFO ]  connect break
+2017-03-14 16:23:49  [ nioEventLoopGroup-3-2:614413 ] - [ INFO ]  a device online
+2017-03-14 16:23:56  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 16:24:14  [ nioEventLoopGroup-2-1:18210 ] - [ INFO ]  abcdefg1234567890 8 encode succeed!
+2017-03-14 16:24:20  [ nioEventLoopGroup-2-1:24338 ] - [ INFO ]  abcdefg1234567890 7 encode succeed!
+2017-03-14 16:24:53  [ nioEventLoopGroup-3-2:678121 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 16:24:53  [ nioEventLoopGroup-3-2:678121 ] - [ INFO ]  connect break
+2017-03-14 16:24:57  [ nioEventLoopGroup-3-3:682539 ] - [ INFO ]  a device online
+2017-03-14 16:24:59  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 1 encode succeed!
+2017-03-14 16:25:02  [ nioEventLoopGroup-2-1:3376 ] - [ INFO ]  abcdefg1234567890 8 encode succeed!
+2017-03-14 16:25:06  [ nioEventLoopGroup-2-1:7856 ] - [ INFO ]  abcdefg1234567890 7 encode succeed!
+2017-03-14 16:25:48  [ nioEventLoopGroup-3-3:733378 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 16:25:48  [ nioEventLoopGroup-3-3:733378 ] - [ INFO ]  connect break
+2017-03-14 16:31:03  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 16:31:03 CST 2017]; root of context hierarchy
+2017-03-14 16:31:03  [ main:70 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 16:31:03  [ main:557 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 16:31:04  [ main:1606 ] - [ INFO ]  bind port10004
+2017-03-14 16:31:05  [ main:1888 ] - [ INFO ]  Start the Server: OK
+2017-03-14 16:31:10  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 16:31:10  [ nioEventLoopGroup-3-1:7290 ] - [ INFO ]  a device online
+2017-03-14 16:31:11  [ nioEventLoopGroup-2-1:1030 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 16:31:12  [ nioEventLoopGroup-2-1:2036 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 16:31:13  [ nioEventLoopGroup-2-1:3041 ] - [ WARN ]  
+2017-03-14 16:31:13  [ nioEventLoopGroup-3-1:10326 ] - [ INFO ]  connect break
+2017-03-14 16:31:13  [ nioEventLoopGroup-2-1:3044 ] - [ INFO ]  connect break
+2017-03-14 16:31:38  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 16:31:38 CST 2017]; root of context hierarchy
+2017-03-14 16:31:38  [ main:119 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 16:31:39  [ main:588 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 16:31:40  [ main:2042 ] - [ INFO ]  bind port10004
+2017-03-14 16:31:41  [ main:2372 ] - [ INFO ]  Start the Server: OK
+2017-03-14 16:32:05  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5f3a4b84: startup date [Tue Mar 14 16:32:05 CST 2017]; root of context hierarchy
+2017-03-14 16:32:05  [ main:62 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 16:32:05  [ main:648 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 16:32:07  [ main:1990 ] - [ INFO ]  bind port10004
+2017-03-14 16:32:52  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 16:32:52 CST 2017]; root of context hierarchy
+2017-03-14 16:32:52  [ main:51 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 16:32:52  [ main:516 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 16:32:54  [ main:1904 ] - [ INFO ]  bind port10004
+2017-03-14 16:32:54  [ main:2110 ] - [ INFO ]  Start the Server: OK
+2017-03-14 16:32:58  [ nioEventLoopGroup-3-1:6450 ] - [ INFO ]  a device online
+2017-03-14 16:33:11  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 16:33:38  [ nioEventLoopGroup-2-1:26763 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 16:34:08  [ nioEventLoopGroup-2-1:56373 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 16:36:58  [ nioEventLoopGroup-3-1:246184 ] - [ INFO ]  connect break
+2017-03-14 16:36:58  [ nioEventLoopGroup-2-1:226744 ] - [ WARN ]  
+2017-03-14 16:37:25  [ nioEventLoopGroup-2-1:254154 ] - [ INFO ]  connect break
+2017-03-14 16:39:23  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 16:39:23 CST 2017]; root of context hierarchy
+2017-03-14 16:39:23  [ main:76 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 16:39:24  [ main:831 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 16:39:26  [ main:2233 ] - [ INFO ]  bind port10004
+2017-03-14 16:39:26  [ main:2469 ] - [ INFO ]  Start the Server: OK
+2017-03-14 16:39:28  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 16:39:28  [ nioEventLoopGroup-3-1:4817 ] - [ INFO ]  a device online
+2017-03-14 16:39:29  [ nioEventLoopGroup-2-1:1031 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 16:39:30  [ nioEventLoopGroup-2-1:2037 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 16:39:31  [ nioEventLoopGroup-2-1:3045 ] - [ WARN ]  
+2017-03-14 16:39:31  [ nioEventLoopGroup-3-1:7859 ] - [ INFO ]  connect break
+2017-03-14 16:39:31  [ nioEventLoopGroup-2-1:3048 ] - [ INFO ]  connect break
+2017-03-14 16:42:27  [ nioEventLoopGroup-3-2:183611 ] - [ INFO ]  a device online
+2017-03-14 16:42:42  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 16:43:09  [ nioEventLoopGroup-2-1:26887 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 16:43:27  [ nioEventLoopGroup-2-1:44721 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 16:44:28  [ nioEventLoopGroup-3-2:304199 ] - [ INFO ]  connect break
+2017-03-14 16:44:28  [ nioEventLoopGroup-2-1:105517 ] - [ WARN ]  
+2017-03-14 16:44:48  [ nioEventLoopGroup-2-1:125863 ] - [ INFO ]  connect break
+2017-03-14 16:47:44  [ nioEventLoopGroup-3-3:500227 ] - [ INFO ]  a device online
+2017-03-14 16:47:51  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 16:47:56  [ nioEventLoopGroup-2-1:4826 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 16:48:00  [ nioEventLoopGroup-2-1:8882 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 16:49:00  [ nioEventLoopGroup-2-1:69488 ] - [ INFO ]  abcdefg1234567890 QUERY_COMMAND header encode succeed!
+2017-03-14 16:50:25  [ nioEventLoopGroup-3-3:661743 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 16:50:25  [ nioEventLoopGroup-3-3:661743 ] - [ INFO ]  connect break
+2017-03-14 16:57:52  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 16:57:52 CST 2017]; root of context hierarchy
+2017-03-14 16:57:52  [ main:52 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 16:57:52  [ main:525 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 16:57:53  [ main:1545 ] - [ INFO ]  bind port10004
+2017-03-14 16:57:54  [ main:1760 ] - [ INFO ]  Start the Server: OK
+2017-03-14 16:57:58  [ nioEventLoopGroup-3-1:6412 ] - [ INFO ]  a device online
+2017-03-14 16:58:04  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 16:58:07  [ nioEventLoopGroup-2-1:3510 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 16:58:10  [ nioEventLoopGroup-2-1:6542 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 16:58:31  [ nioEventLoopGroup-2-1:27853 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 17:00:22  [ nioEventLoopGroup-3-1:150456 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 17:00:22  [ nioEventLoopGroup-3-1:150457 ] - [ INFO ]  connect break
+2017-03-14 17:22:18  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 17:22:18 CST 2017]; root of context hierarchy
+2017-03-14 17:22:18  [ main:48 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 17:22:18  [ main:528 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 17:22:19  [ main:1585 ] - [ INFO ]  bind port10004
+2017-03-14 17:22:19  [ main:1794 ] - [ INFO ]  Start the Server: OK
+2017-03-14 17:22:25  [ nioEventLoopGroup-3-1:6920 ] - [ INFO ]  a device online
+2017-03-14 17:22:30  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 17:22:36  [ nioEventLoopGroup-2-1:5529 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 17:22:40  [ nioEventLoopGroup-2-1:9241 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 17:22:43  [ nioEventLoopGroup-2-1:12983 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 17:25:26  [ nioEventLoopGroup-3-1:187953 ] - [ INFO ]  connect break
+2017-03-14 17:25:26  [ nioEventLoopGroup-2-1:175107 ] - [ WARN ]  
+2017-03-14 17:26:57  [ nioEventLoopGroup-3-2:279743 ] - [ INFO ]  a device online
+2017-03-14 17:27:03  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 17:27:06  [ nioEventLoopGroup-2-1:3054 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 17:27:09  [ nioEventLoopGroup-2-1:6294 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 17:27:14  [ nioEventLoopGroup-2-1:11005 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 17:31:27  [ nioEventLoopGroup-3-3:549597 ] - [ INFO ]  a device online
+2017-03-14 17:31:41  [ nioEventLoopGroup-3-2:563705 ] - [ INFO ]  connect break
+2017-03-14 17:31:41  [ nioEventLoopGroup-2-1:278618 ] - [ WARN ]  
+2017-03-14 17:31:41  [ nioEventLoopGroup-2-1:278623 ] - [ INFO ]  connect break
+2017-03-14 17:31:55  [ nioEventLoopGroup-3-4:577803 ] - [ INFO ]  a device online
+2017-03-14 17:32:03  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 17:32:04  [ nioEventLoopGroup-2-1:1039 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 17:32:05  [ nioEventLoopGroup-2-1:2044 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 17:33:19  [ nioEventLoopGroup-2-1:75903 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 17:36:03  [ nioEventLoopGroup-3-4:825136 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 17:36:03  [ nioEventLoopGroup-3-4:825136 ] - [ INFO ]  connect break
+2017-03-14 17:41:01  [ nioEventLoopGroup-3-5:1123520 ] - [ INFO ]  a device online
+2017-03-14 17:41:01  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 17:41:02  [ nioEventLoopGroup-2-1:1029 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 17:41:03  [ nioEventLoopGroup-2-1:2034 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 17:41:09  [ nioEventLoopGroup-2-1:7736 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 17:41:28  [ nioEventLoopGroup-3-5:1150049 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 17:41:28  [ nioEventLoopGroup-3-5:1150050 ] - [ INFO ]  connect break
+2017-03-14 17:42:44  [ nioEventLoopGroup-3-6:1226336 ] - [ INFO ]  a device online
+2017-03-14 17:42:44  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 17:42:45  [ nioEventLoopGroup-2-1:1043 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 17:42:46  [ nioEventLoopGroup-2-1:2048 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 17:42:57  [ nioEventLoopGroup-2-1:13305 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 17:43:39  [ nioEventLoopGroup-3-6:1281008 ] - [ INFO ]  connect break
+2017-03-14 17:43:39  [ nioEventLoopGroup-2-1:54653 ] - [ WARN ]  
+2017-03-14 17:45:34  [ nioEventLoopGroup-3-7:1396168 ] - [ INFO ]  a device online
+2017-03-14 17:45:34  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 17:45:35  [ nioEventLoopGroup-2-1:1037 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 17:45:36  [ nioEventLoopGroup-2-1:2042 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 17:45:37  [ nioEventLoopGroup-2-1:3061 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 17:46:10  [ nioEventLoopGroup-3-7:1432759 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 17:46:10  [ nioEventLoopGroup-3-7:1432759 ] - [ INFO ]  connect break
+2017-03-14 17:46:46  [ nioEventLoopGroup-3-8:1468305 ] - [ INFO ]  a device online
+2017-03-14 17:46:46  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 17:46:47  [ nioEventLoopGroup-2-1:1036 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 17:46:48  [ nioEventLoopGroup-2-1:2041 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 17:46:49  [ nioEventLoopGroup-2-1:3056 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 17:47:03  [ nioEventLoopGroup-3-8:1485096 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 17:47:03  [ nioEventLoopGroup-3-8:1485097 ] - [ INFO ]  connect break
+2017-03-14 17:48:59  [ nioEventLoopGroup-3-1:1600961 ] - [ INFO ]  a device online
+2017-03-14 17:48:59  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 17:49:00  [ nioEventLoopGroup-2-1:1027 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 17:49:01  [ nioEventLoopGroup-2-1:2032 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 17:49:02  [ nioEventLoopGroup-2-1:3046 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 17:49:31  [ nioEventLoopGroup-3-1:1633891 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 17:49:31  [ nioEventLoopGroup-3-1:1633891 ] - [ INFO ]  connect break
+2017-03-14 17:49:36  [ nioEventLoopGroup-3-2:1638818 ] - [ INFO ]  a device online
+2017-03-14 17:49:36  [ nioEventLoopGroup-2-1:1 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 17:49:37  [ nioEventLoopGroup-2-1:1037 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 17:49:38  [ nioEventLoopGroup-2-1:2042 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 17:49:39  [ nioEventLoopGroup-2-1:3056 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 17:53:38  [ nioEventLoopGroup-3-3:1880427 ] - [ INFO ]  a device online
+2017-03-14 17:53:38  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 17:53:39  [ nioEventLoopGroup-2-1:1028 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 17:53:40  [ nioEventLoopGroup-2-1:2033 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 17:53:41  [ nioEventLoopGroup-2-1:3047 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 17:54:36  [ nioEventLoopGroup-3-2:1938429 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 17:54:36  [ nioEventLoopGroup-3-2:1938430 ] - [ INFO ]  connect break
+2017-03-14 19:54:28  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 19:54:28 CST 2017]; root of context hierarchy
+2017-03-14 19:54:28  [ main:92 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 19:54:29  [ main:797 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 19:54:31  [ main:2452 ] - [ INFO ]  bind port10004
+2017-03-14 19:54:31  [ main:2667 ] - [ INFO ]  Start the Server: OK
+2017-03-14 19:54:35  [ nioEventLoopGroup-3-1:6482 ] - [ INFO ]  a device online
+2017-03-14 19:54:35  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 19:54:36  [ nioEventLoopGroup-2-1:1045 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 19:54:37  [ nioEventLoopGroup-2-1:2074 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 19:54:38  [ nioEventLoopGroup-2-1:3079 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 19:54:39  [ nioEventLoopGroup-2-1:4082 ] - [ WARN ]  
+2017-03-14 19:54:39  [ nioEventLoopGroup-3-1:10698 ] - [ INFO ]  connect break
+2017-03-14 19:54:39  [ nioEventLoopGroup-2-1:4085 ] - [ INFO ]  connect break
+2017-03-14 19:55:13  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 19:55:13 CST 2017]; root of context hierarchy
+2017-03-14 19:55:14  [ main:81 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 19:55:14  [ main:682 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 19:55:15  [ main:1760 ] - [ INFO ]  bind port10004
+2017-03-14 19:55:15  [ main:1975 ] - [ INFO ]  Start the Server: OK
+2017-03-14 19:55:46  [ nioEventLoopGroup-3-1:32983 ] - [ INFO ]  a device online
+2017-03-14 19:55:46  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 19:55:47  [ nioEventLoopGroup-2-1:1027 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 19:55:48  [ nioEventLoopGroup-2-1:2032 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 19:55:58  [ nioEventLoopGroup-2-1:11217 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 19:56:46  [ nioEventLoopGroup-3-1:92192 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 19:56:46  [ nioEventLoopGroup-3-1:92193 ] - [ INFO ]  connect break
+2017-03-14 19:57:28  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 19:57:28 CST 2017]; root of context hierarchy
+2017-03-14 19:57:28  [ main:77 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 19:57:28  [ main:633 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 19:57:30  [ main:1799 ] - [ INFO ]  bind port10004
+2017-03-14 19:57:30  [ main:2007 ] - [ INFO ]  Start the Server: OK
+2017-03-14 19:57:34  [ nioEventLoopGroup-2-1:1 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 19:57:34  [ nioEventLoopGroup-3-1:5838 ] - [ INFO ]  a device online
+2017-03-14 19:57:35  [ nioEventLoopGroup-2-1:1027 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 19:57:36  [ nioEventLoopGroup-2-1:2032 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 19:57:37  [ nioEventLoopGroup-2-1:3036 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 19:57:38  [ nioEventLoopGroup-2-1:4038 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 19:57:39  [ nioEventLoopGroup-2-1:5400 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 19:57:40  [ nioEventLoopGroup-2-1:6407 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 19:57:41  [ nioEventLoopGroup-2-1:7409 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 19:57:42  [ nioEventLoopGroup-2-1:8411 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 19:57:43  [ nioEventLoopGroup-2-1:9417 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 19:57:44  [ nioEventLoopGroup-2-1:10658 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 19:57:44  [ nioEventLoopGroup-3-1:16557 ] - [ INFO ]  abcdefg1234567890 msg_type is : VEHICLE_LOGIN
+2017-03-14 19:57:44  [ nioEventLoopGroup-3-1:16559 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN checkCode is not correct!
+2017-03-14 19:57:44  [ nioEventLoopGroup-3-1:16559 ] - [ INFO ]  7'8wA���~G6 H� msg_type is : null
+2017-03-14 19:57:44  [ nioEventLoopGroup-3-1:16559 ] - [ INFO ]  7'8wA���~G6 H� null checkCode is not correct!
+2017-03-14 19:57:44  [ nioEventLoopGroup-3-1:16561 ] - [ WARN ]  
+2017-03-14 19:57:44  [ nioEventLoopGroup-3-1:16561 ] - [ INFO ]  connect break
+2017-03-14 19:57:45  [ nioEventLoopGroup-2-1:11828 ] - [ WARN ]  
+2017-03-14 19:57:45  [ nioEventLoopGroup-2-1:11831 ] - [ INFO ]  connect break
+2017-03-14 20:07:26  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 20:07:26 CST 2017]; root of context hierarchy
+2017-03-14 20:07:26  [ main:51 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 20:07:26  [ main:522 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 20:07:27  [ main:1860 ] - [ INFO ]  bind port10004
+2017-03-14 20:07:28  [ main:2085 ] - [ INFO ]  Start the Server: OK
+2017-03-14 20:07:31  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:07:31  [ nioEventLoopGroup-3-1:5897 ] - [ INFO ]  a device online
+2017-03-14 20:07:32  [ nioEventLoopGroup-2-1:1029 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:07:33  [ nioEventLoopGroup-2-1:2035 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 20:07:34  [ nioEventLoopGroup-2-1:3040 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:07:35  [ nioEventLoopGroup-2-1:4043 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:07:37  [ nioEventLoopGroup-2-1:5584 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:07:37  [ nioEventLoopGroup-3-1:11487 ] - [ INFO ]  abcdefg1234567890 msg_type is : VEHICLE_LOGIN
+2017-03-14 20:07:37  [ nioEventLoopGroup-3-1:11490 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN checkCode is not correct!
+2017-03-14 20:07:38  [ nioEventLoopGroup-2-1:6590 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:07:39  [ nioEventLoopGroup-2-1:7591 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:07:40  [ nioEventLoopGroup-2-1:8593 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:07:41  [ nioEventLoopGroup-2-1:9599 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:07:42  [ nioEventLoopGroup-2-1:10607 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:07:43  [ nioEventLoopGroup-2-1:11816 ] - [ WARN ]  
+2017-03-14 20:07:43  [ nioEventLoopGroup-3-1:17708 ] - [ INFO ]  connect break
+2017-03-14 20:07:43  [ nioEventLoopGroup-2-1:11819 ] - [ INFO ]  connect break
+2017-03-14 20:15:30  [ nioEventLoopGroup-3-2:484936 ] - [ INFO ]  a device online
+2017-03-14 20:15:31  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:15:32  [ nioEventLoopGroup-2-1:1025 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:15:33  [ nioEventLoopGroup-2-1:2029 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 20:15:34  [ nioEventLoopGroup-2-1:3033 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:15:35  [ nioEventLoopGroup-2-1:4036 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:15:36  [ nioEventLoopGroup-2-1:5038 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:15:37  [ nioEventLoopGroup-2-1:6040 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:15:38  [ nioEventLoopGroup-2-1:7042 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:15:39  [ nioEventLoopGroup-2-1:8044 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:15:40  [ nioEventLoopGroup-2-1:9047 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:15:41  [ nioEventLoopGroup-2-1:10049 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:15:42  [ nioEventLoopGroup-3-2:495999 ] - [ INFO ]  connect break
+2017-03-14 20:15:42  [ nioEventLoopGroup-2-1:11053 ] - [ WARN ]  
+2017-03-14 20:15:42  [ nioEventLoopGroup-2-1:11055 ] - [ INFO ]  connect break
+2017-03-14 20:16:42  [ nioEventLoopGroup-3-3:556295 ] - [ INFO ]  a device online
+2017-03-14 20:16:42  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:16:43  [ nioEventLoopGroup-2-1:1027 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:16:44  [ nioEventLoopGroup-2-1:2032 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 20:16:51  [ nioEventLoopGroup-2-1:9596 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:17:21  [ nioEventLoopGroup-2-1:39553 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:17:36  [ nioEventLoopGroup-2-1:53676 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:17:48  [ nioEventLoopGroup-2-1:66417 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:18:35  [ nioEventLoopGroup-2-1:112692 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:19:04  [ nioEventLoopGroup-2-1:142051 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:20:08  [ nioEventLoopGroup-2-1:206251 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:21:02  [ nioEventLoopGroup-2-1:259771 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:24:06  [ nioEventLoopGroup-3-3:1000785 ] - [ INFO ]  connect break
+2017-03-14 20:24:06  [ nioEventLoopGroup-2-1:444472 ] - [ WARN ]  
+2017-03-14 20:24:52  [ nioEventLoopGroup-3-4:1046055 ] - [ INFO ]  a device online
+2017-03-14 20:24:52  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:24:53  [ nioEventLoopGroup-2-1:1037 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:24:54  [ nioEventLoopGroup-2-1:2042 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 20:25:01  [ nioEventLoopGroup-2-1:9237 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:25:15  [ nioEventLoopGroup-2-1:22911 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:25:17  [ nioEventLoopGroup-2-1:25598 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:25:23  [ nioEventLoopGroup-2-1:30902 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:25:24  [ nioEventLoopGroup-2-1:31905 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:25:25  [ nioEventLoopGroup-2-1:32907 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:25:26  [ nioEventLoopGroup-2-1:33911 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:25:27  [ nioEventLoopGroup-2-1:34920 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:29:48  [ nioEventLoopGroup-3-4:1342245 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 20:29:48  [ nioEventLoopGroup-3-4:1342245 ] - [ INFO ]  connect break
+2017-03-14 20:29:51  [ nioEventLoopGroup-3-5:1345730 ] - [ INFO ]  a device online
+2017-03-14 20:29:51  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:29:52  [ nioEventLoopGroup-2-1:1029 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:29:53  [ nioEventLoopGroup-2-1:2034 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 20:29:54  [ nioEventLoopGroup-3-5:1348134 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 20:29:54  [ nioEventLoopGroup-3-5:1348135 ] - [ INFO ]  connect break
+2017-03-14 20:39:10  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 20:39:10 CST 2017]; root of context hierarchy
+2017-03-14 20:39:10  [ main:64 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 20:39:10  [ main:538 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 20:39:11  [ main:1654 ] - [ INFO ]  bind port10004
+2017-03-14 20:39:11  [ main:1860 ] - [ INFO ]  Start the Server: OK
+2017-03-14 20:39:18  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:39:18  [ nioEventLoopGroup-3-1:8869 ] - [ INFO ]  a device online
+2017-03-14 20:39:19  [ nioEventLoopGroup-2-1:1026 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:39:20  [ nioEventLoopGroup-2-1:2031 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 20:39:21  [ nioEventLoopGroup-2-1:3036 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:22  [ nioEventLoopGroup-2-1:4038 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:23  [ nioEventLoopGroup-2-1:5042 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:24  [ nioEventLoopGroup-2-1:6044 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:26  [ nioEventLoopGroup-2-1:7046 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:27  [ nioEventLoopGroup-2-1:8048 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:28  [ nioEventLoopGroup-2-1:9053 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:29  [ nioEventLoopGroup-2-1:10056 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:30  [ nioEventLoopGroup-2-1:11069 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:31  [ nioEventLoopGroup-2-1:12072 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:32  [ nioEventLoopGroup-2-1:13093 ] - [ INFO ]  abcdefg1234567891 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:39:33  [ nioEventLoopGroup-2-1:14095 ] - [ INFO ]  abcdefg1234567891 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:39:34  [ nioEventLoopGroup-2-1:15096 ] - [ INFO ]  abcdefg1234567891 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:39:35  [ nioEventLoopGroup-2-1:16097 ] - [ INFO ]  abcdefg1234567891 HEART_BEAT header encode succeed!
+2017-03-14 20:39:36  [ nioEventLoopGroup-2-1:17098 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:37  [ nioEventLoopGroup-2-1:18098 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:38  [ nioEventLoopGroup-2-1:19099 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:39  [ nioEventLoopGroup-2-1:20100 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:40  [ nioEventLoopGroup-2-1:21101 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:41  [ nioEventLoopGroup-2-1:22102 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:42  [ nioEventLoopGroup-2-1:23103 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:43  [ nioEventLoopGroup-2-1:24107 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:44  [ nioEventLoopGroup-2-1:25109 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:45  [ nioEventLoopGroup-2-1:26111 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:46  [ nioEventLoopGroup-2-1:27112 ] - [ INFO ]  abcdefg1234567892 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:39:47  [ nioEventLoopGroup-2-1:28113 ] - [ INFO ]  abcdefg1234567892 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:39:48  [ nioEventLoopGroup-2-1:29115 ] - [ INFO ]  abcdefg1234567892 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:39:49  [ nioEventLoopGroup-2-1:30116 ] - [ INFO ]  abcdefg1234567892 HEART_BEAT header encode succeed!
+2017-03-14 20:39:50  [ nioEventLoopGroup-2-1:31116 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:51  [ nioEventLoopGroup-2-1:32117 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:52  [ nioEventLoopGroup-2-1:33118 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:53  [ nioEventLoopGroup-2-1:34118 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:54  [ nioEventLoopGroup-2-1:35119 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:55  [ nioEventLoopGroup-2-1:36121 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:56  [ nioEventLoopGroup-2-1:37123 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:57  [ nioEventLoopGroup-2-1:38125 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:58  [ nioEventLoopGroup-2-1:39132 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:39:59  [ nioEventLoopGroup-2-1:40132 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:00  [ nioEventLoopGroup-2-1:41133 ] - [ INFO ]  abcdefg1234567893 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:40:01  [ nioEventLoopGroup-2-1:42134 ] - [ INFO ]  abcdefg1234567893 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:40:02  [ nioEventLoopGroup-2-1:43135 ] - [ INFO ]  abcdefg1234567893 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:40:03  [ nioEventLoopGroup-2-1:44136 ] - [ INFO ]  abcdefg1234567893 HEART_BEAT header encode succeed!
+2017-03-14 20:40:04  [ nioEventLoopGroup-2-1:45137 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:05  [ nioEventLoopGroup-2-1:46138 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:06  [ nioEventLoopGroup-2-1:47139 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:07  [ nioEventLoopGroup-2-1:48140 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:08  [ nioEventLoopGroup-2-1:49141 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:09  [ nioEventLoopGroup-2-1:50141 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:10  [ nioEventLoopGroup-2-1:51142 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:11  [ nioEventLoopGroup-2-1:52143 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:12  [ nioEventLoopGroup-2-1:53146 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:13  [ nioEventLoopGroup-2-1:54147 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:14  [ nioEventLoopGroup-2-1:55148 ] - [ INFO ]  abcdefg1234567894 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:40:15  [ nioEventLoopGroup-2-1:56150 ] - [ INFO ]  abcdefg1234567894 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:40:16  [ nioEventLoopGroup-2-1:57151 ] - [ INFO ]  abcdefg1234567894 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:40:17  [ nioEventLoopGroup-2-1:58152 ] - [ INFO ]  abcdefg1234567894 HEART_BEAT header encode succeed!
+2017-03-14 20:40:18  [ nioEventLoopGroup-2-1:59153 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:19  [ nioEventLoopGroup-2-1:60154 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:20  [ nioEventLoopGroup-2-1:61154 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:21  [ nioEventLoopGroup-2-1:62155 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:22  [ nioEventLoopGroup-2-1:63155 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:23  [ nioEventLoopGroup-2-1:64156 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:24  [ nioEventLoopGroup-2-1:65158 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:25  [ nioEventLoopGroup-2-1:66159 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:26  [ nioEventLoopGroup-2-1:67162 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:27  [ nioEventLoopGroup-2-1:68163 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:28  [ nioEventLoopGroup-2-1:69164 ] - [ INFO ]  abcdefg1234567895 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:40:29  [ nioEventLoopGroup-2-1:70165 ] - [ INFO ]  abcdefg1234567895 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:40:30  [ nioEventLoopGroup-2-1:71166 ] - [ INFO ]  abcdefg1234567895 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:40:31  [ nioEventLoopGroup-2-1:72167 ] - [ INFO ]  abcdefg1234567895 HEART_BEAT header encode succeed!
+2017-03-14 20:40:32  [ nioEventLoopGroup-2-1:73168 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:33  [ nioEventLoopGroup-2-1:74168 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:34  [ nioEventLoopGroup-2-1:75169 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:35  [ nioEventLoopGroup-2-1:76169 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:36  [ nioEventLoopGroup-2-1:77170 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:37  [ nioEventLoopGroup-2-1:78171 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:38  [ nioEventLoopGroup-2-1:79173 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:39  [ nioEventLoopGroup-2-1:80175 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:40  [ nioEventLoopGroup-2-1:81179 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:41  [ nioEventLoopGroup-2-1:82180 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:42  [ nioEventLoopGroup-2-1:83181 ] - [ INFO ]  abcdefg1234567896 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:40:43  [ nioEventLoopGroup-2-1:84182 ] - [ INFO ]  abcdefg1234567896 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:40:44  [ nioEventLoopGroup-2-1:85183 ] - [ INFO ]  abcdefg1234567896 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:40:45  [ nioEventLoopGroup-2-1:86184 ] - [ INFO ]  abcdefg1234567896 HEART_BEAT header encode succeed!
+2017-03-14 20:40:46  [ nioEventLoopGroup-2-1:87185 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:47  [ nioEventLoopGroup-2-1:88185 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:48  [ nioEventLoopGroup-2-1:89186 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:49  [ nioEventLoopGroup-2-1:90187 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:50  [ nioEventLoopGroup-2-1:91188 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:51  [ nioEventLoopGroup-2-1:92188 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:52  [ nioEventLoopGroup-2-1:93190 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:53  [ nioEventLoopGroup-2-1:94193 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:54  [ nioEventLoopGroup-2-1:95199 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:55  [ nioEventLoopGroup-2-1:96200 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:40:56  [ nioEventLoopGroup-2-1:97201 ] - [ INFO ]  abcdefg1234567897 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:40:57  [ nioEventLoopGroup-2-1:98202 ] - [ INFO ]  abcdefg1234567897 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:40:58  [ nioEventLoopGroup-2-1:99203 ] - [ INFO ]  abcdefg1234567897 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:40:59  [ nioEventLoopGroup-2-1:100204 ] - [ INFO ]  abcdefg1234567897 HEART_BEAT header encode succeed!
+2017-03-14 20:41:00  [ nioEventLoopGroup-2-1:101205 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:01  [ nioEventLoopGroup-2-1:102207 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:02  [ nioEventLoopGroup-2-1:103207 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:03  [ nioEventLoopGroup-2-1:104208 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:04  [ nioEventLoopGroup-2-1:105208 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:05  [ nioEventLoopGroup-2-1:106209 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:06  [ nioEventLoopGroup-2-1:107210 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:07  [ nioEventLoopGroup-2-1:108211 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:08  [ nioEventLoopGroup-2-1:109220 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:09  [ nioEventLoopGroup-2-1:110221 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:10  [ nioEventLoopGroup-2-1:111222 ] - [ INFO ]  abcdefg1234567898 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:41:11  [ nioEventLoopGroup-2-1:112224 ] - [ INFO ]  abcdefg1234567898 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:41:12  [ nioEventLoopGroup-2-1:113225 ] - [ INFO ]  abcdefg1234567898 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:41:13  [ nioEventLoopGroup-2-1:114226 ] - [ INFO ]  abcdefg1234567898 HEART_BEAT header encode succeed!
+2017-03-14 20:41:14  [ nioEventLoopGroup-2-1:115226 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:15  [ nioEventLoopGroup-2-1:116227 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:16  [ nioEventLoopGroup-2-1:117229 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:17  [ nioEventLoopGroup-2-1:118229 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:18  [ nioEventLoopGroup-2-1:119230 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:19  [ nioEventLoopGroup-2-1:120230 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:20  [ nioEventLoopGroup-2-1:121232 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:21  [ nioEventLoopGroup-2-1:122233 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:22  [ nioEventLoopGroup-2-1:123234 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:23  [ nioEventLoopGroup-2-1:124235 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:24  [ nioEventLoopGroup-2-1:125236 ] - [ INFO ]  abcdefg1234567899 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:41:25  [ nioEventLoopGroup-2-1:126237 ] - [ INFO ]  abcdefg1234567899 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:41:26  [ nioEventLoopGroup-2-1:127238 ] - [ INFO ]  abcdefg1234567899 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:41:27  [ nioEventLoopGroup-2-1:128239 ] - [ INFO ]  abcdefg1234567899 HEART_BEAT header encode succeed!
+2017-03-14 20:41:28  [ nioEventLoopGroup-2-1:129240 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:29  [ nioEventLoopGroup-2-1:130241 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:30  [ nioEventLoopGroup-2-1:131241 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:31  [ nioEventLoopGroup-2-1:132242 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:32  [ nioEventLoopGroup-2-1:133242 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:33  [ nioEventLoopGroup-2-1:134243 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:34  [ nioEventLoopGroup-2-1:135244 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:35  [ nioEventLoopGroup-2-1:136246 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:36  [ nioEventLoopGroup-2-1:137250 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:37  [ nioEventLoopGroup-2-1:138251 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:41:38  [ nioEventLoopGroup-2-1:139252 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:42:10  [ nioEventLoopGroup-3-1:179956 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 20:42:10  [ nioEventLoopGroup-3-1:179956 ] - [ INFO ]  connect break
+2017-03-14 20:42:45  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 20:42:45 CST 2017]; root of context hierarchy
+2017-03-14 20:42:45  [ main:53 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 20:42:46  [ main:529 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 20:42:47  [ main:1682 ] - [ INFO ]  bind port10004
+2017-03-14 20:42:47  [ main:1930 ] - [ INFO ]  Start the Server: OK
+2017-03-14 20:42:51  [ nioEventLoopGroup-2-1:1 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:42:51  [ nioEventLoopGroup-3-1:5855 ] - [ INFO ]  a device online
+2017-03-14 20:42:52  [ nioEventLoopGroup-2-1:1035 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:42:53  [ nioEventLoopGroup-2-1:2040 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 20:42:54  [ nioEventLoopGroup-2-1:3044 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:42:55  [ nioEventLoopGroup-2-1:4048 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:42:56  [ nioEventLoopGroup-2-1:5051 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:42:57  [ nioEventLoopGroup-2-1:6052 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:42:58  [ nioEventLoopGroup-2-1:7054 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:42:59  [ nioEventLoopGroup-2-1:8056 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:00  [ nioEventLoopGroup-2-1:9059 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:01  [ nioEventLoopGroup-2-1:10063 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:02  [ nioEventLoopGroup-2-1:11084 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:03  [ nioEventLoopGroup-2-1:12088 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:04  [ nioEventLoopGroup-2-1:13090 ] - [ INFO ]  abcdefg1234567891 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:43:05  [ nioEventLoopGroup-2-1:14091 ] - [ INFO ]  abcdefg1234567891 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:43:06  [ nioEventLoopGroup-2-1:15092 ] - [ INFO ]  abcdefg1234567891 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:43:07  [ nioEventLoopGroup-2-1:16092 ] - [ INFO ]  abcdefg1234567891 HEART_BEAT header encode succeed!
+2017-03-14 20:43:08  [ nioEventLoopGroup-2-1:17093 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:09  [ nioEventLoopGroup-2-1:18095 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:10  [ nioEventLoopGroup-2-1:19096 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:11  [ nioEventLoopGroup-2-1:20097 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:12  [ nioEventLoopGroup-2-1:21098 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:13  [ nioEventLoopGroup-2-1:22098 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:14  [ nioEventLoopGroup-2-1:23099 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:14  [ nioEventLoopGroup-3-1:28953 ] - [ WARN ]  Adjusted frame length exceeds 2048: 4125 - discarded
+2017-03-14 20:43:14  [ nioEventLoopGroup-3-1:28957 ] - [ INFO ]                msg_type is : null
+2017-03-14 20:43:14  [ nioEventLoopGroup-3-1:28958 ] - [ INFO ]                null checkCode is not correct!
+2017-03-14 20:43:14  [ nioEventLoopGroup-3-1:28959 ] - [ WARN ]  
+2017-03-14 20:43:14  [ nioEventLoopGroup-3-1:28959 ] - [ INFO ]  	   
+          msg_type is : null
+2017-03-14 20:43:14  [ nioEventLoopGroup-3-1:28959 ] - [ INFO ]  	   
+          null checkCode is not correct!
+2017-03-14 20:43:14  [ nioEventLoopGroup-3-1:28959 ] - [ WARN ]  
+2017-03-14 20:43:14  [ nioEventLoopGroup-3-1:28959 ] - [ INFO ]               msg_type is : null
+2017-03-14 20:43:14  [ nioEventLoopGroup-3-1:28960 ] - [ INFO ]               null checkCode is not correct!
+2017-03-14 20:43:14  [ nioEventLoopGroup-3-1:28960 ] - [ WARN ]  
+2017-03-14 20:43:14  [ nioEventLoopGroup-3-1:28960 ] - [ INFO ]                msg_type is : null
+2017-03-14 20:43:14  [ nioEventLoopGroup-3-1:28960 ] - [ INFO ]                null checkCode is not correct!
+2017-03-14 20:43:14  [ nioEventLoopGroup-3-1:28961 ] - [ WARN ]  
+2017-03-14 20:43:14  [ nioEventLoopGroup-3-1:28961 ] - [ INFO ]               msg_type is : null
+2017-03-14 20:43:14  [ nioEventLoopGroup-3-1:28961 ] - [ INFO ]               null checkCode is not correct!
+2017-03-14 20:43:14  [ nioEventLoopGroup-3-1:28961 ] - [ WARN ]  
+2017-03-14 20:43:14  [ nioEventLoopGroup-3-1:28961 ] - [ INFO ]  connect break
+2017-03-14 20:43:15  [ nioEventLoopGroup-2-1:24101 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:16  [ nioEventLoopGroup-2-1:25103 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:17  [ nioEventLoopGroup-2-1:26106 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:18  [ nioEventLoopGroup-2-1:27106 ] - [ INFO ]  abcdefg1234567892 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:43:19  [ nioEventLoopGroup-2-1:28107 ] - [ INFO ]  abcdefg1234567892 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:43:20  [ nioEventLoopGroup-2-1:29108 ] - [ INFO ]  abcdefg1234567892 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:43:21  [ nioEventLoopGroup-2-1:30109 ] - [ INFO ]  abcdefg1234567892 HEART_BEAT header encode succeed!
+2017-03-14 20:43:22  [ nioEventLoopGroup-2-1:31109 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:23  [ nioEventLoopGroup-2-1:32110 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:24  [ nioEventLoopGroup-2-1:33112 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:25  [ nioEventLoopGroup-2-1:34113 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:26  [ nioEventLoopGroup-2-1:35113 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:27  [ nioEventLoopGroup-2-1:36115 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:28  [ nioEventLoopGroup-2-1:37116 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:29  [ nioEventLoopGroup-2-1:38117 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:30  [ nioEventLoopGroup-2-1:39122 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:31  [ nioEventLoopGroup-2-1:40123 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:32  [ nioEventLoopGroup-2-1:41123 ] - [ INFO ]  abcdefg1234567893 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:43:33  [ nioEventLoopGroup-2-1:42125 ] - [ INFO ]  abcdefg1234567893 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:43:34  [ nioEventLoopGroup-2-1:43126 ] - [ INFO ]  abcdefg1234567893 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:43:35  [ nioEventLoopGroup-2-1:44126 ] - [ INFO ]  abcdefg1234567893 HEART_BEAT header encode succeed!
+2017-03-14 20:43:36  [ nioEventLoopGroup-2-1:45127 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:37  [ nioEventLoopGroup-2-1:46128 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:38  [ nioEventLoopGroup-2-1:47129 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:39  [ nioEventLoopGroup-2-1:48129 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:40  [ nioEventLoopGroup-2-1:49130 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:41  [ nioEventLoopGroup-2-1:50131 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:42  [ nioEventLoopGroup-2-1:51132 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:43  [ nioEventLoopGroup-2-1:52139 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:44  [ nioEventLoopGroup-2-1:53144 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:45  [ nioEventLoopGroup-2-1:54145 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:46  [ nioEventLoopGroup-2-1:55145 ] - [ INFO ]  abcdefg1234567894 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:43:47  [ nioEventLoopGroup-2-1:56146 ] - [ INFO ]  abcdefg1234567894 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:43:48  [ nioEventLoopGroup-2-1:57147 ] - [ INFO ]  abcdefg1234567894 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:43:49  [ nioEventLoopGroup-2-1:58148 ] - [ INFO ]  abcdefg1234567894 HEART_BEAT header encode succeed!
+2017-03-14 20:43:50  [ nioEventLoopGroup-2-1:59149 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:51  [ nioEventLoopGroup-2-1:60150 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:52  [ nioEventLoopGroup-2-1:61151 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:53  [ nioEventLoopGroup-2-1:62152 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:54  [ nioEventLoopGroup-2-1:63153 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:55  [ nioEventLoopGroup-2-1:64154 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:56  [ nioEventLoopGroup-2-1:65155 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:57  [ nioEventLoopGroup-2-1:66156 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:58  [ nioEventLoopGroup-2-1:67159 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:43:59  [ nioEventLoopGroup-2-1:68161 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:00  [ nioEventLoopGroup-2-1:69161 ] - [ INFO ]  abcdefg1234567895 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:44:01  [ nioEventLoopGroup-2-1:70162 ] - [ INFO ]  abcdefg1234567895 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:44:02  [ nioEventLoopGroup-2-1:71163 ] - [ INFO ]  abcdefg1234567895 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:44:03  [ nioEventLoopGroup-2-1:72164 ] - [ INFO ]  abcdefg1234567895 HEART_BEAT header encode succeed!
+2017-03-14 20:44:04  [ nioEventLoopGroup-2-1:73164 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:05  [ nioEventLoopGroup-2-1:74165 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:06  [ nioEventLoopGroup-2-1:75167 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:07  [ nioEventLoopGroup-2-1:76167 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:08  [ nioEventLoopGroup-2-1:77168 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:09  [ nioEventLoopGroup-2-1:78169 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:10  [ nioEventLoopGroup-2-1:79170 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:11  [ nioEventLoopGroup-2-1:80171 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:12  [ nioEventLoopGroup-2-1:81178 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:13  [ nioEventLoopGroup-2-1:82179 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:14  [ nioEventLoopGroup-2-1:83180 ] - [ INFO ]  abcdefg1234567896 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:44:15  [ nioEventLoopGroup-2-1:84181 ] - [ INFO ]  abcdefg1234567896 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:44:16  [ nioEventLoopGroup-2-1:85182 ] - [ INFO ]  abcdefg1234567896 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:44:17  [ nioEventLoopGroup-2-1:86184 ] - [ INFO ]  abcdefg1234567896 HEART_BEAT header encode succeed!
+2017-03-14 20:44:18  [ nioEventLoopGroup-2-1:87185 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:19  [ nioEventLoopGroup-2-1:88186 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:20  [ nioEventLoopGroup-2-1:89186 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:21  [ nioEventLoopGroup-2-1:90188 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:22  [ nioEventLoopGroup-2-1:91189 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:23  [ nioEventLoopGroup-2-1:92190 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:24  [ nioEventLoopGroup-2-1:93191 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:25  [ nioEventLoopGroup-2-1:94192 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:26  [ nioEventLoopGroup-2-1:95195 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:27  [ nioEventLoopGroup-2-1:96196 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:28  [ nioEventLoopGroup-2-1:97196 ] - [ INFO ]  abcdefg1234567897 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:44:29  [ nioEventLoopGroup-2-1:98197 ] - [ INFO ]  abcdefg1234567897 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:44:30  [ nioEventLoopGroup-2-1:99197 ] - [ INFO ]  abcdefg1234567897 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:44:31  [ nioEventLoopGroup-2-1:100198 ] - [ INFO ]  abcdefg1234567897 HEART_BEAT header encode succeed!
+2017-03-14 20:44:32  [ nioEventLoopGroup-2-1:101199 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:33  [ nioEventLoopGroup-2-1:102200 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:34  [ nioEventLoopGroup-2-1:103201 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:35  [ nioEventLoopGroup-2-1:104202 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:36  [ nioEventLoopGroup-2-1:105204 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:37  [ nioEventLoopGroup-2-1:106204 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:38  [ nioEventLoopGroup-2-1:107205 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:39  [ nioEventLoopGroup-2-1:108207 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:40  [ nioEventLoopGroup-2-1:109212 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:41  [ nioEventLoopGroup-2-1:110213 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:42  [ nioEventLoopGroup-2-1:111214 ] - [ INFO ]  abcdefg1234567898 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:44:43  [ nioEventLoopGroup-2-1:112217 ] - [ INFO ]  abcdefg1234567898 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:44:44  [ nioEventLoopGroup-2-1:113217 ] - [ INFO ]  abcdefg1234567898 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:44:45  [ nioEventLoopGroup-2-1:114218 ] - [ INFO ]  abcdefg1234567898 HEART_BEAT header encode succeed!
+2017-03-14 20:44:46  [ nioEventLoopGroup-2-1:115218 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:47  [ nioEventLoopGroup-2-1:116220 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:48  [ nioEventLoopGroup-2-1:117221 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:49  [ nioEventLoopGroup-2-1:118221 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:50  [ nioEventLoopGroup-2-1:119222 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:51  [ nioEventLoopGroup-2-1:120222 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:52  [ nioEventLoopGroup-2-1:121224 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:53  [ nioEventLoopGroup-2-1:122227 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:54  [ nioEventLoopGroup-2-1:123231 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:55  [ nioEventLoopGroup-2-1:124231 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:44:56  [ nioEventLoopGroup-2-1:125232 ] - [ INFO ]  abcdefg1234567899 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:44:57  [ nioEventLoopGroup-2-1:126233 ] - [ INFO ]  abcdefg1234567899 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:44:58  [ nioEventLoopGroup-2-1:127234 ] - [ INFO ]  abcdefg1234567899 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:44:59  [ nioEventLoopGroup-2-1:128235 ] - [ INFO ]  abcdefg1234567899 HEART_BEAT header encode succeed!
+2017-03-14 20:45:00  [ nioEventLoopGroup-2-1:129236 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:45:01  [ nioEventLoopGroup-2-1:130237 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:45:02  [ nioEventLoopGroup-2-1:131238 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:45:03  [ nioEventLoopGroup-2-1:132238 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:45:04  [ nioEventLoopGroup-2-1:133239 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:45:05  [ nioEventLoopGroup-2-1:134240 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:45:07  [ nioEventLoopGroup-2-1:135242 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:45:08  [ nioEventLoopGroup-2-1:136244 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:45:09  [ nioEventLoopGroup-2-1:137250 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:45:10  [ nioEventLoopGroup-2-1:138250 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:45:11  [ nioEventLoopGroup-2-1:139251 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:45:12  [ nioEventLoopGroup-2-1:140264 ] - [ INFO ]  connect break
+2017-03-14 20:53:44  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 20:53:44 CST 2017]; root of context hierarchy
+2017-03-14 20:53:44  [ main:48 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 20:53:45  [ main:507 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 20:53:46  [ main:1537 ] - [ INFO ]  bind port10004
+2017-03-14 20:53:46  [ main:1734 ] - [ INFO ]  Start the Server: OK
+2017-03-14 20:53:52  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:53:52  [ nioEventLoopGroup-3-1:7447 ] - [ INFO ]  a device online
+2017-03-14 20:53:53  [ nioEventLoopGroup-2-1:1024 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:53:54  [ nioEventLoopGroup-2-1:2030 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 20:53:55  [ nioEventLoopGroup-2-1:3034 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:53:56  [ nioEventLoopGroup-2-1:4038 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:53:57  [ nioEventLoopGroup-2-1:5040 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:53:58  [ nioEventLoopGroup-2-1:6041 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:53:59  [ nioEventLoopGroup-2-1:7043 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:00  [ nioEventLoopGroup-2-1:8045 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:01  [ nioEventLoopGroup-2-1:9050 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:02  [ nioEventLoopGroup-2-1:10056 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:03  [ nioEventLoopGroup-2-1:11062 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:04  [ nioEventLoopGroup-2-1:12064 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:05  [ nioEventLoopGroup-2-1:13066 ] - [ INFO ]  abcdefg1234567891 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:54:06  [ nioEventLoopGroup-2-1:14067 ] - [ INFO ]  abcdefg1234567891 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:54:07  [ nioEventLoopGroup-2-1:15069 ] - [ INFO ]  abcdefg1234567891 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:54:08  [ nioEventLoopGroup-2-1:16069 ] - [ INFO ]  abcdefg1234567891 HEART_BEAT header encode succeed!
+2017-03-14 20:54:09  [ nioEventLoopGroup-2-1:17070 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:10  [ nioEventLoopGroup-2-1:18071 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:11  [ nioEventLoopGroup-2-1:19073 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:12  [ nioEventLoopGroup-2-1:20074 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:13  [ nioEventLoopGroup-2-1:21074 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:14  [ nioEventLoopGroup-2-1:22075 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:15  [ nioEventLoopGroup-2-1:23077 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:16  [ nioEventLoopGroup-2-1:24080 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:17  [ nioEventLoopGroup-2-1:25089 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:18  [ nioEventLoopGroup-2-1:26090 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:19  [ nioEventLoopGroup-2-1:27091 ] - [ INFO ]  abcdefg1234567892 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:54:20  [ nioEventLoopGroup-2-1:28092 ] - [ INFO ]  abcdefg1234567892 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:54:21  [ nioEventLoopGroup-2-1:29093 ] - [ INFO ]  abcdefg1234567892 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:54:22  [ nioEventLoopGroup-2-1:30094 ] - [ INFO ]  abcdefg1234567892 HEART_BEAT header encode succeed!
+2017-03-14 20:54:23  [ nioEventLoopGroup-2-1:31094 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:24  [ nioEventLoopGroup-2-1:32095 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:25  [ nioEventLoopGroup-2-1:33097 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:26  [ nioEventLoopGroup-2-1:34098 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:27  [ nioEventLoopGroup-2-1:35099 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:28  [ nioEventLoopGroup-2-1:36102 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:29  [ nioEventLoopGroup-2-1:37103 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:30  [ nioEventLoopGroup-2-1:38105 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:31  [ nioEventLoopGroup-2-1:39109 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:32  [ nioEventLoopGroup-2-1:40109 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:33  [ nioEventLoopGroup-2-1:41110 ] - [ INFO ]  abcdefg1234567893 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:54:34  [ nioEventLoopGroup-2-1:42110 ] - [ INFO ]  abcdefg1234567893 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:54:35  [ nioEventLoopGroup-2-1:43111 ] - [ INFO ]  abcdefg1234567893 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:54:36  [ nioEventLoopGroup-2-1:44112 ] - [ INFO ]  abcdefg1234567893 HEART_BEAT header encode succeed!
+2017-03-14 20:54:37  [ nioEventLoopGroup-2-1:45113 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:38  [ nioEventLoopGroup-2-1:46114 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:39  [ nioEventLoopGroup-2-1:47116 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:40  [ nioEventLoopGroup-2-1:48116 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:41  [ nioEventLoopGroup-2-1:49117 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:42  [ nioEventLoopGroup-2-1:50118 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:43  [ nioEventLoopGroup-2-1:51119 ] - [ INFO ]  abcdefg1234567893 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:44  [ nioEventLoopGroup-2-1:52121 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:45  [ nioEventLoopGroup-2-1:53125 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:46  [ nioEventLoopGroup-2-1:54126 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:47  [ nioEventLoopGroup-2-1:55126 ] - [ INFO ]  abcdefg1234567894 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:54:48  [ nioEventLoopGroup-2-1:56127 ] - [ INFO ]  abcdefg1234567894 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:54:49  [ nioEventLoopGroup-2-1:57128 ] - [ INFO ]  abcdefg1234567894 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:54:50  [ nioEventLoopGroup-2-1:58130 ] - [ INFO ]  abcdefg1234567894 HEART_BEAT header encode succeed!
+2017-03-14 20:54:51  [ nioEventLoopGroup-2-1:59131 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:52  [ nioEventLoopGroup-2-1:60132 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:53  [ nioEventLoopGroup-2-1:61133 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:54  [ nioEventLoopGroup-2-1:62135 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:55  [ nioEventLoopGroup-2-1:63136 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:56  [ nioEventLoopGroup-2-1:64137 ] - [ INFO ]  abcdefg1234567894 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:57  [ nioEventLoopGroup-2-1:65137 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:58  [ nioEventLoopGroup-2-1:66139 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:54:59  [ nioEventLoopGroup-2-1:67141 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:00  [ nioEventLoopGroup-2-1:68141 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:01  [ nioEventLoopGroup-2-1:69142 ] - [ INFO ]  abcdefg1234567895 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:55:02  [ nioEventLoopGroup-2-1:70144 ] - [ INFO ]  abcdefg1234567895 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:55:03  [ nioEventLoopGroup-2-1:71146 ] - [ INFO ]  abcdefg1234567895 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:55:04  [ nioEventLoopGroup-2-1:72146 ] - [ INFO ]  abcdefg1234567895 HEART_BEAT header encode succeed!
+2017-03-14 20:55:05  [ nioEventLoopGroup-2-1:73147 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:06  [ nioEventLoopGroup-2-1:74148 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:07  [ nioEventLoopGroup-2-1:75148 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:08  [ nioEventLoopGroup-2-1:76149 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:09  [ nioEventLoopGroup-2-1:77150 ] - [ INFO ]  abcdefg1234567895 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:10  [ nioEventLoopGroup-2-1:78151 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:11  [ nioEventLoopGroup-2-1:79152 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:12  [ nioEventLoopGroup-2-1:80153 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:13  [ nioEventLoopGroup-2-1:81160 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:14  [ nioEventLoopGroup-2-1:82161 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:15  [ nioEventLoopGroup-2-1:83161 ] - [ INFO ]  abcdefg1234567896 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:55:16  [ nioEventLoopGroup-2-1:84163 ] - [ INFO ]  abcdefg1234567896 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:55:17  [ nioEventLoopGroup-2-1:85163 ] - [ INFO ]  abcdefg1234567896 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:55:18  [ nioEventLoopGroup-2-1:86164 ] - [ INFO ]  abcdefg1234567896 HEART_BEAT header encode succeed!
+2017-03-14 20:55:19  [ nioEventLoopGroup-2-1:87165 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:20  [ nioEventLoopGroup-2-1:88166 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:21  [ nioEventLoopGroup-2-1:89167 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:22  [ nioEventLoopGroup-2-1:90168 ] - [ INFO ]  abcdefg1234567896 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:23  [ nioEventLoopGroup-2-1:91169 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:24  [ nioEventLoopGroup-2-1:92169 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:25  [ nioEventLoopGroup-2-1:93171 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:26  [ nioEventLoopGroup-2-1:94172 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:27  [ nioEventLoopGroup-2-1:95174 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:28  [ nioEventLoopGroup-2-1:96174 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:29  [ nioEventLoopGroup-2-1:97175 ] - [ INFO ]  abcdefg1234567897 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:55:30  [ nioEventLoopGroup-2-1:98176 ] - [ INFO ]  abcdefg1234567897 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:55:31  [ nioEventLoopGroup-2-1:99177 ] - [ INFO ]  abcdefg1234567897 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:55:32  [ nioEventLoopGroup-2-1:100178 ] - [ INFO ]  abcdefg1234567897 HEART_BEAT header encode succeed!
+2017-03-14 20:55:33  [ nioEventLoopGroup-2-1:101179 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:34  [ nioEventLoopGroup-2-1:102180 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:35  [ nioEventLoopGroup-2-1:103180 ] - [ INFO ]  abcdefg1234567897 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:36  [ nioEventLoopGroup-2-1:104181 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:37  [ nioEventLoopGroup-2-1:105181 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:38  [ nioEventLoopGroup-2-1:106182 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:39  [ nioEventLoopGroup-2-1:107184 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:40  [ nioEventLoopGroup-2-1:108187 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:41  [ nioEventLoopGroup-2-1:109195 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:42  [ nioEventLoopGroup-2-1:110196 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:43  [ nioEventLoopGroup-2-1:111197 ] - [ INFO ]  abcdefg1234567898 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:55:44  [ nioEventLoopGroup-2-1:112197 ] - [ INFO ]  abcdefg1234567898 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:55:45  [ nioEventLoopGroup-2-1:113199 ] - [ INFO ]  abcdefg1234567898 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:55:46  [ nioEventLoopGroup-2-1:114199 ] - [ INFO ]  abcdefg1234567898 HEART_BEAT header encode succeed!
+2017-03-14 20:55:47  [ nioEventLoopGroup-2-1:115200 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:48  [ nioEventLoopGroup-2-1:116201 ] - [ INFO ]  abcdefg1234567898 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:49  [ nioEventLoopGroup-2-1:117203 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:50  [ nioEventLoopGroup-2-1:118228 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:51  [ nioEventLoopGroup-2-1:119230 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:52  [ nioEventLoopGroup-2-1:120230 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:53  [ nioEventLoopGroup-2-1:121232 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:54  [ nioEventLoopGroup-2-1:122232 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:55  [ nioEventLoopGroup-2-1:123234 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:56  [ nioEventLoopGroup-2-1:124235 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:55:57  [ nioEventLoopGroup-2-1:125236 ] - [ INFO ]  abcdefg1234567899 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:55:58  [ nioEventLoopGroup-2-1:126238 ] - [ INFO ]  abcdefg1234567899 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:55:59  [ nioEventLoopGroup-2-1:127239 ] - [ INFO ]  abcdefg1234567899 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:56:00  [ nioEventLoopGroup-2-1:128240 ] - [ INFO ]  abcdefg1234567899 HEART_BEAT header encode succeed!
+2017-03-14 20:56:01  [ nioEventLoopGroup-2-1:129241 ] - [ INFO ]  abcdefg1234567899 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:56:02  [ nioEventLoopGroup-2-1:130243 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:56:03  [ nioEventLoopGroup-2-1:131243 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:56:04  [ nioEventLoopGroup-2-1:132244 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:56:05  [ nioEventLoopGroup-2-1:133245 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:56:06  [ nioEventLoopGroup-2-1:134245 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:56:07  [ nioEventLoopGroup-2-1:135247 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:56:08  [ nioEventLoopGroup-2-1:136249 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:56:09  [ nioEventLoopGroup-2-1:137255 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:56:10  [ nioEventLoopGroup-2-1:138256 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:56:11  [ nioEventLoopGroup-2-1:139257 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:56:46  [ nioEventLoopGroup-2-1:174654 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 20:56:46  [ nioEventLoopGroup-2-1:174695 ] - [ INFO ]  connect break
+2017-03-14 20:57:15  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 20:57:15 CST 2017]; root of context hierarchy
+2017-03-14 20:57:15  [ main:52 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 20:57:15  [ main:481 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 20:57:17  [ main:1963 ] - [ INFO ]  bind port10004
+2017-03-14 20:57:17  [ main:2172 ] - [ INFO ]  Start the Server: OK
+2017-03-14 20:57:22  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:57:22  [ nioEventLoopGroup-3-1:6833 ] - [ INFO ]  a device online
+2017-03-14 20:57:23  [ nioEventLoopGroup-2-1:1028 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:57:24  [ nioEventLoopGroup-2-1:2033 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-14 20:57:25  [ nioEventLoopGroup-2-1:3037 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:26  [ nioEventLoopGroup-2-1:4040 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:27  [ nioEventLoopGroup-2-1:5044 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:28  [ nioEventLoopGroup-2-1:6045 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:29  [ nioEventLoopGroup-2-1:7048 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:30  [ nioEventLoopGroup-2-1:8050 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:31  [ nioEventLoopGroup-2-1:9053 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:32  [ nioEventLoopGroup-2-1:10065 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:33  [ nioEventLoopGroup-2-1:11080 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:34  [ nioEventLoopGroup-2-1:12084 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:35  [ nioEventLoopGroup-2-1:13085 ] - [ INFO ]  abcdefg1234567891 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:57:36  [ nioEventLoopGroup-2-1:14088 ] - [ INFO ]  abcdefg1234567891 VEHICLE_LOGIN header encode succeed!
+2017-03-14 20:57:37  [ nioEventLoopGroup-2-1:15091 ] - [ INFO ]  abcdefg1234567891 TERMINAL_CORRECTION header encode succeed!
+2017-03-14 20:57:38  [ nioEventLoopGroup-2-1:16092 ] - [ INFO ]  abcdefg1234567891 HEART_BEAT header encode succeed!
+2017-03-14 20:57:39  [ nioEventLoopGroup-2-1:17093 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:40  [ nioEventLoopGroup-2-1:18094 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:41  [ nioEventLoopGroup-2-1:19096 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:42  [ nioEventLoopGroup-2-1:20096 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:43  [ nioEventLoopGroup-2-1:21097 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:44  [ nioEventLoopGroup-2-1:22098 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:45  [ nioEventLoopGroup-2-1:23099 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:46  [ nioEventLoopGroup-2-1:24101 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:46  [ nioEventLoopGroup-3-1:30933 ] - [ WARN ]  Adjusted frame length exceeds 2048: 11290 - discarded
+2017-03-14 20:57:46  [ nioEventLoopGroup-3-1:30934 ] - [ INFO ]  connect break
+2017-03-14 20:57:47  [ nioEventLoopGroup-2-1:25105 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:48  [ nioEventLoopGroup-2-1:26106 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-14 20:57:49  [ nioEventLoopGroup-2-1:27107 ] - [ INFO ]  abcdefg1234567892 VEHICLE_LOGOUT header encode succeed!
+2017-03-14 20:57:50  [ nioEventLoopGroup-2-1:28112 ] - [ INFO ]  connect break
+2017-03-14 21:00:39  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 21:00:39 CST 2017]; root of context hierarchy
+2017-03-14 21:00:39  [ main:52 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 21:00:39  [ main:494 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 21:00:41  [ main:2041 ] - [ INFO ]  bind port10004
+2017-03-14 21:00:41  [ main:2318 ] - [ INFO ]  Start the Server: OK
+2017-03-14 21:00:45  [ nioEventLoopGroup-2-1:1 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:00:45  [ nioEventLoopGroup-3-1:5986 ] - [ INFO ]  a device online
+2017-03-14 21:00:45  [ nioEventLoopGroup-2-1:26 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:00:45  [ nioEventLoopGroup-2-1:27 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:00:45  [ nioEventLoopGroup-2-1:28 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:00:45  [ nioEventLoopGroup-2-1:29 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:00:45  [ nioEventLoopGroup-2-1:30 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:00:45  [ nioEventLoopGroup-2-1:31 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:00:45  [ nioEventLoopGroup-2-1:33 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:00:45  [ nioEventLoopGroup-2-1:35 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:00:45  [ nioEventLoopGroup-2-1:36 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:07:17  [ nioEventLoopGroup-3-1:398072 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 21:07:17  [ nioEventLoopGroup-3-1:398083 ] - [ INFO ]  connect break
+2017-03-14 21:07:24  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 21:07:24 CST 2017]; root of context hierarchy
+2017-03-14 21:07:24  [ main:54 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 21:07:24  [ main:530 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 21:07:26  [ main:2102 ] - [ INFO ]  bind port10004
+2017-03-14 21:07:26  [ main:2297 ] - [ INFO ]  Start the Server: OK
+2017-03-14 21:07:30  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:07:30  [ nioEventLoopGroup-3-1:6540 ] - [ INFO ]  a device online
+2017-03-14 21:07:30  [ nioEventLoopGroup-2-1:25 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:07:30  [ nioEventLoopGroup-2-1:26 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:07:30  [ nioEventLoopGroup-2-1:27 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:07:31  [ nioEventLoopGroup-2-1:29 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:07:31  [ nioEventLoopGroup-2-1:30 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:07:31  [ nioEventLoopGroup-2-1:33 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:07:31  [ nioEventLoopGroup-2-1:34 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:07:31  [ nioEventLoopGroup-2-1:36 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:07:31  [ nioEventLoopGroup-2-1:38 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:16:13  [ nioEventLoopGroup-2-1:523016 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 21:16:13  [ nioEventLoopGroup-2-1:523027 ] - [ INFO ]  connect break
+2017-03-14 21:16:26  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 21:16:26 CST 2017]; root of context hierarchy
+2017-03-14 21:16:26  [ main:49 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 21:16:27  [ main:518 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 21:16:28  [ main:1502 ] - [ INFO ]  bind port10004
+2017-03-14 21:16:28  [ main:1708 ] - [ INFO ]  Start the Server: OK
+2017-03-14 21:16:39  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:16:39  [ nioEventLoopGroup-3-1:12973 ] - [ INFO ]  a device online
+2017-03-14 21:16:39  [ nioEventLoopGroup-2-1:19 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:16:39  [ nioEventLoopGroup-2-1:21 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:16:39  [ nioEventLoopGroup-2-1:23 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:16:39  [ nioEventLoopGroup-2-1:24 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:16:39  [ nioEventLoopGroup-2-1:25 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:16:39  [ nioEventLoopGroup-2-1:26 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:16:39  [ nioEventLoopGroup-2-1:27 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:16:39  [ nioEventLoopGroup-2-1:28 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:16:39  [ nioEventLoopGroup-2-1:29 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:20:55  [ nioEventLoopGroup-3-1:268987 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 21:20:55  [ nioEventLoopGroup-3-1:268994 ] - [ INFO ]  connect break
+2017-03-14 21:21:03  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 21:21:03 CST 2017]; root of context hierarchy
+2017-03-14 21:21:03  [ main:52 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 21:21:03  [ main:470 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 21:21:04  [ main:1500 ] - [ INFO ]  bind port10004
+2017-03-14 21:21:04  [ main:1707 ] - [ INFO ]  Start the Server: OK
+2017-03-14 21:21:11  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:21:11  [ nioEventLoopGroup-3-1:8091 ] - [ INFO ]  a device online
+2017-03-14 21:21:11  [ nioEventLoopGroup-2-1:29 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:21:11  [ nioEventLoopGroup-2-1:30 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:21:11  [ nioEventLoopGroup-2-1:32 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:21:11  [ nioEventLoopGroup-2-1:34 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:21:11  [ nioEventLoopGroup-2-1:35 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:21:11  [ nioEventLoopGroup-2-1:36 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:21:11  [ nioEventLoopGroup-2-1:38 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:21:11  [ nioEventLoopGroup-2-1:39 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:21:11  [ nioEventLoopGroup-2-1:40 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:23:31  [ nioEventLoopGroup-2-1:140262 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 21:23:31  [ nioEventLoopGroup-2-1:140272 ] - [ INFO ]  connect break
+2017-03-14 21:23:40  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 21:23:40 CST 2017]; root of context hierarchy
+2017-03-14 21:23:40  [ main:62 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 21:23:41  [ main:504 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 21:23:42  [ main:1479 ] - [ INFO ]  bind port10004
+2017-03-14 21:23:42  [ main:1676 ] - [ INFO ]  Start the Server: OK
+2017-03-14 21:23:47  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:23:47  [ nioEventLoopGroup-3-1:6571 ] - [ INFO ]  a device online
+2017-03-14 21:23:47  [ nioEventLoopGroup-2-1:22 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:23:47  [ nioEventLoopGroup-2-1:23 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:23:47  [ nioEventLoopGroup-2-1:24 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:23:47  [ nioEventLoopGroup-2-1:26 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:23:47  [ nioEventLoopGroup-2-1:27 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:23:47  [ nioEventLoopGroup-2-1:28 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:23:47  [ nioEventLoopGroup-2-1:30 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:23:47  [ nioEventLoopGroup-2-1:31 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:23:47  [ nioEventLoopGroup-2-1:33 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:28:22  [ nioEventLoopGroup-2-1:275470 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 21:28:22  [ nioEventLoopGroup-2-1:275474 ] - [ INFO ]  connect break
+2017-03-14 21:28:40  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 21:28:40 CST 2017]; root of context hierarchy
+2017-03-14 21:28:40  [ main:162 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 21:28:41  [ main:1532 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 21:28:44  [ main:4263 ] - [ INFO ]  bind port10004
+2017-03-14 21:28:45  [ main:5029 ] - [ INFO ]  Start the Server: OK
+2017-03-14 21:28:48  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:28:48  [ nioEventLoopGroup-3-1:8746 ] - [ INFO ]  a device online
+2017-03-14 21:28:48  [ nioEventLoopGroup-2-1:27 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:28:48  [ nioEventLoopGroup-2-1:29 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:28:48  [ nioEventLoopGroup-2-1:31 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:28:48  [ nioEventLoopGroup-2-1:32 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:28:48  [ nioEventLoopGroup-2-1:33 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:28:48  [ nioEventLoopGroup-2-1:34 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:28:48  [ nioEventLoopGroup-2-1:35 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:28:48  [ nioEventLoopGroup-2-1:35 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:28:48  [ nioEventLoopGroup-2-1:37 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:28:57  [ nioEventLoopGroup-3-1:16828 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 21:28:57  [ nioEventLoopGroup-3-1:16837 ] - [ INFO ]  connect break
+2017-03-14 21:29:07  [ nioEventLoopGroup-3-2:26866 ] - [ INFO ]  a device online
+2017-03-14 21:29:17  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:30:10  [ nioEventLoopGroup-3-2:89833 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 21:30:10  [ nioEventLoopGroup-3-2:89836 ] - [ INFO ]  connect break
+2017-03-14 21:33:49  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 21:33:49 CST 2017]; root of context hierarchy
+2017-03-14 21:33:49  [ main:50 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 21:33:50  [ main:517 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 21:33:51  [ main:1900 ] - [ INFO ]  bind port10004
+2017-03-14 21:33:51  [ main:2134 ] - [ INFO ]  Start the Server: OK
+2017-03-14 21:33:54  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:33:54  [ nioEventLoopGroup-3-1:5133 ] - [ INFO ]  a device online
+2017-03-14 21:33:55  [ nioEventLoopGroup-3-1:5184 ] - [ INFO ]  abcdefg1234567890 msg_type is : VEHICLE_LOGIN
+2017-03-14 21:33:55  [ nioEventLoopGroup-3-1:5185 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN checkCode is not correct!
+2017-03-14 21:33:55  [ nioEventLoopGroup-3-1:5188 ] - [ WARN ]  Adjusted frame length exceeds 2048: 14474 - discarded
+2017-03-14 21:33:55  [ nioEventLoopGroup-3-1:5189 ] - [ INFO ]  connect break
+2017-03-14 21:33:55  [ nioEventLoopGroup-2-1:86 ] - [ INFO ]  connect break
+2017-03-14 21:35:44  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 21:35:44 CST 2017]; root of context hierarchy
+2017-03-14 21:35:44  [ main:50 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 21:35:44  [ main:505 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 21:35:45  [ main:1539 ] - [ INFO ]  bind port10004
+2017-03-14 21:35:45  [ main:1751 ] - [ INFO ]  Start the Server: OK
+2017-03-14 21:35:51  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:35:51  [ nioEventLoopGroup-3-1:6980 ] - [ INFO ]  a device online
+2017-03-14 21:35:51  [ nioEventLoopGroup-2-1:28 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:35:51  [ nioEventLoopGroup-2-1:30 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:35:51  [ nioEventLoopGroup-2-1:32 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:35:51  [ nioEventLoopGroup-2-1:33 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:35:51  [ nioEventLoopGroup-2-1:34 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:35:51  [ nioEventLoopGroup-2-1:35 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:35:51  [ nioEventLoopGroup-2-1:37 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:35:51  [ nioEventLoopGroup-2-1:39 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:35:51  [ nioEventLoopGroup-2-1:41 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:36:47  [ nioEventLoopGroup-3-1:62948 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 21:36:47  [ nioEventLoopGroup-3-1:62956 ] - [ INFO ]  connect break
+2017-03-14 21:38:29  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 21:38:29 CST 2017]; root of context hierarchy
+2017-03-14 21:38:29  [ main:53 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 21:38:30  [ main:481 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 21:38:31  [ main:1617 ] - [ INFO ]  bind port10004
+2017-03-14 21:38:31  [ main:1904 ] - [ INFO ]  Start the Server: OK
+2017-03-14 21:38:36  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:38:36  [ nioEventLoopGroup-3-1:6402 ] - [ INFO ]  a device online
+2017-03-14 21:38:36  [ nioEventLoopGroup-3-1:6454 ] - [ WARN ]  Adjusted frame length exceeds 2048: 51256 - discarded
+2017-03-14 21:38:36  [ nioEventLoopGroup-3-1:6455 ] - [ INFO ]  connect break
+2017-03-14 21:38:36  [ nioEventLoopGroup-2-1:82 ] - [ INFO ]  connect break
+2017-03-14 21:39:54  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 21:39:54 CST 2017]; root of context hierarchy
+2017-03-14 21:39:54  [ main:58 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 21:39:55  [ main:508 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 21:39:56  [ main:1596 ] - [ INFO ]  bind port10004
+2017-03-14 21:39:56  [ main:1890 ] - [ INFO ]  Start the Server: OK
+2017-03-14 21:40:00  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:40:00  [ nioEventLoopGroup-3-1:5990 ] - [ INFO ]  a device online
+2017-03-14 21:40:48  [ nioEventLoopGroup-3-1:54226 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 21:40:48  [ nioEventLoopGroup-3-1:54233 ] - [ INFO ]  connect break
+2017-03-14 21:41:34  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 21:41:34 CST 2017]; root of context hierarchy
+2017-03-14 21:41:34  [ main:49 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 21:41:35  [ main:562 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 21:41:36  [ main:1643 ] - [ INFO ]  bind port10004
+2017-03-14 21:41:36  [ main:1954 ] - [ INFO ]  Start the Server: OK
+2017-03-14 21:41:41  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:41:41  [ nioEventLoopGroup-3-1:6379 ] - [ INFO ]  a device online
+2017-03-14 21:42:13  [ nioEventLoopGroup-3-1:38885 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 21:42:13  [ nioEventLoopGroup-3-1:38894 ] - [ INFO ]  connect break
+2017-03-14 21:49:00  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 21:49:00 CST 2017]; root of context hierarchy
+2017-03-14 21:49:00  [ main:48 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 21:49:00  [ main:492 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 21:49:01  [ main:1512 ] - [ INFO ]  bind port10004
+2017-03-14 21:49:01  [ main:1716 ] - [ INFO ]  Start the Server: OK
+2017-03-14 21:49:08  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:49:08  [ nioEventLoopGroup-3-1:8349 ] - [ INFO ]  a device online
+2017-03-14 21:49:08  [ nioEventLoopGroup-2-1:30 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:49:08  [ nioEventLoopGroup-2-1:33 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:49:08  [ nioEventLoopGroup-2-1:34 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:49:08  [ nioEventLoopGroup-2-1:36 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:49:08  [ nioEventLoopGroup-2-1:38 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:49:08  [ nioEventLoopGroup-2-1:41 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:49:08  [ nioEventLoopGroup-2-1:43 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:49:08  [ nioEventLoopGroup-2-1:45 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:49:08  [ nioEventLoopGroup-2-1:48 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:49:08  [ nioEventLoopGroup-3-1:8448 ] - [ INFO ]  abcdefg1234567890 msg_type is : VEHICLE_LOGIN
+2017-03-14 21:49:08  [ nioEventLoopGroup-3-1:8450 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN checkCode is not correct!
+2017-03-14 21:49:08  [ nioEventLoopGroup-3-1:8454 ] - [ WARN ]  Adjusted frame length exceeds 2048: 18555 - discarded
+2017-03-14 21:49:08  [ nioEventLoopGroup-3-1:8455 ] - [ INFO ]  connect break
+2017-03-14 21:49:08  [ nioEventLoopGroup-2-1:114 ] - [ INFO ]  connect break
+2017-03-14 21:50:50  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Tue Mar 14 21:50:50 CST 2017]; root of context hierarchy
+2017-03-14 21:50:50  [ main:47 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-14 21:50:50  [ main:462 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-14 21:50:51  [ main:1452 ] - [ INFO ]  bind port10004
+2017-03-14 21:50:51  [ main:1684 ] - [ INFO ]  Start the Server: OK
+2017-03-14 21:50:58  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:50:58  [ nioEventLoopGroup-3-1:8565 ] - [ INFO ]  a device online
+2017-03-14 21:50:58  [ nioEventLoopGroup-2-1:26 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:50:58  [ nioEventLoopGroup-2-1:29 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:50:58  [ nioEventLoopGroup-2-1:32 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:50:58  [ nioEventLoopGroup-2-1:34 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:50:58  [ nioEventLoopGroup-2-1:36 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:50:58  [ nioEventLoopGroup-2-1:39 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:50:58  [ nioEventLoopGroup-2-1:42 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:50:58  [ nioEventLoopGroup-2-1:44 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:50:58  [ nioEventLoopGroup-2-1:45 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-14 21:51:46  [ nioEventLoopGroup-3-1:56226 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-14 21:51:46  [ nioEventLoopGroup-3-1:56232 ] - [ INFO ]  connect break

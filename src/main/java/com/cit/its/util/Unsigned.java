@@ -17,14 +17,14 @@ public class Unsigned {
 		return (long) (data & 0xFFFFFFFF);
 	}
 	
-	/*
+/*	
 	public static void main(String[] args) {
-		byte data = (byte) 255;
+		byte data = (byte) ((short) 0x80);
 		short data1 = (short) 65535;
 		System.out.println(getUnsignedByte(data));
 		System.out.println(getUnsignedShort(data1));
 	}
-	*/
 	
+*/
 
 }

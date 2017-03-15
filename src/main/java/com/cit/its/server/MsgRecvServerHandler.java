@@ -64,13 +64,16 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 
 	
 	Logger logger = Logger.getLogger(MsgRecvServerHandler.class);
+	
+	
 
 	@Override
-	public void channelRead(ChannelHandlerContext ctx, Object msg)
-			throws NumberFormatException, Exception {
+	public void channelRead(ChannelHandlerContext ctx, Object msg) throws NumberFormatException, Exception {
+		System.out.println("channelRead");
 		byte[] bytes = ByteBuf2ByteArray.ByteBufToBA(msg);
 		CommandType commandType = HeaderDecoder.getCommandType(bytes);
 		String vehicleVIN = HeaderDecoder.getVehicleVIN(bytes);
+		System.out.println(vehicleVIN + " msg_type is : " + commandType);
 		logger.info(vehicleVIN + " msg_type is : " + commandType);
 		
 		/* 
@@ -123,7 +126,8 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 		 * 单元bytes[24~bytes.length-2]解密
 		 */
 		DataEncryModeType dataEncryModeType = HeaderDecoder.getDataEncryModeType(bytes);
-		logger.info(vehicleVIN + "its data cell encryption methods used " + dataEncryModeType);
+		logger.info(vehicleVIN + " its data cell encryption methods used " + dataEncryModeType);
+		System.out.println(vehicleVIN + " its data cell encryption methods used " + dataEncryModeType);
 		// 若数据字段为异常或者无效，则直接丢弃数据包
 		if (dataEncryModeType.equals(DataEncryModeType.EXCEPTION_ENCRY) ||
 				dataEncryModeType.equals(DataEncryModeType.INVALID_ENCRY)) {
@@ -371,7 +375,8 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 		System.out.println(vehicleLogin);
 		// 更新数据库
 		
-		logger.info(vehicleVIN + "login in " + simpleDate + "succeed!" + " And its loginSerialNumber is " + loginSerialNumber);
+		logger.info(vehicleVIN + " login in " + simpleDate + " succeed!" + " And its loginSerialNumber is " + loginSerialNumber);
+		System.out.println(vehicleVIN + " login in " + simpleDate + " succeed!" + " And its loginSerialNumber is " + loginSerialNumber);
 		// 向客户端发送成功应答
 		// 只需修改原报文中的应答标志，应答报文时间，并重新计算校验位
 		byte responseTypeBack = 0x01;
@@ -429,6 +434,7 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 	@Override
 	public void channelActive(final ChannelHandlerContext ctx) {
 		logger.info("a device online");
+		System.out.println("a device online");
 	}
 
 }

@@ -7,6 +7,42 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring.version>4.1.4.RELEASE</spring.version>
 	</properties>
+	
+	<build>
+      <plugins>
+       <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.0.0</version>
+        <executions>
+          <execution>
+          	<phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <transformers>
+                <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+                  <resource>META-INF/spring.handlers</resource>
+                </transformer>
+                <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+                  <resource>META-INF/spring.schemas</resource>
+                </transformer>
+                <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">  
+                  <resource>META-INF/spring.tooling</resource>  
+                </transformer>  
+                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">  
+                  <manifestEntries>  
+                     <Main-Class>com.cit.its.server.MsgRecvServer</Main-Class>  
+                  </manifestEntries>  
+                </transformer>
+              </transformers>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>	
+  </plugins>
+  </build>
 
 	<dependencies>
 		<dependency>
@@ -21,11 +57,7 @@
 			<version>${spring.version}</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-context</artifactId>
-			<version>${spring.version}</version>
-		</dependency>
+		
 
 
 		<dependency>
@@ -49,7 +81,13 @@
 	       <groupId>org.springframework.data</groupId>  
 	       <artifactId>spring-data-mongodb</artifactId>  
 	       <version>1.8.4.RELEASE</version>  
-	    </dependency>  
+	    </dependency>
+	    
+	    <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring.version}</version>
+		</dependency>  
 	
 		<dependency>
 			<groupId>org.mybatis</groupId>
@@ -93,4 +131,5 @@
 			<version>2.6</version>
 		</dependency>
 	</dependencies>
+	
 </project>

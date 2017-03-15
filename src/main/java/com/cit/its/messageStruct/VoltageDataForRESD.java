@@ -44,7 +44,7 @@ public class VoltageDataForRESD {
 		for (int i = 0; i < numOfRechargeESS; i++) {
 			System.out.println(subsystemVolInfoList[i]);
 		}
-		return "";
+		return "可充电储能装置电压数据如上";
 	}
 
 }

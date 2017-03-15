@@ -4,8 +4,6 @@ public class AlarmData {
 	
 	private String vehicleVIN;					// 车辆VIN码
 	
-	private String time;						// 时间
-	
 	private short highestAlarmLevel;			// 最高报警等级
 	
 	private int genAlarmSigns;					// 通用报警标志
@@ -35,7 +33,7 @@ public class AlarmData {
 	public String getVehicleVIN() {
 		return vehicleVIN;
 	}
-	
+/*	
 	public void setTime(String time) {
 		this.time = time;
 	}
@@ -43,7 +41,7 @@ public class AlarmData {
 	public String getTime() {
 		return time;
 	}
-	
+	*/
 	public void setHighestAlarmLevel(short highestAlarmLevel) {
 		this.highestAlarmLevel = highestAlarmLevel;
 	}
@@ -128,7 +126,7 @@ public class AlarmData {
 	// 重写toString()方法
 	public String toString() {
 		System.out.println("车辆VIN码 : " + vehicleVIN + "\n" + 
-						   "时间 : " + time + "\n" +
+						 //  "时间 : " + time + "\n" +
 						   "最高报警等级 : " + highestAlarmLevel + "\n" + 
 						   "通用报警标志 : " + genAlarmSigns + "\n" + 
 						   "可充电储能装置故障总数 : " + totalNumFailOfRecharge);

@@ -1,0 +1,20 @@
+2017-03-06 10:39:57  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Mon Mar 06 10:39:57 CST 2017]; root of context hierarchy
+2017-03-06 10:39:57  [ main:117 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-06 10:39:58  [ main:965 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-06 10:40:00  [ main:2502 ] - [ INFO ]  bind port10004
+2017-03-06 10:40:00  [ main:2677 ] - [ INFO ]  Start the Server: OK
+2017-03-06 10:50:59  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6c629d6e: startup date [Mon Mar 06 10:50:59 CST 2017]; root of context hierarchy
+2017-03-06 10:50:59  [ main:50 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-06 10:50:59  [ main:554 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-06 10:51:00  [ main:1504 ] - [ INFO ]  bind port10004
+2017-03-06 10:51:01  [ main:1703 ] - [ INFO ]  Start the Server: OK
+2017-03-06 14:26:43  [ main:1 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Mon Mar 06 14:26:43 CST 2017]; root of context hierarchy
+2017-03-06 14:26:44  [ main:247 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-06 14:26:49  [ main:5765 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-06 14:26:53  [ main:9296 ] - [ INFO ]  bind port10004
+2017-03-06 14:26:53  [ main:9736 ] - [ INFO ]  Start the Server: OK
+2017-03-06 15:56:27  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Mon Mar 06 15:56:27 CST 2017]; root of context hierarchy
+2017-03-06 15:56:27  [ main:67 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-06 15:56:28  [ main:1094 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-06 15:56:31  [ main:3960 ] - [ INFO ]  bind port10004
+2017-03-06 15:56:31  [ main:4210 ] - [ INFO ]  Start the Server: OK

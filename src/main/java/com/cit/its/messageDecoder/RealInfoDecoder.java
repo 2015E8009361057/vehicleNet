@@ -156,7 +156,7 @@ public class RealInfoDecoder {
 			pos = pos + 2;
 			
 			length = length + 12;
-			
+			driveMotList[i] = new DriveMotor();
 			driveMotList[i].setDriveMotorSerialNumber(driveMotorSerialNumber);
 			driveMotList[i].setDriveMotorState(driveMotorState);
 			driveMotList[i].setDriveMotorControllerTemperature(driveMotorControllerTemperature);
@@ -319,27 +319,27 @@ public class RealInfoDecoder {
 		pos = pos + 1;
 		
 		// 经度：以度为单位的经度值乘以10^6，精确到百万分之一度
-		long longitude = Unsigned.getUnsignedInt(ByteUtil.getInt(bytes, pos)) * 1000000;
+		long longitude = Unsigned.getUnsignedInt(ByteUtil.getInt(bytes, pos));
 		pos = pos + 4;
 		
 		// 纬度：以度为单位的纬度值乘以10^6，精确到百万分之一度
-		long latitude = Unsigned.getUnsignedInt(ByteUtil.getInt(bytes, pos)) * 1000000;
+		long latitude = Unsigned.getUnsignedInt(ByteUtil.getInt(bytes, pos));
 		pos = pos + 4;
-		
+	/*	
 		int speed = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
 		pos = pos + 2;
 		
 		int direction = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
 		pos = pos + 2;
-		
-		length = length + 13;
+		*/
+		length = length + 9;
 		
 		vehiclePosition.setVehicleVIN(vehicleVIN);
 		vehiclePosition.setPositionStatus(positionStatus);
 		vehiclePosition.setLongitude(longitude);
 		vehiclePosition.setLatitude(latitude);
-		vehiclePosition.setSpeed(speed);
-		vehiclePosition.setDirection(direction);
+	//	vehiclePosition.setSpeed(speed);
+	//	vehiclePosition.setDirection(direction);
 		
 		System.out.println(vehiclePosition);
 		
@@ -609,6 +609,7 @@ public class RealInfoDecoder {
 			}
 			length = length + 10 + 2 * totalNumOfSingleBattInFrame;
 			
+			subsystemVolInfoList[i] = new VoltageData();
 			subsystemVolInfoList[i].setRechargeESSNum(rechargeESSNum);
 			subsystemVolInfoList[i].setRechargeESDeviceVoltage(rechargeESDeviceVoltage);
 			subsystemVolInfoList[i].setRechargeESDeviceCurrent(rechargeESDeviceCurrent);
@@ -667,7 +668,7 @@ public class RealInfoDecoder {
 			}
 		
 			length = length + 3 + numOfRechargeESTempProbes;
-			
+			tempInfoListOfRESD[i] = new TemperatureData();
 			tempInfoListOfRESD[i].setRechargeESSNum(rechargeESSNum);
 			tempInfoListOfRESD[i].setNumOfRechargeESTempProbes(numOfRechargeESTempProbes);
 			tempInfoListOfRESD[i].setTempValueOfProbe(tempValueOfProbe);
@@ -698,7 +699,7 @@ public class RealInfoDecoder {
 		
 		length = length + 2;
 		
-		if (dataLength == 14) {
+		if (dataLength == 18) {
 			System.out.println("逸卡数据长度正确！");
 		}
 		else {
@@ -791,7 +792,17 @@ public class RealInfoDecoder {
 		
 		eCarVehicleInfo.setCharging_Time(charging_Time);
 		
-		length = length + 14;
+		// Car State
+		int speed = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		pos = pos + 2;
+		
+		int direction = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		pos = pos + 2;
+		
+		eCarVehicleInfo.setSpeed(speed);
+		eCarVehicleInfo.setDirection(direction);
+		
+		length = length + 18;
 		
 		System.out.println(eCarVehicleInfo);
 		

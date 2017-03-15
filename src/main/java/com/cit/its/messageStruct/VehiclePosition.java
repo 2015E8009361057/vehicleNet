@@ -10,10 +10,10 @@ public class VehiclePosition {
 	
 	private long latitude;				// 纬度
 	
-	// 下面的两项标准里没有，但逸卡车辆状态中有
-	private int speed;					// 速度 
+	// 下面的两项标准里没有，但逸卡车辆状态中有, word里又划去了, 改为放入自定义数据报文里
+	// private int speed;					// 速度 
 	
-	private int direction;				// 方向
+	// private int direction;				// 方向
 	
 	
 	// set, get方法
@@ -48,7 +48,7 @@ public class VehiclePosition {
 	public long getLatitude() {
 		return latitude;
 	}
-	
+/*	
 	public void setSpeed(int speed) {
 		this.speed = speed;
 	}
@@ -100,7 +100,7 @@ public class VehiclePosition {
 		}
 		return strDir;
 	}
-	
+	*/
 	public String getStrPositionStatus() {
 		String strPositionStat;
 		if (positionStatus % 2 == 0) {
@@ -132,9 +132,7 @@ public class VehiclePosition {
 	// 重写toString()方法
 	public String toString() {
 		return "车辆VIN码 : " + vehicleVIN + "\n" + 
-			   "定位状态 : " + getStrPositionStatus() + "\n" +
-			   "速度 : " + getStrSpeed() + "\n" +
-			   "方向 : " + getStrDirection();
+			   "定位状态 : " + getStrPositionStatus();
 	}
 
 }

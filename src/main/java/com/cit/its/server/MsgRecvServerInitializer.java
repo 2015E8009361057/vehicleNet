@@ -55,15 +55,12 @@ public class MsgRecvServerInitializer extends ChannelInitializer<SocketChannel> 
 	    allIdleTime = Integer.valueOf(props.getProperty("allIdleTimeSeconds"));
 		
 	    
-	    ByteBuf delimiter = Unpooled.copiedBuffer("##".getBytes());
-	    
 		ChannelPipeline pipeline = ch.pipeline();	
 		pipeline.addLast(new IdleStateHandler(readIdleTime, writeIdleTime, allIdleTime, TimeUnit.SECONDS));	
-		pipeline.addLast(new DelimiterBasedFrameDecoder(1024, delimiter));
-		pipeline.addLast(new StringDecoder());
-		pipeline.addLast(new StickpackageHandler(ByteOrder.BIG_ENDIAN,2048, 6, 2, 15, 0,false));
-		pipeline.addLast(new MsgXORHandler());
-        pipeline.addLast(executor, new MsgRecvServerHandler());
+		pipeline.addLast(new StickpackageHandler(ByteOrder.BIG_ENDIAN, 2048 , 22, 2, 1, 0, false));
+        pipeline.addLast(new MsgRecvServerHandler());
+        
+        System.out.println("Init server");
 
 	}
 

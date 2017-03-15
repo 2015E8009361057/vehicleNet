@@ -21,14 +21,6 @@ public final class Header {
 	// 存储数据时，用short 关键字强制类型转换，而后取出时，用 Unsigned 类的 getUnsignedShort方法
 	private int dataLength;	// 数据单元长度
 	
-	public Header() {
-		commandIdentifier = 0x01;
-		responseFlag = 0xFE;
-		vehicleVIN = "abcdefghigklmn123";
-		dataEncryptionMode = 0x01;
-		dataLength = new BodyVehicleLogin().getBodyVehicleLoginLength();
-		
-	}
 	
 	
 	/**

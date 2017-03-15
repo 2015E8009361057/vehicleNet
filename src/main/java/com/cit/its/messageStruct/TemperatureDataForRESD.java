@@ -1,5 +1,7 @@
 package com.cit.its.messageStruct;
 
+import com.cit.its.util.ByteUtil;
+
 public class TemperatureDataForRESD {
 	
 	private String vehicleVIN;						// 车辆VIN码
@@ -46,7 +48,8 @@ public class TemperatureDataForRESD {
 			System.out.println(tempInfoListOfRESD[i]);
 		}
 		
-		return "";
+		return "可充电储能装置温度数据如上";
 	}
-
+	
+	
 }

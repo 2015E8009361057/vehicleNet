@@ -29,8 +29,10 @@ public class StickpackageHandler extends LengthFieldBasedFrameDecoder{
 	public StickpackageHandler(ByteOrder byteOrder, int maxFrameLength,
 			int lengthFieldOffset, int lengthFieldLength, int lengthAdjustment,
 			int initialBytesToStrip, boolean failFast) {
+		
 		super(ByteOrder.BIG_ENDIAN, maxFrameLength, lengthFieldOffset,lengthFieldLength,
 				lengthAdjustment, initialBytesToStrip, failFast);
+		System.out.println("StickpackageHandler");
 		// TODO Auto-generated constructor stub
 	}
 

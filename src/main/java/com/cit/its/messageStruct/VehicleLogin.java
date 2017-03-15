@@ -22,6 +22,8 @@ public class VehicleLogin {
 		
 	private String codeForRESS;							// 可充电储能系统编码（终端从车辆获取的值）
 	
+	
+
 	// set, get方法
 	public void setVehicleVIN(String vehicleVIN) {
 		this.vehicleVIN = vehicleVIN;

@@ -38,9 +38,6 @@ public class MsgRecvServer {
 	private static  String brokerURL ;
 	public static ActiveMQConnectionFactory factory;
 	
-	public MsgRecvServer() throws IOException {
-		
-	}
 	
 	/**
 	 * Load configuration file
@@ -53,7 +50,8 @@ public class MsgRecvServer {
 	     port=Integer.valueOf(props.getProperty("netty.port"));
 	     brokerURL=props.getProperty("activemq.brokerURL");
 	     factory=new ActiveMQConnectionFactory(brokerURL);
-	     PropertyConfigurator.configure("log4j.properties" );
+	     props.load(MsgRecvServer.class.getClassLoader().getResourceAsStream("log4j.properties"));
+	     PropertyConfigurator.configure(props);
 	     SpringContainer.getInstance().loadContextByXMLPath("spring-context.xml");
 		 new MsgRecvServer().run();	
 	}
@@ -81,11 +79,13 @@ public class MsgRecvServer {
 			
 			ChannelFuture f = b.bind(port).sync();
 			
+			System.out.println("Start the server : OK");
 			// Wait until the server socket is closed.
 			logger.info("Start the Server: OK");
 			
 			// 监听服务器关闭监听
 			f.channel().closeFuture().sync();
+			System.out.println("Close the server!");
 		}finally{
 			workerGroup.shutdownGracefully();
 			bossGroup.shutdownGracefully();
