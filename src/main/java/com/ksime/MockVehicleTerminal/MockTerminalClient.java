@@ -1,9 +1,9 @@
 package com.ksime.MockVehicleTerminal;
 
 import java.nio.ByteOrder;
-import java.util.Properties;
+/*import java.util.Properties;
 
-import org.apache.log4j.PropertyConfigurator;
+import org.apache.log4j.PropertyConfigurator;*/
 
 import com.cit.its.server.StickpackageHandler;
 
@@ -15,6 +15,7 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
+import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 
 
 public class MockTerminalClient {
@@ -29,7 +30,7 @@ public class MockTerminalClient {
 			 .handler(new ChannelInitializer<SocketChannel>() {
 				 @Override
 				 public void initChannel(SocketChannel ch) throws Exception {
-					 ch.pipeline().addLast(new StickpackageHandler(ByteOrder.BIG_ENDIAN, 2048, 22, 2, 1, 0,false));
+					 ch.pipeline().addLast(new LengthFieldBasedFrameDecoder(ByteOrder.BIG_ENDIAN, 16383, 22, 2, 1, 0,false));
 					 ch.pipeline().addLast(new MockTerminalClientHandler());
 				 }
 			 });
@@ -51,7 +52,7 @@ public class MockTerminalClient {
 	
 	
 	public static void main(String[] args) throws Exception {
-		int port = 10004;
+		int port = 8080;
 		if (args != null && args.length > 0) {
 			try {
 				port = Integer.valueOf(args[0]);
@@ -59,11 +60,11 @@ public class MockTerminalClient {
 				// 采用默认值
 			}
 		}
-		
+/*		
 		Properties props = new Properties();
 		props.load(MockTerminalClient.class.getClassLoader().getResourceAsStream("log4j.properties"));
 	    PropertyConfigurator.configure(props);
-		
+		*/
 		new MockTerminalClient().connect0(port, "127.0.0.1");
 		
 	}

@@ -23,7 +23,7 @@ public class TerminalControl {
 	public TerminalControl() throws ParseException {
 		Date date = new Date();
 		time = new byte[6];
-		ByteUtil.putDateToByteArray(date, time, 0);
+		ByteUtil.getInstance().putDateToByteArray(date, time, 0);
 	}
 	
 	public void setTime(byte[] time) {

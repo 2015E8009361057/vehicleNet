@@ -47,7 +47,7 @@ public class ParameterSet {
 	
 	// 重写toString()方法
 	public String toString() {
-		return "参数设置时间 : " + ByteUtil.getStringDateFromByteArray(parameterSetTime, 0) + "\n" +
+		return "参数设置时间 : " + ByteUtil.getInstance().getStringDateFromByteArray(parameterSetTime, 0) + "\n" +
 			   "参数总数 : " + totalNumOfParameter + "\n" + 
 			   "参数项列表 : " + parameter;
 	}

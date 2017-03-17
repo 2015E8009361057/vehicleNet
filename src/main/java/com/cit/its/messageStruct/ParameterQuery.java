@@ -17,7 +17,7 @@ public class ParameterQuery {
 	public ParameterQuery() throws ParseException {
 		Date date = new Date();
 		queryParaTime = new byte[6];
-		ByteUtil.putDateToByteArray(date, queryParaTime, 0);
+		ByteUtil.getInstance().putDateToByteArray(date, queryParaTime, 0);
 	}
 	
 	// set, get方法
@@ -48,7 +48,7 @@ public class ParameterQuery {
 	
 	// 将byte[]转换为String
 	public String timeToString() {
-		return ByteUtil.getStringDateFromByteArray(queryParaTime, 0);
+		return ByteUtil.getInstance().getStringDateFromByteArray(queryParaTime, 0);
 	}
 	
 	public String paraIDToString() {

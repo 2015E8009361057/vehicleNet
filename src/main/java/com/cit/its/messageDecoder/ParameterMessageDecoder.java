@@ -117,7 +117,7 @@ public class ParameterMessageDecoder {
 				case 0x01: 
 					// 车载终端本地存储时间周期，有效值范围：0~60000（表示0ms~60000ms）
 					// 最小计量单元1ms，“0xFF，0xFE”表示异常，“0xFF，0xFF”表示无效
-					localStorageTimePeriod = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+					localStorageTimePeriod = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 					parameterList.setLocalStorageTimePeriod(localStorageTimePeriod);
 					if (localStorageTimePeriod == 0xFFFE) {
 						logger.info(vehicleVIN + " terminal local storage time period is abnormal!");
@@ -133,7 +133,7 @@ public class ParameterMessageDecoder {
 					break;
 				case 0x02:
 					// 正常时，信息上报周期，有效值范围：1~600（表示1s~600s），最小计量单元：1s，“0xFF，0xFE”表示异常，“0xFF，0xFF”表示无效
-					infoReportPeriod_Normal = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+					infoReportPeriod_Normal = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 					parameterList.setInfoReportPeriod_Normal(infoReportPeriod_Normal);
 					if (infoReportPeriod_Normal == 0xFFFE) {
 						logger.info(vehicleVIN + " terminal information report period of normal situation is abnormal!");
@@ -149,7 +149,7 @@ public class ParameterMessageDecoder {
 				case 0x03:
 					// 出现报警时，信息上报时间周期，有效值范围：0~60000（表示0ms~60000ms），最小计量单元：1ms
 					// “0xFF，0xFE”表示异常，“0xFF，0xFF”表示无效
-					infoReportPeriod_Alarm = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+					infoReportPeriod_Alarm = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 					parameterList.setInfoReportPeriod_Alarm(infoReportPeriod_Alarm);
 					if (infoReportPeriod_Alarm == 0xFFFE) {
 						logger.info(vehicleVIN + " terminal information report period of alarm situation is abnormal!");
@@ -191,7 +191,7 @@ public class ParameterMessageDecoder {
 					}
 					break;
 				case 0x06:
-					portOfRSMP = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+					portOfRSMP = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 					parameterList.setPortOfRSMP(portOfRSMP);
 					if (portOfRSMP == 0xFFFE) {
 						logger.info(vehicleVIN + " port of remote service and manage platform is " + portOfRSMP
@@ -207,13 +207,13 @@ public class ParameterMessageDecoder {
 					pos = pos + 2;
 					break;
 				case 0x07:
-					hardwareVersion = ByteUtil.getStringFromByteArray(bytes, pos, 5);
+					hardwareVersion = ByteUtil.getInstance().getStringFromByteArray(bytes, pos, 5);
 					parameterList.setHardwareVersion(hardwareVersion);
 					logger.info(vehicleVIN + " hardware version is " + hardwareVersion);
 					pos = pos + 5;
 					break;
 				case 0x08:
-					firmwareVersion = ByteUtil.getStringFromByteArray(bytes, pos, 5);
+					firmwareVersion = ByteUtil.getInstance().getStringFromByteArray(bytes, pos, 5);
 					parameterList.setFirmwareVersion(firmwareVersion);
 					logger.info(vehicleVIN + " firmware version is " + firmwareVersion);
 					pos = pos + 5;
@@ -225,7 +225,7 @@ public class ParameterMessageDecoder {
 					pos = pos + 1;
 					break;
 				case 0x0A:
-					terminalResponseTimeout = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+					terminalResponseTimeout = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 					parameterList.setTerminalResponseTimeout(terminalResponseTimeout);
 					if (terminalResponseTimeout == 0xFFFE) {
 						logger.info(vehicleVIN + " terminal response timeout is abnormal!");
@@ -239,7 +239,7 @@ public class ParameterMessageDecoder {
 					pos = pos + 2;
 					break;
 				case 0x0B:
-					platformResponseTimeout = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+					platformResponseTimeout = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 					parameterList.setPlatformResponseTimeout(platformResponseTimeout);
 					if (platformResponseTimeout == 0xFFFE) {
 						logger.info(vehicleVIN + " platform response timeout is abnormal!");
@@ -288,7 +288,7 @@ public class ParameterMessageDecoder {
 					}
 					break;
 				case 0x0F:
-					portOfPublicPlatform = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+					portOfPublicPlatform = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 					parameterList.setPortOfPublicPlatform(portOfPublicPlatform);
 					if (portOfPublicPlatform == 0xFFFE) {
 						logger.info(vehicleVIN + " port of public platform is abnormal!");

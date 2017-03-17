@@ -66,10 +66,15 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 	Logger logger = Logger.getLogger(MsgRecvServerHandler.class);
 	
 	
-
+	@Override
+	public void channelActive(ChannelHandlerContext ctx) {
+		logger.info("a device online");
+		System.out.println("Server Channel Active!");
+	}
+	
 	@Override
 	public void channelRead(ChannelHandlerContext ctx, Object msg) throws NumberFormatException, Exception {
-		System.out.println("channelRead");
+		System.out.println("Server Start Read Message!");
 		byte[] bytes = ByteBuf2ByteArray.ByteBufToBA(msg);
 		CommandType commandType = HeaderDecoder.getCommandType(bytes);
 		String vehicleVIN = HeaderDecoder.getVehicleVIN(bytes);
@@ -190,7 +195,7 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 
 	private void setCommandHandler(ChannelHandlerContext ctx, byte[] bytes, String vehicleVIN) throws Exception {
 		
-		String simpleDate = ByteUtil.getStringDateFromByteArray(bytes, 24);
+		String simpleDate = ByteUtil.getInstance().getStringDateFromByteArray(bytes, 24);
 
 		ParameterMessageDecoder.parameterDecoder(bytes, vehicleVIN, simpleDate);
 
@@ -209,7 +214,7 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 	private void queryCommandHandler(ChannelHandlerContext ctx, byte[] bytes, String vehicleVIN) throws Exception {
 		// 解析报文
 		// 取得返回查询参数时间
-		String simpleDate = ByteUtil.getStringDateFromByteArray(bytes, 24);
+		String simpleDate = ByteUtil.getInstance().getStringDateFromByteArray(bytes, 24);
 
 		ParameterMessageDecoder.parameterDecoder(bytes, vehicleVIN, simpleDate);
 	}
@@ -273,7 +278,7 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 		// 获取上报报文时间
 		// 报文时间，应该需要加到每一个实时报文类里，数据库中时间也是很重要的一列
 		// TO-DO: 从上至下，已修改到EcarVehicleStateInfo，其他的先暂时不修改
-		String date = ByteUtil.getStringDateFromByteArray(bytes, 24);	
+		String date = ByteUtil.getInstance().getStringDateFromByteArray(bytes, 24);	
 		System.out.println(date);
 		int pos = 30;
 		while (pos < bytes.length) {
@@ -346,13 +351,13 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 		VehicleLogin vehicleLogin = new VehicleLogin();		
 		
 		// 获取上线时间
-		String simpleDate = ByteUtil.getStringDateFromByteArray(bytes, 24);
+		String simpleDate = ByteUtil.getInstance().getStringDateFromByteArray(bytes, 24);
 		
 		// 获取登入流水号
-		int loginSerialNumber = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, 30));
+		int loginSerialNumber = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, 30));
 		
 		// 获取SIM卡ICCID号
-		String SIMCardICCIDNumber = ByteUtil.getStringFromByteArray(bytes, 32, 20);
+		String SIMCardICCIDNumber = ByteUtil.getInstance().getStringFromByteArray(bytes, 32, 20);
 		
 		// 获取可充电储能子系统数
 		short numberOfRESS = Unsigned.getUnsignedByte(bytes[52]);
@@ -362,7 +367,7 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 		
 		// 获取可充电储能系统编码
 		int lengthOfRESS = numberOfRESS * codeLengthOfRESS;
-		String codeForRESS = ByteUtil.getStringFromByteArray(bytes, 54, lengthOfRESS);
+		String codeForRESS = ByteUtil.getInstance().getStringFromByteArray(bytes, 54, lengthOfRESS);
 		
 		vehicleLogin.setVehicleVIN(vehicleVIN);
 		vehicleLogin.setDataCollectTime(simpleDate);
@@ -389,10 +394,10 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 		VehicleLogout vehicleLogout = new VehicleLogout();
 		
 		// 获得登出时间
-		String logoutTime = ByteUtil.getStringDateFromByteArray(bytes, 24);
+		String logoutTime = ByteUtil.getInstance().getStringDateFromByteArray(bytes, 24);
 		
 		// 获得登出流水号
-		int logoutSerialNumber = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, 30));
+		int logoutSerialNumber = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, 30));
 		
 		vehicleLogout.setVehicleVIN(vehicleVIN);
 		vehicleLogout.setLogoutTime(logoutTime);
@@ -409,7 +414,7 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 	private void sendResponseMessage(ChannelHandlerContext ctx, byte[] bytes, byte responseType) throws ParseException {
 		bytes[3] = responseType;
 		Date responTime = new Date();
-		ByteUtil.putDateToByteArray(responTime, bytes, 24);
+		ByteUtil.getInstance().putDateToByteArray(responTime, bytes, 24);
 		byte checkCode = CheckCode.calculateCheckCode(bytes);
 		bytes[bytes.length-1] = checkCode;
 		
@@ -419,7 +424,7 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 	}
 
 	@Override
-	public void channelInactive(final ChannelHandlerContext ctx) {
+	public void channelInactive(ChannelHandlerContext ctx) {
 		logger.info("connect break");
 		System.out.println("connnect break");
 	
@@ -432,9 +437,8 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 	}
 
 	@Override
-	public void channelActive(final ChannelHandlerContext ctx) {
-		logger.info("a device online");
-		System.out.println("a device online");
+	public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
+		ctx.flush();
 	}
 
 }

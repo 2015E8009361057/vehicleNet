@@ -242,13 +242,13 @@ public class RealInfoMessageEncoder {
 		pos = pos + 1;
 		vehicleInfoBytes[pos] = (byte) runState;
 		pos = pos + 1;
-		ByteUtil.putShort(vehicleInfoBytes, (short) vehicleSpeed, pos);
+		ByteUtil.getInstance().putShort(vehicleInfoBytes, (short) vehicleSpeed, pos);
 		pos = pos + 2;
-		ByteUtil.putInt(vehicleInfoBytes, vehicleSpeed, pos);
+		ByteUtil.getInstance().putInt(vehicleInfoBytes, vehicleSpeed, pos);
 		pos = pos + 4;
-		ByteUtil.putShort(vehicleInfoBytes, (short) totalVoltage, pos);
+		ByteUtil.getInstance().putShort(vehicleInfoBytes, (short) totalVoltage, pos);
 		pos = pos + 2;
-		ByteUtil.putShort(vehicleInfoBytes, (short) totalCurrent, pos);
+		ByteUtil.getInstance().putShort(vehicleInfoBytes, (short) totalCurrent, pos);
 		pos = pos + 2;
 		vehicleInfoBytes[pos] = (byte) soc;
 		pos = pos + 1;
@@ -256,7 +256,7 @@ public class RealInfoMessageEncoder {
 		pos = pos + 1;
 		vehicleInfoBytes[pos] = gear;
 		pos = pos + 1;
-		ByteUtil.putShort(vehicleInfoBytes, (short) insulationResistance, pos);
+		ByteUtil.getInstance().putShort(vehicleInfoBytes, (short) insulationResistance, pos);
 		pos = pos + 2;
 		vehicleInfoBytes[pos] = (byte) accelerationPedalTravelValue;
 		pos = pos + 1;
@@ -307,15 +307,15 @@ public class RealInfoMessageEncoder {
 			pos = pos + 1;
 			driveMotorBytes[pos] = (byte) driveMotorList[i].getDriveMotorControllerTemperature();
 			pos = pos + 1;
-			ByteUtil.putShort(driveMotorBytes, (short) driveMotorList[i].getDriveMotorSpeed(), pos);
+			ByteUtil.getInstance().putShort(driveMotorBytes, (short) driveMotorList[i].getDriveMotorSpeed(), pos);
 			pos = pos + 2;
-			ByteUtil.putShort(driveMotorBytes, (short) driveMotorList[i].getDriveMotorTorque(), pos);
+			ByteUtil.getInstance().putShort(driveMotorBytes, (short) driveMotorList[i].getDriveMotorTorque(), pos);
 			pos = pos + 2;
 			driveMotorBytes[pos] = (byte) driveMotorList[i].getDriveMotorTemperature();
 			pos = pos + 1;
-			ByteUtil.putShort(driveMotorBytes, (short) driveMotorList[i].getMotorControllerInputVoltage(), pos);
+			ByteUtil.getInstance().putShort(driveMotorBytes, (short) driveMotorList[i].getMotorControllerInputVoltage(), pos);
 			pos = pos + 2;
-			ByteUtil.putShort(driveMotorBytes, (short) driveMotorList[i].getMotorControllerDCBusCurrent(), pos);
+			ByteUtil.getInstance().putShort(driveMotorBytes, (short) driveMotorList[i].getMotorControllerDCBusCurrent(), pos);
 			pos = pos + 2;
 		}
 		if (pos == driveMotorBytes.length) {
@@ -353,27 +353,27 @@ public class RealInfoMessageEncoder {
 		// 放入信息类型标志
 		fuelCellBytes[pos] = (byte) (RealInformationType.FUEL_CELL_DATA.value());
 		pos = pos + 1;
-		ByteUtil.putShort(fuelCellBytes, (short) fuelCellData.getFuelCellVoltage(), pos);
+		ByteUtil.getInstance().putShort(fuelCellBytes, (short) fuelCellData.getFuelCellVoltage(), pos);
 		pos = pos + 2;
-		ByteUtil.putShort(fuelCellBytes, (short) fuelCellData.getFuelCellCurrent(), pos);
+		ByteUtil.getInstance().putShort(fuelCellBytes, (short) fuelCellData.getFuelCellCurrent(), pos);
 		pos = pos + 2;
-		ByteUtil.putShort(fuelCellBytes, (short) fuelCellData.getFuelConsumptionRate(), pos);
+		ByteUtil.getInstance().putShort(fuelCellBytes, (short) fuelCellData.getFuelConsumptionRate(), pos);
 		pos = pos + 2;
-		ByteUtil.putShort(fuelCellBytes, (short) fuelCellData.getTotalNumberOfFCTP(), pos);
+		ByteUtil.getInstance().putShort(fuelCellBytes, (short) fuelCellData.getTotalNumberOfFCTP(), pos);
 		pos = pos + 2;
 		for (int i = 0; i < number; i++) {
 			fuelCellBytes[pos] = (byte) probeTemValue[i];
 			pos = pos + 1;
 		}
-		ByteUtil.putShort(fuelCellBytes, (short) fuelCellData.getHighestTempOfHydrogenSystem(), pos);
+		ByteUtil.getInstance().putShort(fuelCellBytes, (short) fuelCellData.getHighestTempOfHydrogenSystem(), pos);
 		pos = pos + 2;
 		fuelCellBytes[pos] = (byte) fuelCellData.getHighestTempOfHydrogenSystem();
 		pos = pos + 1;
-		ByteUtil.putShort(fuelCellBytes, (short) fuelCellData.getHighestConOfHydrogen(), pos);
+		ByteUtil.getInstance().putShort(fuelCellBytes, (short) fuelCellData.getHighestConOfHydrogen(), pos);
 		pos = pos + 2;
 		fuelCellBytes[pos] = (byte) fuelCellData.getHighestHyConSensorCode();
 		pos = pos + 1;
-		ByteUtil.putShort(fuelCellBytes, (short) fuelCellData.getHydrogenMaxPressure(), pos);
+		ByteUtil.getInstance().putShort(fuelCellBytes, (short) fuelCellData.getHydrogenMaxPressure(), pos);
 		pos = pos + 2;
 		fuelCellBytes[pos] = (byte) fuelCellData.getHydrogenMaxPressureSensorCode();
 		pos = pos + 1;
@@ -405,9 +405,9 @@ public class RealInfoMessageEncoder {
 		pos = pos + 1;
 		engineBytes[pos] = (byte) engineData.getEngineState();
 		pos = pos + 1;
-		ByteUtil.putShort(engineBytes, (short) engineData.getCrankshaftSpeed(), pos);
+		ByteUtil.getInstance().putShort(engineBytes, (short) engineData.getCrankshaftSpeed(), pos);
 		pos = pos + 2;
-		ByteUtil.putShort(engineBytes, (short) engineData.getFuelConsumptionRate(), pos);
+		ByteUtil.getInstance().putShort(engineBytes, (short) engineData.getFuelConsumptionRate(), pos);
 		pos = pos + 2;
 		
 		if (pos == engineBytes.length) {
@@ -433,9 +433,9 @@ public class RealInfoMessageEncoder {
 		pos = pos + 1;
 		vehiclePositionBytes[pos] = vehiclePosition.getPositionStatus();
 		pos = pos + 1;
-		ByteUtil.putInt(vehiclePositionBytes, (int) vehiclePosition.getLongitude(), pos);
+		ByteUtil.getInstance().putInt(vehiclePositionBytes, (int) vehiclePosition.getLongitude(), pos);
 		pos = pos + 4;
-		ByteUtil.putInt(vehiclePositionBytes, (int) vehiclePosition.getLatitude(), pos);
+		ByteUtil.getInstance().putInt(vehiclePositionBytes, (int) vehiclePosition.getLatitude(), pos);
 		pos = pos + 4;
 		
 		if (pos == vehiclePositionBytes.length) {
@@ -477,14 +477,14 @@ public class RealInfoMessageEncoder {
 		pos = pos + 1;
 		extremeValueBytes[pos] = (byte) extremeValueData.getHighestVBMC();
 		pos = pos + 1;
-		ByteUtil.putShort(extremeValueBytes, (short) extremeValueData.getHighestCV(), pos);
+		ByteUtil.getInstance().putShort(extremeValueBytes, (short) extremeValueData.getHighestCV(), pos);
 		pos = pos + 2;
 		
 		extremeValueBytes[pos] = (byte) extremeValueData.getLowestVBSN();
 		pos = pos + 1;
 		extremeValueBytes[pos] = (byte) extremeValueData.getLowestVBMC();
 		pos = pos + 1;
-		ByteUtil.putShort(extremeValueBytes, (short) extremeValueData.getLowestCV(), pos);
+		ByteUtil.getInstance().putShort(extremeValueBytes, (short) extremeValueData.getLowestCV(), pos);
 		pos = pos + 2;
 		
 		extremeValueBytes[pos] = (byte) extremeValueData.getHighestTemperSN();
@@ -560,30 +560,30 @@ public class RealInfoMessageEncoder {
 		pos = pos + 1;
 		alarmBytes[pos] = (byte) alarmData.getHighestAlarmLevel();
 		pos = pos + 1;
-		ByteUtil.putInt(alarmBytes, alarmData.getGenAlarmSigns(), pos);
+		ByteUtil.getInstance().putInt(alarmBytes, alarmData.getGenAlarmSigns(), pos);
 		pos = pos + 4;
 		alarmBytes[pos] = (byte) alarmData.getTotalNumFailOfRecharge();
 		pos = pos + 1;
 		for (int i = 0; i < totalNumFailOfRecharge; i++) {
-			ByteUtil.putInt(alarmBytes, recharESDFaultCodeList[i], pos);
+			ByteUtil.getInstance().putInt(alarmBytes, recharESDFaultCodeList[i], pos);
 			pos = pos + 4;
 		}
 		alarmBytes[pos] = (byte) alarmData.getTotalNumOfDriveMotFail();
 		pos = pos + 1;
 		for (int i = 0; i < totalNumOfDriveMotFail; i++) {
-			ByteUtil.putInt(alarmBytes, driveMotFaultCodeList[i], pos);
+			ByteUtil.getInstance().putInt(alarmBytes, driveMotFaultCodeList[i], pos);
 			pos = pos + 4;
 		}
 		alarmBytes[pos] = (byte) alarmData.getTotalNumOfEngineFail();
 		pos = pos + 1;
 		for (int i = 0; i < totalNumOfEngineFail; i++) {
-			ByteUtil.putInt(alarmBytes, engineFaulCodeList[i], pos);
+			ByteUtil.getInstance().putInt(alarmBytes, engineFaulCodeList[i], pos);
 			pos = pos + 4;
 		}
 		alarmBytes[pos] = (byte) alarmData.getTotalNumOfOtherFail();
 		pos = pos + 1;
 		for (int i = 0; i < totalNumOfOtherFail; i++) {
-			ByteUtil.putInt(alarmBytes, otherFaultCodeList[i], pos);
+			ByteUtil.getInstance().putInt(alarmBytes, otherFaultCodeList[i], pos);
 			pos = pos + 4;
 		}
 		
@@ -635,20 +635,20 @@ public class RealInfoMessageEncoder {
 		for (int i = 0; i < number; i++) {
 			voltageBytes[pos] = (byte) voltageData.getSubsystemVolInfoList()[i].getRechargeESSNum();
 			pos = pos + 1;
-			ByteUtil.putShort(voltageBytes, (short) voltageData.getSubsystemVolInfoList()[i].getRechargeESDeviceVoltage(), pos);
+			ByteUtil.getInstance().putShort(voltageBytes, (short) voltageData.getSubsystemVolInfoList()[i].getRechargeESDeviceVoltage(), pos);
 			pos = pos + 2;
-			ByteUtil.putShort(voltageBytes, (short) voltageData.getSubsystemVolInfoList()[i].getRechargeESDeviceCurrent(), pos);
+			ByteUtil.getInstance().putShort(voltageBytes, (short) voltageData.getSubsystemVolInfoList()[i].getRechargeESDeviceCurrent(), pos);
 			pos = pos + 2;
-			ByteUtil.putShort(voltageBytes, (short) voltageData.getSubsystemVolInfoList()[i].getTotalNumOfSingleBattery(), pos);
+			ByteUtil.getInstance().putShort(voltageBytes, (short) voltageData.getSubsystemVolInfoList()[i].getTotalNumOfSingleBattery(), pos);
 			pos = pos + 2;
-			ByteUtil.putShort(voltageBytes, (short) voltageData.getSubsystemVolInfoList()[i].getStartBattNumOfFrame(), pos);
+			ByteUtil.getInstance().putShort(voltageBytes, (short) voltageData.getSubsystemVolInfoList()[i].getStartBattNumOfFrame(), pos);
 			pos = pos + 2;
 			short m = voltageData.getSubsystemVolInfoList()[i].getTotalNumOfSingleBattInFrame();
 			voltageBytes[pos] = (byte) m;
 			pos = pos + 1;
 			int[] singleBatteryVoltage = voltageData.getSubsystemVolInfoList()[i].getSingleBatteryVoltage();
 			for (int j = 0; j < m; j++) {
-				ByteUtil.putShort(voltageBytes, (short)singleBatteryVoltage[j], pos);
+				ByteUtil.getInstance().putShort(voltageBytes, (short)singleBatteryVoltage[j], pos);
 				pos = pos + 2;
 			}
 		}
@@ -697,7 +697,7 @@ public class RealInfoMessageEncoder {
 			tempBytes[pos] = (byte) tempInfoListOfRESD[i].getRechargeESSNum();
 			pos = pos + 1;
 			int n = tempInfoListOfRESD[i].getNumOfRechargeESTempProbes();
-			ByteUtil.putShort(tempBytes, (short) n, pos);
+			ByteUtil.getInstance().putShort(tempBytes, (short) n, pos);
 			pos = pos + 2;
 			short[] tempValueOfProbe = tempInfoListOfRESD[i].getTempValueOfProbe();
 			for (int j = 0; j < n; j++) {
@@ -767,7 +767,7 @@ public class RealInfoMessageEncoder {
 		// 放入信息类型标志
 		eCarBytes[pos] = (byte) (RealInformationType.ECAR_VEHICLE_STATE_INFO.value());
 		pos = pos + 1;
-		ByteUtil.putShort(eCarBytes, (short) length, pos);
+		ByteUtil.getInstance().putShort(eCarBytes, (short) length, pos);
 		pos = pos + 2;
 		
 		eCarBytes[pos] = eCarInfo.getGearOfPRND();
@@ -801,14 +801,14 @@ public class RealInfoMessageEncoder {
 		eCarBytes[pos] = chargingProcess;
 		pos = pos + 1;
 		
-		ByteUtil.putShort(eCarBytes, eCarInfo.getCharging_Amount(), pos);
+		ByteUtil.getInstance().putShort(eCarBytes, eCarInfo.getCharging_Amount(), pos);
 		pos = pos + 2;
-		ByteUtil.putShort(eCarBytes, eCarInfo.getCharging_Time(), pos);
+		ByteUtil.getInstance().putShort(eCarBytes, eCarInfo.getCharging_Time(), pos);
 		pos = pos + 2;
 		
-		ByteUtil.putShort(eCarBytes, (short) eCarInfo.getSpeed(), pos);
+		ByteUtil.getInstance().putShort(eCarBytes, (short) eCarInfo.getSpeed(), pos);
 		pos = pos + 2;
-		ByteUtil.putShort(eCarBytes, (short) eCarInfo.getDirection(), pos);
+		ByteUtil.getInstance().putShort(eCarBytes, (short) eCarInfo.getDirection(), pos);
 		pos = pos + 2;
 		
 		if (pos == eCarBytes.length) {

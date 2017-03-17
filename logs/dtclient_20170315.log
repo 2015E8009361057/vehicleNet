@@ -1,0 +1,1162 @@
+2017-03-15 09:18:44  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Wed Mar 15 09:18:44 CST 2017]; root of context hierarchy
+2017-03-15 09:18:44  [ main:68 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-15 09:18:45  [ main:489 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-15 09:18:46  [ main:2128 ] - [ INFO ]  bind port10004
+2017-03-15 09:18:47  [ main:2339 ] - [ INFO ]  Start the Server: OK
+2017-03-15 09:18:58  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:18:58  [ nioEventLoopGroup-3-1:13619 ] - [ INFO ]  a device online
+2017-03-15 09:18:58  [ nioEventLoopGroup-2-1:404 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:18:58  [ nioEventLoopGroup-2-1:407 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:18:58  [ nioEventLoopGroup-2-1:409 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:18:58  [ nioEventLoopGroup-2-1:412 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:18:58  [ nioEventLoopGroup-2-1:415 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:18:58  [ nioEventLoopGroup-2-1:431 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:18:58  [ nioEventLoopGroup-2-1:433 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:18:58  [ nioEventLoopGroup-2-1:445 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:18:58  [ nioEventLoopGroup-2-1:447 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:18:58  [ nioEventLoopGroup-3-1:14110 ] - [ WARN ]  Adjusted frame length exceeds 2048: 23095 - discarded
+2017-03-15 09:18:58  [ nioEventLoopGroup-3-1:14111 ] - [ INFO ]  connect break
+2017-03-15 09:18:58  [ nioEventLoopGroup-2-1:531 ] - [ INFO ]  connect break
+2017-03-15 09:28:04  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5f3a4b84: startup date [Wed Mar 15 09:28:04 CST 2017]; root of context hierarchy
+2017-03-15 09:28:04  [ main:76 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-15 09:28:05  [ main:900 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-15 09:28:06  [ main:2046 ] - [ INFO ]  bind port10004
+2017-03-15 09:28:07  [ main:2295 ] - [ INFO ]  Start the Server: OK
+2017-03-15 09:28:11  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:28:11  [ nioEventLoopGroup-2-1:40 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:28:11  [ nioEventLoopGroup-2-1:43 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:28:11  [ nioEventLoopGroup-2-1:47 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:28:11  [ nioEventLoopGroup-2-1:57 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:28:11  [ nioEventLoopGroup-2-1:60 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:28:11  [ nioEventLoopGroup-2-1:62 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:28:11  [ nioEventLoopGroup-2-1:65 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:28:11  [ nioEventLoopGroup-2-1:67 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:28:11  [ nioEventLoopGroup-2-1:70 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:28:11  [ nioEventLoopGroup-3-1:7123 ] - [ INFO ]  a device online
+2017-03-15 09:31:17  [ nioEventLoopGroup-3-1:192328 ] - [ INFO ]  abcdefg1234567890 msg_type is : VEHICLE_LOGIN
+2017-03-15 09:31:20  [ nioEventLoopGroup-3-1:195980 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN checkCode is not correct!
+2017-03-15 09:33:04  [ nioEventLoopGroup-3-1:300133 ] - [ WARN ]  Adjusted frame length exceeds 16383: 21613 - discarded
+2017-03-15 09:33:04  [ nioEventLoopGroup-2-1:293087 ] - [ INFO ]  connect break
+2017-03-15 09:33:05  [ nioEventLoopGroup-3-1:300573 ] - [ INFO ]  connect break
+2017-03-15 09:41:34  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Wed Mar 15 09:41:34 CST 2017]; root of context hierarchy
+2017-03-15 09:41:34  [ main:46 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-15 09:41:35  [ main:707 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-15 09:41:36  [ main:1836 ] - [ INFO ]  bind port10004
+2017-03-15 09:41:36  [ main:2036 ] - [ INFO ]  Start the Server: OK
+2017-03-15 09:41:40  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:41:40  [ nioEventLoopGroup-3-1:6089 ] - [ INFO ]  a device online
+2017-03-15 09:41:40  [ nioEventLoopGroup-2-1:26 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:41:40  [ nioEventLoopGroup-2-1:28 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:41:40  [ nioEventLoopGroup-2-1:33 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:41:40  [ nioEventLoopGroup-2-1:36 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:41:40  [ nioEventLoopGroup-2-1:38 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:41:40  [ nioEventLoopGroup-2-1:40 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:41:40  [ nioEventLoopGroup-2-1:41 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:41:40  [ nioEventLoopGroup-2-1:42 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 09:41:40  [ nioEventLoopGroup-2-1:44 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:10:06  [ nioEventLoopGroup-3-1:1711821 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-15 10:10:06  [ nioEventLoopGroup-3-1:1711832 ] - [ INFO ]  connect break
+2017-03-15 10:10:12  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Wed Mar 15 10:10:12 CST 2017]; root of context hierarchy
+2017-03-15 10:10:12  [ main:49 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-15 10:10:13  [ main:580 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-15 10:10:14  [ main:1651 ] - [ INFO ]  bind port10004
+2017-03-15 10:10:14  [ main:1849 ] - [ INFO ]  Start the Server: OK
+2017-03-15 10:10:18  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:10:18  [ nioEventLoopGroup-3-1:5652 ] - [ INFO ]  a device online
+2017-03-15 10:10:18  [ nioEventLoopGroup-2-1:28 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:10:18  [ nioEventLoopGroup-2-1:29 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:10:18  [ nioEventLoopGroup-2-1:30 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:10:18  [ nioEventLoopGroup-2-1:31 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:10:18  [ nioEventLoopGroup-2-1:32 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:10:18  [ nioEventLoopGroup-2-1:33 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:10:18  [ nioEventLoopGroup-2-1:35 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:10:18  [ nioEventLoopGroup-2-1:35 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:10:18  [ nioEventLoopGroup-2-1:37 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:10:41  [ nioEventLoopGroup-2-1:23213 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-15 10:10:41  [ nioEventLoopGroup-2-1:23215 ] - [ INFO ]  connect break
+2017-03-15 10:11:04  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Wed Mar 15 10:11:04 CST 2017]; root of context hierarchy
+2017-03-15 10:11:05  [ main:54 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-15 10:11:05  [ main:496 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-15 10:11:06  [ main:1781 ] - [ INFO ]  bind port10004
+2017-03-15 10:11:06  [ main:1977 ] - [ INFO ]  Start the Server: OK
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-3-1:6470 ] - [ INFO ]  a device online
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:28 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:29 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:30 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:31 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:32 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:33 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:35 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:36 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:37 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:38 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:40 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:41 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:42 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:43 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:44 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:46 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:47 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:49 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:50 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:53 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:57 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:59 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:60 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:62 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:63 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:65 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:69 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:70 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:72 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:73 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:74 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:78 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:79 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:81 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:82 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:83 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:85 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:87 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:88 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:90 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:91 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:93 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:95 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:96 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:98 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:99 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:102 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:103 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:104 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:106 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:109 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:110 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:111 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:112 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:113 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:114 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:115 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:116 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:117 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:119 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:120 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:121 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:123 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:124 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:125 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:126 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:127 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:128 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:130 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:131 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:132 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:134 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:135 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:137 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:138 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:139 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:140 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:141 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:141 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:143 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:144 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:145 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:147 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:148 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:149 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:150 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:151 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:153 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:155 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:156 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:157 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:158 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:158 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:159 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:160 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:161 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:161 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:162 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:11  [ nioEventLoopGroup-2-1:163 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:39  [ nioEventLoopGroup-3-1:35014 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-15 10:11:39  [ nioEventLoopGroup-3-1:35015 ] - [ INFO ]  connect break
+2017-03-15 10:11:52  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5f3a4b84: startup date [Wed Mar 15 10:11:52 CST 2017]; root of context hierarchy
+2017-03-15 10:11:52  [ main:60 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-15 10:11:53  [ main:633 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-15 10:11:54  [ main:2116 ] - [ INFO ]  bind port10004
+2017-03-15 10:11:55  [ main:2352 ] - [ INFO ]  Start the Server: OK
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-3-1:5419 ] - [ INFO ]  a device online
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:39 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:40 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:41 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:43 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:44 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:46 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:49 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:50 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:52 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:53 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:54 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:55 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:56 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:57 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:58 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:59 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:61 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:62 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:63 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:64 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:65 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:67 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:68 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:69 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:71 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:72 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:73 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:74 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:75 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:76 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:77 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:78 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:79 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:80 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:81 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:82 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:84 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:88 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:91 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:92 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:94 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:95 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:96 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:97 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:98 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:100 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:101 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:102 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:103 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:104 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:105 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:107 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:109 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:111 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:112 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:113 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:114 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:115 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:116 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:117 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:118 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:119 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:120 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:121 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:123 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:125 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:126 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:127 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:130 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:131 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:132 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:133 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:134 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:135 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:135 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:136 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:138 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:140 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:140 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:141 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:142 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:143 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:144 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:145 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:146 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:147 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:148 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:149 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:150 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:151 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:152 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:153 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:153 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:155 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:156 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:157 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:159 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:159 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:11:58  [ nioEventLoopGroup-2-1:160 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:20:54  [ nioEventLoopGroup-3-1:541594 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-15 10:20:54  [ nioEventLoopGroup-3-1:541595 ] - [ INFO ]  connect break
+2017-03-15 10:21:01  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Wed Mar 15 10:21:01 CST 2017]; root of context hierarchy
+2017-03-15 10:21:01  [ main:50 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-15 10:21:02  [ main:518 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-15 10:21:03  [ main:1847 ] - [ INFO ]  bind port10004
+2017-03-15 10:21:03  [ main:2042 ] - [ INFO ]  Start the Server: OK
+2017-03-15 10:21:06  [ defaultEventExecutorGroup-4-1:5096 ] - [ INFO ]  a device online
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:22 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:23 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:24 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:25 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:26 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:27 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:28 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:29 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:30 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:31 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:32 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:33 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:34 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:36 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:37 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:38 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:39 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:40 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:41 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:42 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:43 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:45 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:46 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:48 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:49 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:50 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:53 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:54 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:56 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:58 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:59 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:60 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:61 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:62 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:63 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:64 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:65 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:66 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:67 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:68 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:69 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:70 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:71 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:72 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:73 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:74 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:75 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:76 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:77 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:78 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:79 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:80 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:81 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:82 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:83 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:84 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:85 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:86 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:87 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:87 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:88 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:89 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:90 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:91 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:92 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:93 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:94 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:95 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:99 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:100 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:101 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:103 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:104 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:105 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:106 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:107 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:108 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:109 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:110 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:111 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:112 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:115 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:115 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:116 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:117 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:118 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:119 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:120 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:121 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:122 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:123 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:124 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:124 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:125 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:126 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:127 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:127 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:128 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:06  [ nioEventLoopGroup-2-1:129 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:21:20  [ defaultEventExecutorGroup-4-1:18474 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-15 10:21:20  [ defaultEventExecutorGroup-4-1:18475 ] - [ INFO ]  connect break
+2017-03-15 10:23:07  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Wed Mar 15 10:23:07 CST 2017]; root of context hierarchy
+2017-03-15 10:23:07  [ main:53 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-15 10:23:07  [ main:512 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-15 10:23:08  [ main:1713 ] - [ INFO ]  bind port10004
+2017-03-15 10:23:09  [ main:1918 ] - [ INFO ]  Start the Server: OK
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ defaultEventExecutorGroup-4-1:5261 ] - [ INFO ]  a device online
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:28 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:29 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:30 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:30 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:32 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:33 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:34 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:35 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:35 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:36 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:38 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:39 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:40 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:41 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:42 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:43 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:44 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:45 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:47 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:48 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:49 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:50 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:51 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:52 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:53 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:54 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:55 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:57 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:58 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:60 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:61 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:63 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:64 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:65 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:66 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:67 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:68 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:69 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:70 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:71 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:72 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:73 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:74 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:75 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:77 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:78 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:80 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:81 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:81 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:82 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:85 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:87 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:88 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:89 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:90 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:91 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:91 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:98 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:99 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:100 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:101 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:102 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:103 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:104 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:105 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:106 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:107 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:108 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:109 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:110 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:110 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:111 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:112 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:113 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:114 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:116 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:117 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:118 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:119 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:120 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:120 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:121 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:125 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:126 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:127 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:128 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:129 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:129 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:130 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:131 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:132 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:133 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:134 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:135 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:136 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:137 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:138 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:139 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:12  [ nioEventLoopGroup-2-1:140 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:23:17  [ defaultEventExecutorGroup-4-1:10675 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-15 10:23:17  [ defaultEventExecutorGroup-4-1:10676 ] - [ INFO ]  connect break
+2017-03-15 10:26:09  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Wed Mar 15 10:26:09 CST 2017]; root of context hierarchy
+2017-03-15 10:26:09  [ main:48 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-15 10:26:09  [ main:619 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-15 10:26:10  [ main:1715 ] - [ INFO ]  bind port10004
+2017-03-15 10:26:11  [ main:1941 ] - [ INFO ]  Start the Server: OK
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ defaultEventExecutorGroup-4-1:4059 ] - [ INFO ]  a device online
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:27 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:29 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:30 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:31 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:32 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:33 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:34 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:35 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:35 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:36 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:37 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:38 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:40 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:41 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:43 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:44 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:47 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:48 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:49 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:50 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:51 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:52 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:53 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:54 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:55 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:57 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:58 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:60 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:61 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:63 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:64 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:65 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:66 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:66 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:67 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:68 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:69 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:70 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:71 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:72 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:73 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:75 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:76 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:77 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:79 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:81 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:83 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:84 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:85 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:88 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:89 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:90 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:91 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:92 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:93 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:94 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:95 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:97 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:98 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:99 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:100 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:101 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:102 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:103 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:104 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:105 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:106 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:106 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:107 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:108 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:109 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:110 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:111 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:112 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:113 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:114 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:115 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:116 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:117 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:118 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:119 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:120 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:121 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:122 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:123 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:124 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:125 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:126 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:127 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:128 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:128 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:129 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:130 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:131 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:132 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:133 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:134 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:135 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:13  [ nioEventLoopGroup-2-1:137 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:26:58  [ nioEventLoopGroup-2-1:45675 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-15 10:26:58  [ nioEventLoopGroup-2-1:45678 ] - [ INFO ]  connect break
+2017-03-15 10:27:08  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5f3a4b84: startup date [Wed Mar 15 10:27:08 CST 2017]; root of context hierarchy
+2017-03-15 10:27:08  [ main:67 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-15 10:27:08  [ main:614 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-15 10:27:10  [ main:1964 ] - [ INFO ]  bind port10004
+2017-03-15 10:27:10  [ main:2220 ] - [ INFO ]  Start the Server: OK
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:41 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:42 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:44 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:45 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:46 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:48 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:49 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:52 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:53 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:55 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:56 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:57 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:58 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:59 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:63 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:64 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:69 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:71 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:72 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:74 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:75 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:77 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:78 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:79 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:81 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:82 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:84 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:86 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:88 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:89 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:90 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:92 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:93 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:94 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:95 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:96 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:97 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:98 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:99 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:102 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:104 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:105 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:106 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:108 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:109 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:111 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:112 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:113 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:115 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:116 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:117 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:118 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:119 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:120 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:121 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:123 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:124 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:125 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:126 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:127 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:128 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:130 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:131 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:132 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:133 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:135 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:136 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:137 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:138 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:139 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:140 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:141 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:142 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:143 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:144 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ defaultEventExecutorGroup-4-1:5413 ] - [ INFO ]  a device online
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:149 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:150 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:151 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:152 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:154 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:156 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:157 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:158 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:159 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:160 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:160 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:161 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:162 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:163 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:164 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:165 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:166 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:167 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:168 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:169 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:170 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:171 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:172 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:13  [ nioEventLoopGroup-2-1:173 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:27:57  [ defaultEventExecutorGroup-4-2:49375 ] - [ INFO ]  a device online
+2017-03-15 10:27:57  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 10:28:30  [ nioEventLoopGroup-2-1:77301 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-15 10:28:30  [ nioEventLoopGroup-2-1:77305 ] - [ INFO ]  connect break
+2017-03-15 11:14:28  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Wed Mar 15 11:14:28 CST 2017]; root of context hierarchy
+2017-03-15 11:14:28  [ main:53 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-15 11:14:28  [ main:491 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-15 11:14:29  [ main:1496 ] - [ INFO ]  bind port10000
+2017-03-15 11:15:55  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Wed Mar 15 11:15:55 CST 2017]; root of context hierarchy
+2017-03-15 11:15:55  [ main:75 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-15 11:15:55  [ main:489 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-15 11:15:56  [ main:1453 ] - [ INFO ]  bind port 20480
+2017-03-15 11:15:57  [ main:1646 ] - [ INFO ]  Start the Server: OK
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ defaultEventExecutorGroup-4-1:9679 ] - [ INFO ]  a device online
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:30 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:31 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:32 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:33 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:34 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:35 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:37 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:38 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:39 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:40 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:41 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:42 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:44 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:44 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:46 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:47 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:48 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:49 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:50 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:51 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:52 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:53 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:55 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:57 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:58 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:60 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:61 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:64 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:66 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:68 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:70 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:71 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:72 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:73 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:74 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:76 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:77 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:79 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:80 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:82 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:83 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:84 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:85 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:87 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:87 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:88 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:90 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:91 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:93 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:94 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:98 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:99 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:101 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:103 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:104 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:105 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:106 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:107 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:108 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:109 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:110 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:111 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:112 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:113 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:114 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:114 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:115 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:116 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:118 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:119 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:120 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:121 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:123 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:125 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:125 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:126 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:127 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:128 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:129 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:130 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:131 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:132 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:133 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:134 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:135 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:136 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:137 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:138 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:138 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:139 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:140 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:141 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:142 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:143 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:144 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:145 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:145 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:146 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:05  [ nioEventLoopGroup-2-1:147 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 11:16:21  [ defaultEventExecutorGroup-4-1:26021 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-15 11:16:21  [ defaultEventExecutorGroup-4-1:26023 ] - [ INFO ]  connect break
+2017-03-15 13:48:02  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Wed Mar 15 13:48:02 CST 2017]; root of context hierarchy
+2017-03-15 13:48:03  [ main:213 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-15 13:48:03  [ main:1169 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-15 13:48:06  [ main:3371 ] - [ INFO ]  bind port 20480
+2017-03-15 13:48:06  [ main:3625 ] - [ INFO ]  Start the Server: OK
+2017-03-15 13:48:12  [ defaultEventExecutorGroup-4-1:9221 ] - [ INFO ]  a device online
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:34 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:35 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:36 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:37 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:38 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:39 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:41 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:42 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:43 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:44 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:45 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:46 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:47 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:48 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:51 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:52 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:55 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:56 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:57 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:58 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:59 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:60 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:62 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:63 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:65 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:67 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:69 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:70 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:71 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:71 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:72 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:73 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:74 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:75 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:76 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:77 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:78 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:79 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:80 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:81 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:82 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:83 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:84 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:86 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:87 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:88 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:89 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:90 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:91 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:91 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:92 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:93 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:94 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:95 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:96 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:98 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:99 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:100 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:101 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:102 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:103 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:104 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:105 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:106 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:107 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:108 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:109 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:110 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:111 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:112 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:113 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:114 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:115 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:116 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:117 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:118 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:119 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:120 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:121 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:122 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:123 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:124 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:125 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:126 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:127 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:128 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:129 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:130 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:131 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:133 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:134 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:135 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:136 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:137 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:138 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:140 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:142 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:143 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:12  [ nioEventLoopGroup-2-1:144 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 13:48:40  [ defaultEventExecutorGroup-4-1:37193 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-15 13:48:40  [ defaultEventExecutorGroup-4-1:37194 ] - [ INFO ]  connect break
+2017-03-15 14:03:21  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Wed Mar 15 14:03:21 CST 2017]; root of context hierarchy
+2017-03-15 14:03:21  [ main:48 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-15 14:03:21  [ main:489 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-15 14:03:22  [ main:1646 ] - [ INFO ]  bind port 20480
+2017-03-15 14:03:22  [ main:1882 ] - [ INFO ]  Start the Server: OK
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ defaultEventExecutorGroup-4-1:6260 ] - [ INFO ]  a device online
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:27 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:29 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:29 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:30 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:31 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:32 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:33 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:34 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:35 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:36 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:37 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:39 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:40 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:41 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:44 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:45 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:49 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:50 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:55 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:56 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:57 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:61 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:62 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:64 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:66 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:67 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:68 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:70 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:71 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:72 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:73 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:74 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:76 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:78 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:78 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:80 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:81 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:82 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:83 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:85 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:87 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:88 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:90 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:91 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:92 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:93 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:94 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:95 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:96 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:97 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:99 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:100 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:101 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:102 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:103 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:104 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:105 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:106 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:107 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:108 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:109 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:110 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:111 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:113 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:114 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:115 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:116 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:116 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:117 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:118 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:120 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:121 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:122 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:123 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:124 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:125 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:126 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:127 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:128 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:129 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:130 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:131 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:132 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:133 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:134 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:135 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:136 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:137 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:138 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:139 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:140 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:141 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:142 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:143 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:144 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:145 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:146 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:147 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:03:27  [ nioEventLoopGroup-2-1:148 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:04:40  [ defaultEventExecutorGroup-4-1:79000 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-15 14:04:40  [ defaultEventExecutorGroup-4-1:79001 ] - [ INFO ]  connect break
+2017-03-15 14:05:44  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Wed Mar 15 14:05:44 CST 2017]; root of context hierarchy
+2017-03-15 14:05:44  [ main:52 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-15 14:05:45  [ main:479 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-15 14:05:46  [ main:1484 ] - [ INFO ]  bind port 8080
+2017-03-15 14:05:46  [ main:1683 ] - [ INFO ]  Start the Server: OK
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:1 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ defaultEventExecutorGroup-4-1:7664 ] - [ INFO ]  a device online
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:25 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:26 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:27 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:28 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:29 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:30 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:31 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:31 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:32 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:33 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:35 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:36 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:37 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:38 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:39 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:40 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:41 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:42 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:43 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:44 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:45 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:46 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:47 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:48 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:49 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:50 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:51 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:51 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:52 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:53 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:54 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:56 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:63 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:64 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:65 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:66 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:67 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:68 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:70 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:71 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:73 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:74 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:76 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:77 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:79 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:80 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:84 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:85 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:86 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:87 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:88 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:89 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:90 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:91 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:92 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:93 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:94 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:95 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:99 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:100 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:102 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:103 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:104 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:105 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:106 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:107 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:108 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:109 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:110 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:111 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:112 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:116 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:117 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:118 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:119 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:120 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:121 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:122 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:123 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:124 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:125 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:126 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:127 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:128 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:129 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:130 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:131 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:132 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:132 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:133 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:134 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:135 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:136 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:137 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:138 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:138 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:139 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:140 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 14:05:52  [ nioEventLoopGroup-2-1:141 ] - [ INFO ]  12345678901234567 VEHICLE_LOGIN header encode succeed!
+2017-03-15 15:14:24  [ nioEventLoopGroup-2-1:4111724 ] - [ WARN ]  远程主机强迫关闭了一个现有的连接。
+2017-03-15 15:14:24  [ nioEventLoopGroup-2-1:4112010 ] - [ INFO ]  connect break

@@ -17,6 +17,7 @@ import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.handler.codec.DelimiterBasedFrameDecoder;
+import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.timeout.IdleStateHandler;
 import io.netty.util.concurrent.DefaultEventExecutorGroup;
@@ -57,10 +58,9 @@ public class MsgRecvServerInitializer extends ChannelInitializer<SocketChannel> 
 	    
 		ChannelPipeline pipeline = ch.pipeline();	
 		pipeline.addLast(new IdleStateHandler(readIdleTime, writeIdleTime, allIdleTime, TimeUnit.SECONDS));	
-		pipeline.addLast(new StickpackageHandler(ByteOrder.BIG_ENDIAN, 2048 , 22, 2, 1, 0, false));
-        pipeline.addLast(new MsgRecvServerHandler());
+		pipeline.addLast(new LengthFieldBasedFrameDecoder(ByteOrder.BIG_ENDIAN, 16383 , 22, 2, 1, 0, false));
+        pipeline.addLast(executor, new MsgRecvServerHandler());
         
-        System.out.println("Init server");
 
 	}
 

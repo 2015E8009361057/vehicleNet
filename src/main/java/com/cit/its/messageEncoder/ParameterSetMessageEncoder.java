@@ -39,7 +39,7 @@ public class ParameterSetMessageEncoder {
 			totalNumOfParameter++;
 			dataTemp[tmpPos] = parameter.getLocalStorageTimePeriod_ID();
 			tmpPos++;
-			ByteUtil.putShort(dataTemp, (short)(parameter.getLocalStorageTimePeriod()), tmpPos);
+			ByteUtil.getInstance().putShort(dataTemp, (short)(parameter.getLocalStorageTimePeriod()), tmpPos);
 			tmpPos = tmpPos + 2;
 		}
 		if (parameter.getInfoReportPeriod_Normal() >= 1) {
@@ -47,7 +47,7 @@ public class ParameterSetMessageEncoder {
 			totalNumOfParameter++;
 			dataTemp[tmpPos] = parameter.getInfoReportPeriod_Normal_ID();
 			tmpPos++;
-			ByteUtil.putShort(dataTemp, (short)(parameter.getInfoReportPeriod_Normal()), tmpPos);
+			ByteUtil.getInstance().putShort(dataTemp, (short)(parameter.getInfoReportPeriod_Normal()), tmpPos);
 			tmpPos = tmpPos + 2;
 		}
 		if (parameter.getInfoReportPeriod_Alarm() >= 0) {
@@ -55,7 +55,7 @@ public class ParameterSetMessageEncoder {
 			totalNumOfParameter++;
 			dataTemp[tmpPos] = parameter.getInfoReportPeriod_Alarm_ID();
 			tmpPos++;
-			ByteUtil.putShort(dataTemp, (short) (parameter.getInfoReportPeriod_Alarm()), tmpPos);
+			ByteUtil.getInstance().putShort(dataTemp, (short) (parameter.getInfoReportPeriod_Alarm()), tmpPos);
 			tmpPos = tmpPos + 2;
 		}
 		if (parameter.getLengthOfServiceAndManagePlatform() > 0) {
@@ -83,7 +83,7 @@ public class ParameterSetMessageEncoder {
 			totalNumOfParameter++;
 			dataTemp[tmpPos] = parameter.getPortOfRSMP_ID();
 			tmpPos++;
-			ByteUtil.putShort(dataTemp, (short) (parameter.getPortOfRSMP()), tmpPos);
+			ByteUtil.getInstance().putShort(dataTemp, (short) (parameter.getPortOfRSMP()), tmpPos);
 			tmpPos = tmpPos + 2;
 		}
 
@@ -125,7 +125,7 @@ public class ParameterSetMessageEncoder {
 			totalNumOfParameter++;
 			dataTemp[tmpPos] = parameter.getTerminalResponseTimeout_ID();
 			tmpPos++;
-			ByteUtil.putShort(dataTemp, (short) (parameter.getTerminalResponseTimeout()), tmpPos);
+			ByteUtil.getInstance().putShort(dataTemp, (short) (parameter.getTerminalResponseTimeout()), tmpPos);
 			tmpPos = tmpPos + 2;
 		}
 		
@@ -133,7 +133,7 @@ public class ParameterSetMessageEncoder {
 			totalNumOfParameter++;
 			dataTemp[tmpPos] = parameter.getPlatformResponseTimeout_ID();
 			tmpPos++;
-			ByteUtil.putShort(dataTemp, (short) (parameter.getPlatformResponseTimeout()), tmpPos);
+			ByteUtil.getInstance().putShort(dataTemp, (short) (parameter.getPlatformResponseTimeout()), tmpPos);
 			tmpPos = tmpPos + 2;
 		}
 		
@@ -169,7 +169,7 @@ public class ParameterSetMessageEncoder {
 			totalNumOfParameter++;
 			dataTemp[tmpPos] = parameter.getPortOfPublicPlatform_ID();
 			tmpPos++;
-			ByteUtil.putShort(dataTemp, (short) (parameter.getPortOfPublicPlatform()), tmpPos);
+			ByteUtil.getInstance().putShort(dataTemp, (short) (parameter.getPortOfPublicPlatform()), tmpPos);
 			tmpPos = tmpPos + 2;
 		}
 		
@@ -208,7 +208,7 @@ public class ParameterSetMessageEncoder {
 		
 		// 将参数设置时间编码放入结果数组
 		Date parameterSetTime = new Date();
-		ByteUtil.putDateToByteArray(parameterSetTime, result, pos);
+		ByteUtil.getInstance().putDateToByteArray(parameterSetTime, result, pos);
 		pos = pos + 6;
 		
 		// 将参数总数放入结果数组

@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 
 import com.cit.its.messageDecoder.HeaderDecoder;
 import com.cit.its.messageEncoder.PickSendMessage;
+import com.cit.its.messageEncoder.TestVehicleLoginMessage;
 import com.cit.its.messageStruct.CommandType;
 import com.cit.its.messageStruct.ResponseType;
 import com.cit.its.util.ByteBuf2ByteArray;
@@ -59,10 +60,17 @@ public class MockTerminalClientHandler extends ChannelInboundHandlerAdapter {
 		System.out.println("client channelActive!");
 		ByteBuf message = null;
 		for (int i = 0; i < 10; i++) {
-			req = PickSendMessage.messageBytes(i);
+//			req = PickSendMessage.messageBytes(i);
+			req = TestVehicleLoginMessage.getLoginBytes();
 			message = Unpooled.buffer(req.length);
 			message.writeBytes(req);
 			ctx.writeAndFlush(message);
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 /*			
 			ChannelFuture cf=ctx.writeAndFlush(message);
 			cf.addListener(new ChannelFutureListener(){

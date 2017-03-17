@@ -42,7 +42,7 @@ public class ParameterQueryMessageEncoder {
 		
 		// 编码参数查询时间
 		Date pareQueryTime = new Date();
-		ByteUtil.putDateToByteArray(pareQueryTime, result, pos);
+		ByteUtil.getInstance().putDateToByteArray(pareQueryTime, result, pos);
 		pos = pos + 6;
 		
 		// 编码参数总数

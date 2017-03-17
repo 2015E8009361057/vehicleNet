@@ -28,7 +28,7 @@ public class TerminalControlMessageEncoder {
 		
 		// 将命令时间放入结果数组
 		Date controlTime = new Date();
-		ByteUtil.putDateToByteArray(controlTime, result, pos);
+		ByteUtil.getInstance().putDateToByteArray(controlTime, result, pos);
 		pos = pos + 6;
 		
 		// 将命令ID放入结果数组

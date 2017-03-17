@@ -37,10 +37,10 @@ public class VehicleLogoutMessageEncoder {
 		int pos = headerBytes.length;
 		
 		// 放入登出时间
-		ByteUtil.putDateToByteArray(logout, vehicleLogoutBytes, pos);
+		ByteUtil.getInstance().putDateToByteArray(logout, vehicleLogoutBytes, pos);
 		pos = pos + 6;
 		// 放入流水号
-		ByteUtil.putShort(vehicleLogoutBytes, (short)logoutSerialNumber, pos);
+		ByteUtil.getInstance().putShort(vehicleLogoutBytes, (short)logoutSerialNumber, pos);
 		pos = pos + 2;
 		
 		// 此时，pos的值应等于 vehicleLogoutBytes.length - 1

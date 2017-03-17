@@ -54,14 +54,14 @@ public class VehicleLoginMessageEncoder {
 		}
 		// 依据车辆登入数据格式依次放入数据
 		// 放入采集时间
-		ByteUtil.putDateToByteArray(dataCollectionTime, vehicleLoginBytes, pos);
+		ByteUtil.getInstance().putDateToByteArray(dataCollectionTime, vehicleLoginBytes, pos);
 		pos = pos + 6;
 		// 放入登入流水号
-		ByteUtil.putShort(vehicleLoginBytes, (short) loginSerialNumber, pos);
+		ByteUtil.getInstance().putShort(vehicleLoginBytes, (short) loginSerialNumber, pos);
 		pos = pos + 2;
 		
 		// 放入SIM卡ICCID号
-		ByteUtil.putStringToByteArray(simICCID, vehicleLoginBytes, pos);
+		ByteUtil.getInstance().putStringToByteArray(simICCID, vehicleLoginBytes, pos);
 		pos = pos + simICCID.length();
 		
 		// 放入可充电储能子系统数

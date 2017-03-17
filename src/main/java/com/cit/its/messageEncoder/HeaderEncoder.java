@@ -83,7 +83,7 @@ public class HeaderEncoder {
 		
 		// 编码数据单元长度
 		short length = (short) header.getDataLength();
-		ByteUtil.putShort(result, length, pos);
+		ByteUtil.getInstance().putShort(result, length, pos);
 		pos = pos + 2;
 		
 		// 此时pos的值应为24，如果不是说明编码有误

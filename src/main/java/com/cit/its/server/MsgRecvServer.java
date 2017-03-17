@@ -73,7 +73,7 @@ public class MsgRecvServer {
             b.childOption(ChannelOption.TCP_NODELAY,true);
             b.childOption(ChannelOption.SO_REUSEADDR, true);
             
-			logger.info("bind port"+ port);
+			logger.info("bind port "+ port);
 			
 			System.out.println("bind port : " + port);
 			
@@ -87,8 +87,8 @@ public class MsgRecvServer {
 			f.channel().closeFuture().sync();
 			System.out.println("Close the server!");
 		}finally{
-			workerGroup.shutdownGracefully();
 			bossGroup.shutdownGracefully();
+			workerGroup.shutdownGracefully();	
 		}
 	}
 	

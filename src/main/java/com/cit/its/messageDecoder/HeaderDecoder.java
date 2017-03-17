@@ -42,7 +42,7 @@ public class HeaderDecoder {
 	}
 	
 	public static int getDataLength(byte[] bytes) {
-		short dataLength = ByteUtil.getShort(bytes, 22);
+		short dataLength = ByteUtil.getInstance().getShort(bytes, 22);
 		return Unsigned.getUnsignedShort(dataLength);
 	}
 	

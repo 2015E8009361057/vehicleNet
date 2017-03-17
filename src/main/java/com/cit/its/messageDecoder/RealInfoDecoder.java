@@ -37,21 +37,21 @@ public class RealInfoDecoder {
 		pos = pos + 1;
 		
 		// 车速：有效值范围：0~2200（表示0km/h~220km/h），最小计量单元0.1km/h，0xFF，0xFE：异常；0xFF，0xFF：无效
-		int vehicleSpeed = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		int vehicleSpeed = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 		pos = pos + 2;
 		
 		// 累积里程：有效值范围：0~9999999(表示0km~999999.9km)，最小计量单元：0.1km
 		// 0xFF,0xFF,0xFF,0xFE：异常；0xFF,0xFF,0xFF,0xFF：无效
-		int accumulatedMileage = ByteUtil.getInt(bytes, pos);
+		int accumulatedMileage = ByteUtil.getInstance().getInt(bytes, pos);
 		pos = pos + 4;
 		
 		// 总电压：有效值范围：0~10000(表示0V~10000V)，最小计量单元：0.1V，0xFF,0xFE：异常；0xFF,0xFF：无效
-		int totalVoltage = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		int totalVoltage = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 		pos = pos + 2;
 		
 		// 总电流：有效值范围：0~20000(偏移量1000A，表示-1000A ~ +1000A)，最小计量单元：0.1A
 		// 0xFF,0xFE：异常；0xFF,0xFF：无效
-		int totalCurrent = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		int totalCurrent = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 		pos = pos + 2;
 		
 		// SOC：有效值范围：0~100(表示0% ~ 100%),最小计量单元：1%，0xFE：异常；0xFF：无效
@@ -69,7 +69,7 @@ public class RealInfoDecoder {
 		pos = pos + 1;
 		
 		// 绝缘电阻：有效值范围：0~60000(表示0千瓯 ~ 60000千瓯)，最小计量单元：1千瓯
-		int insulationResistance = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		int insulationResistance = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 		pos = pos + 2;
 		
 		// 加速踏板行程值：有效值范围：0~100(表示0% ~ 100%)，最小计量单元：1%，0xFE：异常；0xFF：无效
@@ -132,12 +132,12 @@ public class RealInfoDecoder {
 			
 			// 驱动电机转速：有效值范围：0 ~ 65531(数值偏移量20000表示-20000 r/min ~ 45531 r/min)
 			// 最小计量单元：1 r/min，0xFF,0xFE：异常；0xFF,0xFF：无效
-			int driveMotorSpeed = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+			int driveMotorSpeed = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 			pos = pos + 2;
 			
 			// 驱动电机转矩：有效值范围：0 ~ 65531(数值偏移量20000表示 -2000 N*m ~ 4553.1 N*m)，最小计量单元：0.1 N*m
 			// 0xFF,0xFE：异常；0xFF,0xFF：无效
-			int driveMotorTorque = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+			int driveMotorTorque = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 			pos = pos + 2;
 			
 			// 驱动电机温度：有效值范围：0~250(数值偏移量40度，表示-40度 ~ +210度)，最小计量单元：1度
@@ -147,12 +147,12 @@ public class RealInfoDecoder {
 			
 			// 电机控制器输入电压：有效值范围：0 ~ 60000(表示0V ~ 6000V)，最小计量单元：0.1V
 			// 0xFF,0xFE：异常；0xFF,0xFF：无效
-			int motorControllerInputVoltage = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+			int motorControllerInputVoltage = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 			pos = pos + 2;
 			
 			// 电机控制器直流母线电流：有效值范围：0 ~ 20000(数值偏移量1000A，表示-1000A ~ +1000A)，最小计量单元：0.1A
 			// 0xFF,0xFE：异常；0xFF,0xFF：无效
-			int motorControllerDCBusCurrent = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+			int motorControllerDCBusCurrent = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 			pos = pos + 2;
 			
 			length = length + 12;
@@ -186,21 +186,21 @@ public class RealInfoDecoder {
 		FuelCellData fuelCellData = new FuelCellData();
 		
 		// 燃料电池电压：有效值范围：0~20000(表示0V ~ 2000V)，最小计量单元：0.1V，0xFF,0xFE：异常；0xFF,0xFF：无效
-		int fuelCellVoltage = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		int fuelCellVoltage = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 		pos = pos + 2;
 		
 		// 燃料电池电流：有效值范围：0~20000(表示0A ~ +2000A)，最小计量单元：0.1A，0xFF,0xFE：异常；0xFF,0xFF：无效
-		int fuelCellCurrent = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		int fuelCellCurrent = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 		pos = pos + 2;
 		
 		// 燃料消耗率：有效值范围：0~60000(表示0kg/100km ~ 600kg/100km)，最小计量单元：0.01kg/100km
 		// 0xFF,0xFE：异常；0xFF,0xFF：无效
-		int fuelConsumptionRate = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		int fuelConsumptionRate = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 		pos = pos + 2;
 		
 		// 燃料电池温度探针总数：N个燃料电池温度探针，有效值范围：0~65531，0xFF,0xFE：异常；0xFF,0xFF：无效
 		// Fuel Cell Temperature Probes
-		int totalNumberOfFCTP = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		int totalNumberOfFCTP = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 		pos = pos + 2;
 		
 		// 探针温度值：有效值范围：0~240(数值偏移量40度，表示-40度 ~ +200度)，最小计量单元：1度
@@ -213,7 +213,7 @@ public class RealInfoDecoder {
 		// 氢系统中最高温度：有效值范围：0~2400(偏移量40度，表示-40度 ~ 200度)，最小计量单元：0.1度
 		// 0xFF,0xFE：异常；0xFF,0xFF：无效
 		// The highest temperature in a hydrogen system
-		int highestTempOfHydrogenSystem = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		int highestTempOfHydrogenSystem = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 		pos = pos + 2;
 		
 		// 氢系统中最高温度探针代号：有效值范围：1~252，0xFE：异常；0xFF：无效
@@ -223,7 +223,7 @@ public class RealInfoDecoder {
 		
 		// 氢气最高浓度：有效值范围：0~60000(表示0mg/kg ~ 50000mg/kg)，最小计量单元：1mg/kg，0xFF,0xFE：异常；0xFF,0xFF：无效
 		// The highest concentration of hydrogen
-		int highestConOfHydrogen = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		int highestConOfHydrogen = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 		pos = pos + 2;
 		
 		// 氢气最高浓度传感器代号：有效值范围：1~252，0xFE：异常；0xFF：无效
@@ -233,7 +233,7 @@ public class RealInfoDecoder {
 		
 		// 氢气最高压力：有效值范围：0~1000(表示0 MPa ~ 100 MPa)，最小计量单元：0.1 MPa
 		// Hydrogen maximum pressure
-		int hydrogenMaxPressure = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		int hydrogenMaxPressure = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 		pos = pos + 2;
 		
 		// 氢气最高压力传感器代号：有效值范围：1~252，0xFE：异常；0xFF：无效
@@ -280,12 +280,12 @@ public class RealInfoDecoder {
 		
 		// 曲轴转速：有效范围：0~60000(表示 0r/min ~ 60000r/min)，最小计量单元：1r/min
 		// 0xFF,0xFE：异常；0xFF,0xFF：无效
-		int crankshaftSpeed = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		int crankshaftSpeed = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 		pos = pos + 2;
 		
 		// 燃料消耗率：有效值范围：0~60000(表示 0L/100km ~ 600L/100km)，最小计量单元：0.01L/100km
 		// 0xFF,0xFE：异常；0xFF,0xFF：无效
-		int fuelConsumptionRate = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		int fuelConsumptionRate = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 		pos = pos + 2;
 		
 		length = length + 5;
@@ -319,11 +319,11 @@ public class RealInfoDecoder {
 		pos = pos + 1;
 		
 		// 经度：以度为单位的经度值乘以10^6，精确到百万分之一度
-		long longitude = Unsigned.getUnsignedInt(ByteUtil.getInt(bytes, pos));
+		long longitude = Unsigned.getUnsignedInt(ByteUtil.getInstance().getInt(bytes, pos));
 		pos = pos + 4;
 		
 		// 纬度：以度为单位的纬度值乘以10^6，精确到百万分之一度
-		long latitude = Unsigned.getUnsignedInt(ByteUtil.getInt(bytes, pos));
+		long latitude = Unsigned.getUnsignedInt(ByteUtil.getInstance().getInt(bytes, pos));
 		pos = pos + 4;
 	/*	
 		int speed = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
@@ -370,7 +370,7 @@ public class RealInfoDecoder {
 		// 电池单体电压最高值；有效值范围：0~15000（表示0V ~ 15V），最小计量单元：0.001V
 		// 0xFF,0xFE：异常；0xFF,0xFF：无效
 		// The highest cell voltage
-		int highestCV = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		int highestCV = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 		pos = pos + 2;
 		
 		// 最低电压电池子系统号；有效值范围：1~250，0xFE：异常，0xFF：无效
@@ -386,7 +386,7 @@ public class RealInfoDecoder {
 		// 电池单体电压最低值；有效值范围：0~15000（表示0V ~ 15V），最小计量单元：0.001V
 		// 0xFF,0xFE：异常；0xFF,0xFF：无效
 		// The lowest cell voltage
-		int lowestCV = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		int lowestCV = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 		pos = pos + 2;
 		
 		// 最高温度子系统号；有效值范围：1~250，0xFE：异常，0xFF：无效
@@ -461,7 +461,7 @@ public class RealInfoDecoder {
 		
 		// 通用报警标志
 		// General alarm signs 通用报警标志位定义见文档的表18
-		int genAlarmSigns = ByteUtil.getInt(bytes, pos);
+		int genAlarmSigns = ByteUtil.getInstance().getInt(bytes, pos);
 		pos = pos + 4;
 		
 		// 可充电储能装置故障总数N
@@ -476,7 +476,7 @@ public class RealInfoDecoder {
 		// 可充电储能装置故障代码列表暂且解释为int类型
 		int[] recharESDFaultCodeList = new int[totalNumFailOfRecharge];
 		for (int i = 0; i < totalNumFailOfRecharge; i++) {
-			recharESDFaultCodeList[i] = ByteUtil.getInt(bytes, pos);
+			recharESDFaultCodeList[i] = ByteUtil.getInstance().getInt(bytes, pos);
 			pos = pos + 4;
 		}
 		
@@ -491,7 +491,7 @@ public class RealInfoDecoder {
 		// 驱动电机故障代码列表也暂且解释为int类型
 		int[] driveMotFaultCodeList = new int[totalNumOfDriveMotFail];
 		for (int i = 0; i < totalNumOfDriveMotFail; i++) {
-			driveMotFaultCodeList[i] = ByteUtil.getInt(bytes, pos);
+			driveMotFaultCodeList[i] = ByteUtil.getInstance().getInt(bytes, pos);
 			pos = pos + 4;
 		}
 		
@@ -506,7 +506,7 @@ public class RealInfoDecoder {
 		// 发动机故障代码列表暂且解释为int类型
 		int[] engineFaulCodeList = new int[totalNumOfEngineFail];
 		for (int i = 0; i < totalNumOfEngineFail; i++) {
-			engineFaulCodeList[i] = ByteUtil.getInt(bytes, pos);
+			engineFaulCodeList[i] = ByteUtil.getInstance().getInt(bytes, pos);
 			pos = pos + 4;
 		}
 		
@@ -520,7 +520,7 @@ public class RealInfoDecoder {
 		// Other fault code list
 		int[] otherFaultCodeList = new int[totalNumOfOtherFail];
 		for (int i = 0; i < totalNumOfOtherFail; i++) {
-			otherFaultCodeList[i] = ByteUtil.getInt(bytes, pos);
+			otherFaultCodeList[i] = ByteUtil.getInstance().getInt(bytes, pos);
 			pos = pos + 4;
 		}
 		
@@ -575,23 +575,23 @@ public class RealInfoDecoder {
 			
 			// 可充电储能装置电压；有效值范围：0~10000（表示0V ~ 1000V），最小计量单元：0.1V，0xFF,0xFE：异常，0xFF,0xFF：无效
 			// Rechargeable energy storage device voltage
-			int rechargeESDeviceVoltage = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+			int rechargeESDeviceVoltage = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 			pos = pos + 2;
 			
 			// 可充电储能装置电流；有效值范围：0~20000（数值偏移量1000A，表示-1000A ~ +1000A），最小计量单元：0.1A
 			// 0xFF,0xFE：异常，0xFF,0xFF：无效
 			// Rechargeable energy storage device current
-			int rechargeESDeviceCurrent = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+			int rechargeESDeviceCurrent = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 			pos = pos + 2;
 			
 			// 单体电池总数；N个电池单体，有效值范围：1~65531，0xFF,0xFE：异常，0xFF,0xFF：无效
 			// The total number of single batteries
-			int totalNumOfSingleBattery = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+			int totalNumOfSingleBattery = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 			pos = pos + 2;
 			
 			// 本帧起始电池序号；当本帧单体个数超过200时，应拆分成多帧数据进行传输，有效值范围：1~65531
 			// The starting battery number of this frame
-			int startBattNumOfFrame = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+			int startBattNumOfFrame = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 			pos = pos + 2;
 			
 			// 本帧单体电池总数；本帧单体总数m，有效值范围1~200
@@ -604,7 +604,7 @@ public class RealInfoDecoder {
 			// Single battery voltage
 			int[] singleBatteryVoltage = new int[totalNumOfSingleBattInFrame];
 			for (int j = 0; j < totalNumOfSingleBattInFrame; j++) {
-				singleBatteryVoltage[j] = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+				singleBatteryVoltage[j] = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 				pos = pos + 2;
 			}
 			length = length + 10 + 2 * totalNumOfSingleBattInFrame;
@@ -655,7 +655,7 @@ public class RealInfoDecoder {
 			
 			// 可充电储能温度探针个数；N个温度探针，有效值范围：1~65531，0xFF,0xFE：异常，0xFF,0xFF：无效
 			// The number of rechargeable energy storage temperature probes
-			int numOfRechargeESTempProbes = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+			int numOfRechargeESTempProbes = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 			pos = pos + 2;
 			
 			// 可充电储能子系统各温度探针检测到的温度值；有效值范围：0~250（数值偏移量40°C，表示 -40°C ~ +210°C）
@@ -694,7 +694,7 @@ public class RealInfoDecoder {
 		eCarVehicleInfo.setVehicleVIN(vehicleVIN);
 		
 		// 逸卡这部分数据属于自定义数据，格式见标准 表19
-		int dataLength = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		int dataLength = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 		pos = pos + 2;
 		
 		length = length + 2;
@@ -782,21 +782,21 @@ public class RealInfoDecoder {
 		eCarVehicleInfo.setCharging_Connection((byte) ((chargeByte2 & 0xC0) >> 2));
 		eCarVehicleInfo.setCharging_Reserved((byte) 0);
 		
-		short charging_Amount = ByteUtil.getShort(bytes, pos);
+		short charging_Amount = ByteUtil.getInstance().getShort(bytes, pos);
 		pos = pos + 2;
 		
 		eCarVehicleInfo.setCharging_Amount(charging_Amount);
 		
-		short charging_Time = ByteUtil.getShort(bytes, pos);
+		short charging_Time = ByteUtil.getInstance().getShort(bytes, pos);
 		pos = pos + 2;
 		
 		eCarVehicleInfo.setCharging_Time(charging_Time);
 		
 		// Car State
-		int speed = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		int speed = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 		pos = pos + 2;
 		
-		int direction = Unsigned.getUnsignedShort(ByteUtil.getShort(bytes, pos));
+		int direction = Unsigned.getUnsignedShort(ByteUtil.getInstance().getShort(bytes, pos));
 		pos = pos + 2;
 		
 		eCarVehicleInfo.setSpeed(speed);
