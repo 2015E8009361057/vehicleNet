@@ -1,5 +1,8 @@
 package com.cit.its.messageEncoder;
 
+import java.text.ParseException;
+import java.util.Date;
+
 import com.cit.its.messageDecoder.CheckCode;
 import com.cit.its.messageStruct.AlarmData;
 import com.cit.its.messageStruct.DriveMotor;
@@ -19,7 +22,7 @@ import com.cit.its.util.ByteUtil;
 
 public class RealInfoMessageEncoder {
 	
-	public static byte[] getRealInfoBytesSerial(String vehicleVIN, int num) {
+	public static byte[] getRealInfoBytesSerial(String vehicleVIN, int num) throws ParseException {
 		byte[] realInfoBytes;
 		switch(num) {
 			case 0:
@@ -58,18 +61,26 @@ public class RealInfoMessageEncoder {
 		}
 		
 		// 获取首部编码
-		int dataLength = realInfoBytes.length;
+		// 数据部分长度等于 信息体长度+数据采集时间6字节
+		int dataLength = realInfoBytes.length + 6;
 		short commandIdentifier = (short) 0x02;
 		byte[] headerBytes = HeaderEncoder.getByteArrayHeader(vehicleVIN, commandIdentifier, dataLength);
 		
 		// 构造最后编码
 		byte[] realBytes = new byte[headerBytes.length + dataLength + 1];
+		
+		// 放入首部编码
 		int position = 0;
 		for (int i = 0; i < headerBytes.length; i++) {
 			realBytes[position] = headerBytes[i];
 			position = position + 1;
 		}
+		// 放入数据部分的 数据采集时间
+		Date dataCollectionTime = new Date();
+		ByteUtil.getInstance().putDateToByteArray(dataCollectionTime, realBytes, position);
+		position = position + 6;
 		
+		// 放入信息类型标志及信息体
 		for (int i = 0; i < realInfoBytes.length; i++) {
 			realBytes[position] = realInfoBytes[i];
 			position = position + 1;
@@ -265,7 +276,7 @@ public class RealInfoMessageEncoder {
 		if (pos == vehicleInfoBytes.length) {
 			System.out.println("车辆整车数据编码正常");
 		}
-		System.out.println("车辆整车数据信息 : " + vehicleInfo);
+//		System.out.println("车辆整车数据信息 : " + vehicleInfo);
 		return vehicleInfoBytes;
 	}
 	
@@ -321,7 +332,7 @@ public class RealInfoMessageEncoder {
 		if (pos == driveMotorBytes.length) {
 			System.out.println("驱动电机数据编码正常");
 		}
-		System.out.println("驱动电机数据信息 : " + driveMotorData);
+//		System.out.println("驱动电机数据信息 : " + driveMotorData);
 		return driveMotorBytes;
 	}
 	
@@ -384,7 +395,7 @@ public class RealInfoMessageEncoder {
 			System.out.println("燃料电池数据编码正常");
 		}
 		
-		System.out.println("燃料电池数据信息 : " + fuelCellData);
+//		System.out.println("燃料电池数据信息 : " + fuelCellData);
 		
 		return fuelCellBytes;
 	}
@@ -414,7 +425,7 @@ public class RealInfoMessageEncoder {
 			System.out.println("发动机数据编码正常");
 		}
 		
-		System.out.println("发动机数据信息 : " + engineData);
+//		System.out.println("发动机数据信息 : " + engineData);
 		
 		return engineBytes;
 	}
@@ -442,7 +453,7 @@ public class RealInfoMessageEncoder {
 			System.out.println("车辆位置数据编码正常");
 		}
 		
-		System.out.println("车辆位置数据信息 : " + vehiclePosition);
+//		System.out.println("车辆位置数据信息 : " + vehiclePosition);
 		
 		return vehiclePositionBytes;
 	}
@@ -505,7 +516,7 @@ public class RealInfoMessageEncoder {
 			System.out.println("极值数据编码正常");
 		}
 		
-		System.out.println("极值数据信息 : " + extremeValueData);
+//		System.out.println("极值数据信息 : " + extremeValueData);
 		
 		return extremeValueBytes;
 		
@@ -591,7 +602,7 @@ public class RealInfoMessageEncoder {
 			System.out.println("报警数据编码正常");
 		}
 		
-		System.out.println("报警数据信息 : " + alarmData);
+//		System.out.println("报警数据信息 : " + alarmData);
 		
 		return alarmBytes;
 	}
@@ -657,7 +668,7 @@ public class RealInfoMessageEncoder {
 			System.out.println("可充电储能装置电压数据编码正常");
 		}
 		
-		System.out.println("可充电储能装置电压数据 : " + voltageData);
+//		System.out.println("可充电储能装置电压数据 : " + voltageData);
 		
 		return voltageBytes;
 	}
@@ -666,20 +677,30 @@ public class RealInfoMessageEncoder {
 		// 构造随机可充电储能装置温度数据
 		TemperatureDataForRESD temperData = new TemperatureDataForRESD();
 		temperData.setVehicleVIN(vehicleVIN);
+		
 		short number = (short) (Math.random() * 24 + 1);
 		temperData.setNumOfRechargeESS(number);
+		
+		// 记录该随机数据的长度
 		int length = 0;
 		length = length + 1;
+		
 		TemperatureData[] tempInfoListOfRESD = new TemperatureData[number];
+		// 赋值
 		for (int i = 0; i < number; i++) {
+			
 			tempInfoListOfRESD[i] = new TemperatureData();
+			
 			tempInfoListOfRESD[i].setRechargeESSNum((short) (i + 1));
+			
 			int n = (int) (Math.random() * 60 + 1);
 			tempInfoListOfRESD[i].setNumOfRechargeESTempProbes(n);
+			
 			short[] tempValueOfProbe = new short[n];
 			for (int j = 0; j < n; j++) {
-				tempValueOfProbe[j] = (byte) (Math.random() * 250);
+				tempValueOfProbe[j] = (short) (Math.random() * 250);
 			}
+			
 			tempInfoListOfRESD[i].setTempValueOfProbe(tempValueOfProbe);
 			length = length + 3 + n;
 		}
@@ -691,14 +712,18 @@ public class RealInfoMessageEncoder {
 		// 放入信息类型标志
 		tempBytes[pos] = (byte) (RealInformationType.TEMPERATURE_DATA_FOR_RESD.value());
 		pos = pos + 1;
+		
 		tempBytes[pos] = (byte) number;
 		pos = pos + 1;
+		
 		for (int i = 0; i < number; i++) {
-			tempBytes[pos] = (byte) tempInfoListOfRESD[i].getRechargeESSNum();
+			tempBytes[pos] = (byte) (tempInfoListOfRESD[i].getRechargeESSNum());
 			pos = pos + 1;
+			
 			int n = tempInfoListOfRESD[i].getNumOfRechargeESTempProbes();
 			ByteUtil.getInstance().putShort(tempBytes, (short) n, pos);
 			pos = pos + 2;
+			
 			short[] tempValueOfProbe = tempInfoListOfRESD[i].getTempValueOfProbe();
 			for (int j = 0; j < n; j++) {
 				tempBytes[pos] = (byte) tempValueOfProbe[j];
@@ -710,7 +735,7 @@ public class RealInfoMessageEncoder {
 			System.out.println("可充电储能子系统温度数据编码正常");
 		}
 		
-		System.out.println("可充电储能子系统温度数据信息 : " + temperData);
+//		System.out.println("可充电储能子系统温度数据信息 : " + temperData);
 		
 		return tempBytes;
 	}
@@ -815,7 +840,7 @@ public class RealInfoMessageEncoder {
 			System.out.println("逸卡车辆数据编码正常");
 		}
 		
-		System.out.println("逸卡车辆数据信息 : " + eCarInfo);
+//		System.out.println("逸卡车辆数据信息 : " + eCarInfo);
 		
 		return eCarBytes;
 	}

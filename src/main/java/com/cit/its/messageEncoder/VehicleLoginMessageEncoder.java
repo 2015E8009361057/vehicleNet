@@ -87,7 +87,7 @@ public class VehicleLoginMessageEncoder {
 		byte checkCode = CheckCode.calculateCheckCode(vehicleLoginBytes);
 		vehicleLoginBytes[pos] = checkCode;
 		
-		System.out.println("车辆登入信息 : " + vehicleLogin);
+	//	System.out.println("车辆登入信息 : " + vehicleLogin);
 		
 		return vehicleLoginBytes;
 	}

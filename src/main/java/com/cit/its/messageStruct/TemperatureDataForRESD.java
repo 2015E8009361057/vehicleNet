@@ -1,6 +1,5 @@
 package com.cit.its.messageStruct;
 
-import com.cit.its.util.ByteUtil;
 
 public class TemperatureDataForRESD {
 	

@@ -1,5 +1,7 @@
 package com.cit.its.util;
 
+import java.util.Date;
+
 public class TestBigEndian {
 	
 	public static void main(String[] args) throws Exception {
@@ -20,6 +22,12 @@ public class TestBigEndian {
 		ByteUtil.getInstance().putStringToByteArray(str, strBytes, 0);
 		String reString = ByteUtil.getInstance().getStringFromByteArray(strBytes, 0, strBytes.length);
 		System.out.println("reString : " + reString);
+		
+		Date date = new Date();
+		byte[] dateBytes = new byte[6];
+		ByteUtil.getInstance().putDateToByteArray(date, dateBytes, 0);
+		String dateStr = ByteUtil.getInstance().getStringDateFromByteArray(dateBytes, 0);
+		System.out.println("dateStr : " + dateStr);
 	}
 
 }

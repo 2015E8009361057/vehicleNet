@@ -23,7 +23,7 @@ public class HeartBeatMessageEncoder {
 		byte checkCode = CheckCode.calculateCheckCode(heartBeatBytes);
 		heartBeatBytes[heartBeatBytes.length - 1] = checkCode;
 		
-		System.out.println("心跳报文 : " + new Date());
+//		System.out.println("心跳报文 : " + new Date());
 		return heartBeatBytes;
 	} 
 

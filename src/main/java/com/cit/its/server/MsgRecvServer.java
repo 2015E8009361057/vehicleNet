@@ -17,7 +17,6 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
-import java.io.IOException;
 import java.util.Properties;
 
 import org.apache.activemq.ActiveMQConnectionFactory;

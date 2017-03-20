@@ -1,0 +1,317 @@
+2017-03-17 09:29:21  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Fri Mar 17 09:29:21 CST 2017]; root of context hierarchy
+2017-03-17 09:29:21  [ main:52 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-17 09:29:22  [ main:472 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-17 09:29:23  [ main:1788 ] - [ INFO ]  bind port 8080
+2017-03-17 09:29:23  [ main:2083 ] - [ INFO ]  Start the Server: OK
+2017-03-17 09:29:28  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-17 09:29:28  [ defaultEventExecutorGroup-4-1:7355 ] - [ INFO ]  a device online
+2017-03-17 09:29:29  [ defaultEventExecutorGroup-4-1:7452 ] - [ INFO ]  abcdefg1234567890 msg_type is : VEHICLE_LOGIN
+2017-03-17 09:29:29  [ defaultEventExecutorGroup-4-1:7454 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN checkCode is correct!
+2017-03-17 09:29:29  [ defaultEventExecutorGroup-4-1:7517 ] - [ INFO ]  abcdefg1234567890 CommandType : VEHICLE_LOGIN ResponseType : ORDER is correct!
+2017-03-17 09:29:29  [ defaultEventExecutorGroup-4-1:7518 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 09:29:29  [ defaultEventExecutorGroup-4-1:7521 ] - [ INFO ]  abcdefg1234567890 login in 2017-3-17 9:29:28 succeed! And its loginSerialNumber is 1
+2017-03-17 09:29:29  [ nioEventLoopGroup-2-1:1078 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-17 09:29:29  [ defaultEventExecutorGroup-4-1:8410 ] - [ INFO ]  abcdefg1234567890 msg_type is : TERMINAL_CORRECTION
+2017-03-17 09:29:29  [ defaultEventExecutorGroup-4-1:8411 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION checkCode is correct!
+2017-03-17 09:29:29  [ defaultEventExecutorGroup-4-1:8411 ] - [ INFO ]  abcdefg1234567890 CommandType : TERMINAL_CORRECTION ResponseType : ORDER is correct!
+2017-03-17 09:29:29  [ defaultEventExecutorGroup-4-1:8412 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 09:29:29  [ defaultEventExecutorGroup-4-1:8412 ] - [ INFO ]  abcdefg1234567890 Terminal Correction succeed!
+2017-03-17 09:29:30  [ nioEventLoopGroup-2-1:2083 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-17 09:29:30  [ defaultEventExecutorGroup-4-1:9410 ] - [ INFO ]  abcdefg1234567890 msg_type is : HEART_BEAT
+2017-03-17 09:29:30  [ defaultEventExecutorGroup-4-1:9411 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT checkCode is correct!
+2017-03-17 09:29:30  [ defaultEventExecutorGroup-4-1:9411 ] - [ INFO ]  abcdefg1234567890 CommandType : HEART_BEAT ResponseType : ORDER is correct!
+2017-03-17 09:29:30  [ defaultEventExecutorGroup-4-1:9411 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 09:29:32  [ nioEventLoopGroup-2-1:3116 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:32  [ defaultEventExecutorGroup-4-1:10443 ] - [ INFO ]  abcdefg1234567890 msg_type is : REAL_INFORMATION_UPLOAD
+2017-03-17 09:29:32  [ defaultEventExecutorGroup-4-1:10443 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD checkCode is correct!
+2017-03-17 09:29:32  [ defaultEventExecutorGroup-4-1:10443 ] - [ INFO ]  abcdefg1234567890 CommandType : REAL_INFORMATION_UPLOAD ResponseType : ORDER is correct!
+2017-03-17 09:29:32  [ defaultEventExecutorGroup-4-1:10443 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 09:29:32  [ defaultEventExecutorGroup-4-1:10445 ] - [ INFO ]  Real Info Type is null
+2017-03-17 09:29:32  [ defaultEventExecutorGroup-4-1:10482 ] - [ WARN ]  
+2017-03-17 09:29:32  [ defaultEventExecutorGroup-4-1:10484 ] - [ INFO ]  connect break
+2017-03-17 09:29:33  [ nioEventLoopGroup-2-1:4154 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:34  [ nioEventLoopGroup-2-1:5249 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:35  [ nioEventLoopGroup-2-1:6347 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:36  [ nioEventLoopGroup-2-1:7370 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:37  [ nioEventLoopGroup-2-1:8391 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:38  [ nioEventLoopGroup-2-1:9421 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:39  [ nioEventLoopGroup-2-1:10464 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:40  [ nioEventLoopGroup-2-1:11478 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:41  [ nioEventLoopGroup-2-1:12498 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:42  [ nioEventLoopGroup-2-1:13502 ] - [ INFO ]  abcdefg1234567891 VEHICLE_LOGOUT header encode succeed!
+2017-03-17 09:29:43  [ nioEventLoopGroup-2-1:14502 ] - [ INFO ]  abcdefg1234567891 VEHICLE_LOGIN header encode succeed!
+2017-03-17 09:29:44  [ nioEventLoopGroup-2-1:15504 ] - [ INFO ]  abcdefg1234567891 TERMINAL_CORRECTION header encode succeed!
+2017-03-17 09:29:45  [ nioEventLoopGroup-2-1:16504 ] - [ INFO ]  abcdefg1234567891 HEART_BEAT header encode succeed!
+2017-03-17 09:29:46  [ nioEventLoopGroup-2-1:17504 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:47  [ nioEventLoopGroup-2-1:18504 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:48  [ nioEventLoopGroup-2-1:19506 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:49  [ nioEventLoopGroup-2-1:20507 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:50  [ nioEventLoopGroup-2-1:21508 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:51  [ nioEventLoopGroup-2-1:22508 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:52  [ nioEventLoopGroup-2-1:23509 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:53  [ nioEventLoopGroup-2-1:24511 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:54  [ nioEventLoopGroup-2-1:25512 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:55  [ nioEventLoopGroup-2-1:26514 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:29:56  [ nioEventLoopGroup-2-1:27514 ] - [ INFO ]  abcdefg1234567892 VEHICLE_LOGOUT header encode succeed!
+2017-03-17 09:29:57  [ nioEventLoopGroup-2-1:28518 ] - [ INFO ]  connect break
+2017-03-17 09:50:39  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Fri Mar 17 09:50:39 CST 2017]; root of context hierarchy
+2017-03-17 09:50:39  [ main:96 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-17 09:50:41  [ main:2797 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-17 09:50:44  [ main:4820 ] - [ INFO ]  bind port 8080
+2017-03-17 09:50:44  [ main:5019 ] - [ INFO ]  Start the Server: OK
+2017-03-17 09:50:46  [ defaultEventExecutorGroup-4-1:6864 ] - [ INFO ]  a device online
+2017-03-17 09:50:46  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-17 09:50:46  [ defaultEventExecutorGroup-4-1:7015 ] - [ INFO ]  abcdefg1234567890 msg_type is : VEHICLE_LOGIN
+2017-03-17 09:50:46  [ defaultEventExecutorGroup-4-1:7016 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN checkCode is correct!
+2017-03-17 09:50:46  [ defaultEventExecutorGroup-4-1:7044 ] - [ INFO ]  abcdefg1234567890 CommandType : VEHICLE_LOGIN ResponseType : ORDER is correct!
+2017-03-17 09:50:46  [ defaultEventExecutorGroup-4-1:7045 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 09:50:46  [ defaultEventExecutorGroup-4-1:7049 ] - [ INFO ]  abcdefg1234567890 login in 2017-3-17 9:50:46 succeed! And its loginSerialNumber is 1
+2017-03-17 09:50:47  [ nioEventLoopGroup-2-1:1063 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-17 09:50:47  [ defaultEventExecutorGroup-4-1:7970 ] - [ INFO ]  abcdefg1234567890 msg_type is : TERMINAL_CORRECTION
+2017-03-17 09:50:47  [ defaultEventExecutorGroup-4-1:7970 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION checkCode is correct!
+2017-03-17 09:50:47  [ defaultEventExecutorGroup-4-1:7970 ] - [ INFO ]  abcdefg1234567890 CommandType : TERMINAL_CORRECTION ResponseType : ORDER is correct!
+2017-03-17 09:50:47  [ defaultEventExecutorGroup-4-1:7970 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 09:50:47  [ defaultEventExecutorGroup-4-1:7972 ] - [ INFO ]  abcdefg1234567890 Terminal Correction succeed!
+2017-03-17 09:50:48  [ nioEventLoopGroup-2-1:2070 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-17 09:50:48  [ defaultEventExecutorGroup-4-1:8973 ] - [ INFO ]  abcdefg1234567890 msg_type is : HEART_BEAT
+2017-03-17 09:50:48  [ defaultEventExecutorGroup-4-1:8973 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT checkCode is correct!
+2017-03-17 09:50:48  [ defaultEventExecutorGroup-4-1:8973 ] - [ INFO ]  abcdefg1234567890 CommandType : HEART_BEAT ResponseType : ORDER is correct!
+2017-03-17 09:50:48  [ defaultEventExecutorGroup-4-1:8973 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 09:50:49  [ nioEventLoopGroup-2-1:3074 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:50:49  [ defaultEventExecutorGroup-4-1:9977 ] - [ INFO ]  abcdefg1234567890 msg_type is : REAL_INFORMATION_UPLOAD
+2017-03-17 09:50:49  [ defaultEventExecutorGroup-4-1:9977 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD checkCode is correct!
+2017-03-17 09:50:49  [ defaultEventExecutorGroup-4-1:9977 ] - [ INFO ]  abcdefg1234567890 CommandType : REAL_INFORMATION_UPLOAD ResponseType : ORDER is correct!
+2017-03-17 09:50:49  [ defaultEventExecutorGroup-4-1:9977 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 09:50:49  [ defaultEventExecutorGroup-4-1:9979 ] - [ INFO ]  Real Info Type is null
+2017-03-17 09:50:49  [ defaultEventExecutorGroup-4-1:9980 ] - [ WARN ]  
+2017-03-17 09:50:49  [ defaultEventExecutorGroup-4-1:9981 ] - [ INFO ]  connect break
+2017-03-17 09:50:50  [ nioEventLoopGroup-2-1:4077 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:50:51  [ nioEventLoopGroup-2-1:5078 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:50:52  [ nioEventLoopGroup-2-1:6123 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:50:53  [ nioEventLoopGroup-2-1:7124 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:50:54  [ nioEventLoopGroup-2-1:8126 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:50:55  [ nioEventLoopGroup-2-1:9129 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:50:56  [ nioEventLoopGroup-2-1:10134 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:50:57  [ nioEventLoopGroup-2-1:11140 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:50:58  [ nioEventLoopGroup-2-1:12143 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:50:59  [ nioEventLoopGroup-2-1:13145 ] - [ INFO ]  abcdefg1234567891 VEHICLE_LOGOUT header encode succeed!
+2017-03-17 09:51:00  [ nioEventLoopGroup-2-1:14146 ] - [ INFO ]  abcdefg1234567891 VEHICLE_LOGIN header encode succeed!
+2017-03-17 09:51:01  [ nioEventLoopGroup-2-1:15149 ] - [ INFO ]  abcdefg1234567891 TERMINAL_CORRECTION header encode succeed!
+2017-03-17 09:51:02  [ nioEventLoopGroup-2-1:16149 ] - [ INFO ]  abcdefg1234567891 HEART_BEAT header encode succeed!
+2017-03-17 09:51:03  [ nioEventLoopGroup-2-1:17149 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:51:04  [ nioEventLoopGroup-2-1:18152 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:51:05  [ nioEventLoopGroup-2-1:19153 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:51:06  [ nioEventLoopGroup-2-1:20155 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:51:07  [ nioEventLoopGroup-2-1:21155 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:51:08  [ nioEventLoopGroup-2-1:22155 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:51:09  [ nioEventLoopGroup-2-1:23156 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:51:10  [ nioEventLoopGroup-2-1:24160 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:51:11  [ nioEventLoopGroup-2-1:25164 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:51:12  [ nioEventLoopGroup-2-1:26164 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 09:51:13  [ nioEventLoopGroup-2-1:27165 ] - [ INFO ]  abcdefg1234567892 VEHICLE_LOGOUT header encode succeed!
+2017-03-17 09:51:14  [ nioEventLoopGroup-2-1:28170 ] - [ INFO ]  connect break
+2017-03-17 10:17:00  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Fri Mar 17 10:17:00 CST 2017]; root of context hierarchy
+2017-03-17 10:17:00  [ main:78 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-17 10:17:01  [ main:760 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-17 10:17:04  [ main:3419 ] - [ INFO ]  bind port 8080
+2017-03-17 10:17:04  [ main:3656 ] - [ INFO ]  Start the Server: OK
+2017-03-17 10:17:06  [ defaultEventExecutorGroup-4-1:5637 ] - [ INFO ]  a device online
+2017-03-17 10:17:06  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-17 10:17:06  [ defaultEventExecutorGroup-4-1:5772 ] - [ INFO ]  abcdefg1234567890 msg_type is : VEHICLE_LOGIN
+2017-03-17 10:17:06  [ defaultEventExecutorGroup-4-1:5773 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN checkCode is correct!
+2017-03-17 10:17:06  [ defaultEventExecutorGroup-4-1:5792 ] - [ INFO ]  abcdefg1234567890 CommandType : VEHICLE_LOGIN ResponseType : ORDER is correct!
+2017-03-17 10:17:06  [ defaultEventExecutorGroup-4-1:5794 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:17:06  [ defaultEventExecutorGroup-4-1:5802 ] - [ INFO ]  abcdefg1234567890 login in 2017-3-17 10:17:6 succeed! And its loginSerialNumber is 1
+2017-03-17 10:17:07  [ nioEventLoopGroup-2-1:1084 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-17 10:17:07  [ defaultEventExecutorGroup-4-1:6740 ] - [ INFO ]  abcdefg1234567890 msg_type is : TERMINAL_CORRECTION
+2017-03-17 10:17:07  [ defaultEventExecutorGroup-4-1:6740 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION checkCode is correct!
+2017-03-17 10:17:07  [ defaultEventExecutorGroup-4-1:6740 ] - [ INFO ]  abcdefg1234567890 CommandType : TERMINAL_CORRECTION ResponseType : ORDER is correct!
+2017-03-17 10:17:07  [ defaultEventExecutorGroup-4-1:6740 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:17:07  [ defaultEventExecutorGroup-4-1:6742 ] - [ INFO ]  abcdefg1234567890 Terminal Correction succeed!
+2017-03-17 10:17:08  [ nioEventLoopGroup-2-1:2091 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-17 10:17:08  [ defaultEventExecutorGroup-4-1:7743 ] - [ INFO ]  abcdefg1234567890 msg_type is : HEART_BEAT
+2017-03-17 10:17:08  [ defaultEventExecutorGroup-4-1:7743 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT checkCode is correct!
+2017-03-17 10:17:08  [ defaultEventExecutorGroup-4-1:7743 ] - [ INFO ]  abcdefg1234567890 CommandType : HEART_BEAT ResponseType : ORDER is correct!
+2017-03-17 10:17:08  [ defaultEventExecutorGroup-4-1:7743 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:17:09  [ nioEventLoopGroup-2-1:3098 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:09  [ defaultEventExecutorGroup-4-1:8750 ] - [ INFO ]  abcdefg1234567890 msg_type is : REAL_INFORMATION_UPLOAD
+2017-03-17 10:17:09  [ defaultEventExecutorGroup-4-1:8750 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD checkCode is correct!
+2017-03-17 10:17:09  [ defaultEventExecutorGroup-4-1:8750 ] - [ INFO ]  abcdefg1234567890 CommandType : REAL_INFORMATION_UPLOAD ResponseType : ORDER is correct!
+2017-03-17 10:17:09  [ defaultEventExecutorGroup-4-1:8750 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:17:09  [ defaultEventExecutorGroup-4-1:8752 ] - [ INFO ]  Real Info Type is VEHICLE_INFO
+2017-03-17 10:17:09  [ defaultEventExecutorGroup-4-1:8756 ] - [ INFO ]  Real Info Type is null
+2017-03-17 10:17:09  [ defaultEventExecutorGroup-4-1:8757 ] - [ WARN ]  
+2017-03-17 10:17:09  [ defaultEventExecutorGroup-4-1:8763 ] - [ INFO ]  connect break
+2017-03-17 10:17:09  [ defaultEventExecutorGroup-4-2:8895 ] - [ INFO ]  a device online
+2017-03-17 10:17:09  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-17 10:17:09  [ defaultEventExecutorGroup-4-2:8942 ] - [ INFO ]  abcdefg1234567890 msg_type is : VEHICLE_LOGIN
+2017-03-17 10:17:09  [ defaultEventExecutorGroup-4-2:8942 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN checkCode is correct!
+2017-03-17 10:17:09  [ defaultEventExecutorGroup-4-2:8942 ] - [ INFO ]  abcdefg1234567890 CommandType : VEHICLE_LOGIN ResponseType : ORDER is correct!
+2017-03-17 10:17:09  [ defaultEventExecutorGroup-4-2:8943 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:17:09  [ defaultEventExecutorGroup-4-2:8943 ] - [ INFO ]  abcdefg1234567890 login in 2017-3-17 10:17:9 succeed! And its loginSerialNumber is 1
+2017-03-17 10:17:10  [ nioEventLoopGroup-2-1:4101 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:10  [ nioEventLoopGroup-2-1:1022 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-17 10:17:10  [ defaultEventExecutorGroup-4-2:9938 ] - [ INFO ]  abcdefg1234567890 msg_type is : TERMINAL_CORRECTION
+2017-03-17 10:17:10  [ defaultEventExecutorGroup-4-2:9938 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION checkCode is correct!
+2017-03-17 10:17:10  [ defaultEventExecutorGroup-4-2:9938 ] - [ INFO ]  abcdefg1234567890 CommandType : TERMINAL_CORRECTION ResponseType : ORDER is correct!
+2017-03-17 10:17:10  [ defaultEventExecutorGroup-4-2:9938 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:17:10  [ defaultEventExecutorGroup-4-2:9939 ] - [ INFO ]  abcdefg1234567890 Terminal Correction succeed!
+2017-03-17 10:17:11  [ nioEventLoopGroup-2-1:5104 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:11  [ nioEventLoopGroup-2-1:2028 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-17 10:17:11  [ defaultEventExecutorGroup-4-2:10940 ] - [ INFO ]  abcdefg1234567890 msg_type is : HEART_BEAT
+2017-03-17 10:17:11  [ defaultEventExecutorGroup-4-2:10940 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT checkCode is correct!
+2017-03-17 10:17:11  [ defaultEventExecutorGroup-4-2:10941 ] - [ INFO ]  abcdefg1234567890 CommandType : HEART_BEAT ResponseType : ORDER is correct!
+2017-03-17 10:17:11  [ defaultEventExecutorGroup-4-2:10941 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:17:12  [ nioEventLoopGroup-2-1:6108 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:12  [ nioEventLoopGroup-2-1:3034 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:12  [ defaultEventExecutorGroup-4-2:11945 ] - [ INFO ]  abcdefg1234567890 msg_type is : REAL_INFORMATION_UPLOAD
+2017-03-17 10:17:12  [ defaultEventExecutorGroup-4-2:11946 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD checkCode is correct!
+2017-03-17 10:17:12  [ defaultEventExecutorGroup-4-2:11946 ] - [ INFO ]  abcdefg1234567890 CommandType : REAL_INFORMATION_UPLOAD ResponseType : ORDER is correct!
+2017-03-17 10:17:12  [ defaultEventExecutorGroup-4-2:11946 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:17:12  [ defaultEventExecutorGroup-4-2:11946 ] - [ INFO ]  Real Info Type is VEHICLE_INFO
+2017-03-17 10:17:12  [ defaultEventExecutorGroup-4-2:11947 ] - [ INFO ]  Real Info Type is null
+2017-03-17 10:17:12  [ defaultEventExecutorGroup-4-2:11947 ] - [ WARN ]  
+2017-03-17 10:17:12  [ defaultEventExecutorGroup-4-2:11947 ] - [ INFO ]  connect break
+2017-03-17 10:17:13  [ nioEventLoopGroup-2-1:7118 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:13  [ nioEventLoopGroup-2-1:4039 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:14  [ nioEventLoopGroup-2-1:8121 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:14  [ nioEventLoopGroup-2-1:5044 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:15  [ nioEventLoopGroup-2-1:9123 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:15  [ nioEventLoopGroup-2-1:6047 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:16  [ nioEventLoopGroup-2-1:10132 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:16  [ nioEventLoopGroup-2-1:7050 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:17  [ nioEventLoopGroup-2-1:11140 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:17  [ nioEventLoopGroup-2-1:8051 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:18  [ nioEventLoopGroup-2-1:12144 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:18  [ nioEventLoopGroup-2-1:9053 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:19  [ nioEventLoopGroup-2-1:13145 ] - [ INFO ]  abcdefg1234567891 VEHICLE_LOGOUT header encode succeed!
+2017-03-17 10:17:19  [ nioEventLoopGroup-2-1:10057 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:20  [ nioEventLoopGroup-2-1:14147 ] - [ INFO ]  abcdefg1234567891 VEHICLE_LOGIN header encode succeed!
+2017-03-17 10:17:20  [ nioEventLoopGroup-2-1:11060 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:21  [ nioEventLoopGroup-2-1:15148 ] - [ INFO ]  abcdefg1234567891 TERMINAL_CORRECTION header encode succeed!
+2017-03-17 10:17:21  [ nioEventLoopGroup-2-1:12064 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:22  [ nioEventLoopGroup-2-1:16148 ] - [ INFO ]  abcdefg1234567891 HEART_BEAT header encode succeed!
+2017-03-17 10:17:22  [ nioEventLoopGroup-2-1:13068 ] - [ INFO ]  abcdefg1234567891 VEHICLE_LOGOUT header encode succeed!
+2017-03-17 10:17:23  [ nioEventLoopGroup-2-1:17149 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:23  [ nioEventLoopGroup-2-1:14069 ] - [ INFO ]  abcdefg1234567891 VEHICLE_LOGIN header encode succeed!
+2017-03-17 10:17:24  [ nioEventLoopGroup-2-1:18149 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:24  [ nioEventLoopGroup-2-1:15071 ] - [ INFO ]  abcdefg1234567891 TERMINAL_CORRECTION header encode succeed!
+2017-03-17 10:17:25  [ nioEventLoopGroup-2-1:19151 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:25  [ nioEventLoopGroup-2-1:16071 ] - [ INFO ]  abcdefg1234567891 HEART_BEAT header encode succeed!
+2017-03-17 10:17:26  [ nioEventLoopGroup-2-1:20152 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:26  [ nioEventLoopGroup-2-1:17072 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:27  [ nioEventLoopGroup-2-1:21154 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:27  [ nioEventLoopGroup-2-1:18076 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:28  [ nioEventLoopGroup-2-1:22154 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:28  [ nioEventLoopGroup-2-1:19080 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:29  [ nioEventLoopGroup-2-1:23156 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:29  [ nioEventLoopGroup-2-1:20080 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:30  [ nioEventLoopGroup-2-1:24159 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:30  [ nioEventLoopGroup-2-1:21081 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:31  [ nioEventLoopGroup-2-1:25162 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:31  [ nioEventLoopGroup-2-1:22082 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:32  [ nioEventLoopGroup-2-1:26164 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:32  [ nioEventLoopGroup-2-1:23084 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:33  [ nioEventLoopGroup-2-1:27164 ] - [ INFO ]  abcdefg1234567892 VEHICLE_LOGOUT header encode succeed!
+2017-03-17 10:17:33  [ nioEventLoopGroup-2-1:24087 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:34  [ nioEventLoopGroup-2-1:28168 ] - [ INFO ]  connect break
+2017-03-17 10:17:34  [ nioEventLoopGroup-2-1:25100 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:35  [ nioEventLoopGroup-2-1:26100 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:17:36  [ nioEventLoopGroup-2-1:27101 ] - [ INFO ]  abcdefg1234567892 VEHICLE_LOGOUT header encode succeed!
+2017-03-17 10:17:37  [ nioEventLoopGroup-2-1:28106 ] - [ INFO ]  connect break
+2017-03-17 10:24:13  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5ecddf8f: startup date [Fri Mar 17 10:24:13 CST 2017]; root of context hierarchy
+2017-03-17 10:24:13  [ main:47 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-context.xml]
+2017-03-17 10:24:14  [ main:612 ] - [ INFO ]  Loading properties file from class path resource [database.properties]
+2017-03-17 10:24:15  [ main:1827 ] - [ INFO ]  bind port 8080
+2017-03-17 10:24:15  [ main:2044 ] - [ INFO ]  Start the Server: OK
+2017-03-17 10:24:18  [ nioEventLoopGroup-2-1:0 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN header encode succeed!
+2017-03-17 10:24:18  [ defaultEventExecutorGroup-4-1:4112 ] - [ INFO ]  a device online
+2017-03-17 10:24:18  [ defaultEventExecutorGroup-4-1:4179 ] - [ INFO ]  abcdefg1234567890 msg_type is : VEHICLE_LOGIN
+2017-03-17 10:24:18  [ defaultEventExecutorGroup-4-1:4180 ] - [ INFO ]  abcdefg1234567890 VEHICLE_LOGIN checkCode is correct!
+2017-03-17 10:24:18  [ defaultEventExecutorGroup-4-1:4183 ] - [ INFO ]  abcdefg1234567890 CommandType : VEHICLE_LOGIN ResponseType : ORDER is correct!
+2017-03-17 10:24:18  [ defaultEventExecutorGroup-4-1:4185 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:24:18  [ defaultEventExecutorGroup-4-1:4192 ] - [ INFO ]  abcdefg1234567890 login in 2017-3-17 10:24:18 succeed! And its loginSerialNumber is 1
+2017-03-17 10:24:19  [ nioEventLoopGroup-2-1:1030 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION header encode succeed!
+2017-03-17 10:24:19  [ defaultEventExecutorGroup-4-1:5146 ] - [ INFO ]  abcdefg1234567890 msg_type is : TERMINAL_CORRECTION
+2017-03-17 10:24:19  [ defaultEventExecutorGroup-4-1:5146 ] - [ INFO ]  abcdefg1234567890 TERMINAL_CORRECTION checkCode is correct!
+2017-03-17 10:24:19  [ defaultEventExecutorGroup-4-1:5146 ] - [ INFO ]  abcdefg1234567890 CommandType : TERMINAL_CORRECTION ResponseType : ORDER is correct!
+2017-03-17 10:24:19  [ defaultEventExecutorGroup-4-1:5146 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:24:19  [ defaultEventExecutorGroup-4-1:5148 ] - [ INFO ]  abcdefg1234567890 Terminal Correction succeed!
+2017-03-17 10:24:20  [ nioEventLoopGroup-2-1:2034 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT header encode succeed!
+2017-03-17 10:24:20  [ defaultEventExecutorGroup-4-1:6146 ] - [ INFO ]  abcdefg1234567890 msg_type is : HEART_BEAT
+2017-03-17 10:24:20  [ defaultEventExecutorGroup-4-1:6147 ] - [ INFO ]  abcdefg1234567890 HEART_BEAT checkCode is correct!
+2017-03-17 10:24:20  [ defaultEventExecutorGroup-4-1:6147 ] - [ INFO ]  abcdefg1234567890 CommandType : HEART_BEAT ResponseType : ORDER is correct!
+2017-03-17 10:24:20  [ defaultEventExecutorGroup-4-1:6147 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:24:21  [ nioEventLoopGroup-2-1:3039 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:21  [ defaultEventExecutorGroup-4-1:7151 ] - [ INFO ]  abcdefg1234567890 msg_type is : REAL_INFORMATION_UPLOAD
+2017-03-17 10:24:21  [ defaultEventExecutorGroup-4-1:7151 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD checkCode is correct!
+2017-03-17 10:24:21  [ defaultEventExecutorGroup-4-1:7152 ] - [ INFO ]  abcdefg1234567890 CommandType : REAL_INFORMATION_UPLOAD ResponseType : ORDER is correct!
+2017-03-17 10:24:21  [ defaultEventExecutorGroup-4-1:7152 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:24:21  [ defaultEventExecutorGroup-4-1:7153 ] - [ INFO ]  Real Info Type is VEHICLE_INFO
+2017-03-17 10:24:22  [ nioEventLoopGroup-2-1:4043 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:22  [ defaultEventExecutorGroup-4-1:8155 ] - [ INFO ]  abcdefg1234567890 msg_type is : REAL_INFORMATION_UPLOAD
+2017-03-17 10:24:22  [ defaultEventExecutorGroup-4-1:8155 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD checkCode is correct!
+2017-03-17 10:24:22  [ defaultEventExecutorGroup-4-1:8155 ] - [ INFO ]  abcdefg1234567890 CommandType : REAL_INFORMATION_UPLOAD ResponseType : ORDER is correct!
+2017-03-17 10:24:22  [ defaultEventExecutorGroup-4-1:8155 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:24:22  [ defaultEventExecutorGroup-4-1:8156 ] - [ INFO ]  Real Info Type is DRIVING_MOTOR_DATA
+2017-03-17 10:24:23  [ nioEventLoopGroup-2-1:5047 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:23  [ defaultEventExecutorGroup-4-1:9159 ] - [ INFO ]  abcdefg1234567890 msg_type is : REAL_INFORMATION_UPLOAD
+2017-03-17 10:24:23  [ defaultEventExecutorGroup-4-1:9159 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD checkCode is correct!
+2017-03-17 10:24:23  [ defaultEventExecutorGroup-4-1:9159 ] - [ INFO ]  abcdefg1234567890 CommandType : REAL_INFORMATION_UPLOAD ResponseType : ORDER is correct!
+2017-03-17 10:24:23  [ defaultEventExecutorGroup-4-1:9160 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:24:23  [ defaultEventExecutorGroup-4-1:9161 ] - [ INFO ]  Real Info Type is FUEL_CELL_DATA
+2017-03-17 10:24:24  [ nioEventLoopGroup-2-1:6048 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:24  [ defaultEventExecutorGroup-4-1:10160 ] - [ INFO ]  abcdefg1234567890 msg_type is : REAL_INFORMATION_UPLOAD
+2017-03-17 10:24:24  [ defaultEventExecutorGroup-4-1:10160 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD checkCode is correct!
+2017-03-17 10:24:24  [ defaultEventExecutorGroup-4-1:10160 ] - [ INFO ]  abcdefg1234567890 CommandType : REAL_INFORMATION_UPLOAD ResponseType : ORDER is correct!
+2017-03-17 10:24:24  [ defaultEventExecutorGroup-4-1:10160 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:24:24  [ defaultEventExecutorGroup-4-1:10160 ] - [ INFO ]  Real Info Type is ENGINE_DATA
+2017-03-17 10:24:25  [ nioEventLoopGroup-2-1:7049 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:25  [ defaultEventExecutorGroup-4-1:11161 ] - [ INFO ]  abcdefg1234567890 msg_type is : REAL_INFORMATION_UPLOAD
+2017-03-17 10:24:25  [ defaultEventExecutorGroup-4-1:11161 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD checkCode is correct!
+2017-03-17 10:24:25  [ defaultEventExecutorGroup-4-1:11161 ] - [ INFO ]  abcdefg1234567890 CommandType : REAL_INFORMATION_UPLOAD ResponseType : ORDER is correct!
+2017-03-17 10:24:25  [ defaultEventExecutorGroup-4-1:11162 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:24:25  [ defaultEventExecutorGroup-4-1:11162 ] - [ INFO ]  Real Info Type is VEHICLE_POSITION
+2017-03-17 10:24:26  [ nioEventLoopGroup-2-1:8052 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:26  [ defaultEventExecutorGroup-4-1:12164 ] - [ INFO ]  abcdefg1234567890 msg_type is : REAL_INFORMATION_UPLOAD
+2017-03-17 10:24:26  [ defaultEventExecutorGroup-4-1:12164 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD checkCode is correct!
+2017-03-17 10:24:26  [ defaultEventExecutorGroup-4-1:12164 ] - [ INFO ]  abcdefg1234567890 CommandType : REAL_INFORMATION_UPLOAD ResponseType : ORDER is correct!
+2017-03-17 10:24:26  [ defaultEventExecutorGroup-4-1:12164 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:24:26  [ defaultEventExecutorGroup-4-1:12164 ] - [ INFO ]  Real Info Type is EXTREME_VALUE_DATA
+2017-03-17 10:24:27  [ nioEventLoopGroup-2-1:9054 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:27  [ defaultEventExecutorGroup-4-1:13167 ] - [ INFO ]  abcdefg1234567890 msg_type is : REAL_INFORMATION_UPLOAD
+2017-03-17 10:24:27  [ defaultEventExecutorGroup-4-1:13167 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD checkCode is correct!
+2017-03-17 10:24:27  [ defaultEventExecutorGroup-4-1:13167 ] - [ INFO ]  abcdefg1234567890 CommandType : REAL_INFORMATION_UPLOAD ResponseType : ORDER is correct!
+2017-03-17 10:24:27  [ defaultEventExecutorGroup-4-1:13167 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:24:27  [ defaultEventExecutorGroup-4-1:13167 ] - [ INFO ]  Real Info Type is ALARM_DATA
+2017-03-17 10:24:28  [ nioEventLoopGroup-2-1:10059 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:28  [ defaultEventExecutorGroup-4-1:14172 ] - [ INFO ]  abcdefg1234567890 msg_type is : REAL_INFORMATION_UPLOAD
+2017-03-17 10:24:28  [ defaultEventExecutorGroup-4-1:14172 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD checkCode is correct!
+2017-03-17 10:24:28  [ defaultEventExecutorGroup-4-1:14172 ] - [ INFO ]  abcdefg1234567890 CommandType : REAL_INFORMATION_UPLOAD ResponseType : ORDER is correct!
+2017-03-17 10:24:28  [ defaultEventExecutorGroup-4-1:14172 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:24:28  [ defaultEventExecutorGroup-4-1:14172 ] - [ INFO ]  Real Info Type is VOLTAGE_DATA_FOR_RESD
+2017-03-17 10:24:29  [ nioEventLoopGroup-2-1:11075 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:29  [ defaultEventExecutorGroup-4-1:15187 ] - [ INFO ]  abcdefg1234567890 msg_type is : REAL_INFORMATION_UPLOAD
+2017-03-17 10:24:29  [ defaultEventExecutorGroup-4-1:15187 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD checkCode is correct!
+2017-03-17 10:24:29  [ defaultEventExecutorGroup-4-1:15187 ] - [ INFO ]  abcdefg1234567890 CommandType : REAL_INFORMATION_UPLOAD ResponseType : ORDER is correct!
+2017-03-17 10:24:29  [ defaultEventExecutorGroup-4-1:15187 ] - [ INFO ]  abcdefg1234567890 its data cell encryption methods used NO_ENCRY
+2017-03-17 10:24:29  [ defaultEventExecutorGroup-4-1:15187 ] - [ INFO ]  Real Info Type is TEMPERATURE_DATA_FOR_RESD
+2017-03-17 10:24:29  [ defaultEventExecutorGroup-4-1:15190 ] - [ WARN ]  893
+2017-03-17 10:24:29  [ defaultEventExecutorGroup-4-1:15192 ] - [ INFO ]  connect break
+2017-03-17 10:24:30  [ nioEventLoopGroup-2-1:12077 ] - [ INFO ]  abcdefg1234567890 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:31  [ nioEventLoopGroup-2-1:13078 ] - [ INFO ]  abcdefg1234567891 VEHICLE_LOGOUT header encode succeed!
+2017-03-17 10:24:32  [ nioEventLoopGroup-2-1:14081 ] - [ INFO ]  abcdefg1234567891 VEHICLE_LOGIN header encode succeed!
+2017-03-17 10:24:33  [ nioEventLoopGroup-2-1:15082 ] - [ INFO ]  abcdefg1234567891 TERMINAL_CORRECTION header encode succeed!
+2017-03-17 10:24:34  [ nioEventLoopGroup-2-1:16082 ] - [ INFO ]  abcdefg1234567891 HEART_BEAT header encode succeed!
+2017-03-17 10:24:35  [ nioEventLoopGroup-2-1:17083 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:36  [ nioEventLoopGroup-2-1:18084 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:37  [ nioEventLoopGroup-2-1:19085 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:38  [ nioEventLoopGroup-2-1:20085 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:39  [ nioEventLoopGroup-2-1:21086 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:40  [ nioEventLoopGroup-2-1:22087 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:41  [ nioEventLoopGroup-2-1:23088 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:42  [ nioEventLoopGroup-2-1:24091 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:43  [ nioEventLoopGroup-2-1:25098 ] - [ INFO ]  abcdefg1234567891 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:44  [ nioEventLoopGroup-2-1:26100 ] - [ INFO ]  abcdefg1234567892 REAL_INFORMATION_UPLOAD header encode succeed!
+2017-03-17 10:24:45  [ nioEventLoopGroup-2-1:27102 ] - [ INFO ]  abcdefg1234567892 VEHICLE_LOGOUT header encode succeed!
+2017-03-17 10:24:46  [ nioEventLoopGroup-2-1:28106 ] - [ INFO ]  connect break

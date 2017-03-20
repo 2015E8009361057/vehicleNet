@@ -662,12 +662,13 @@ public class RealInfoDecoder {
 			// 最小计量单元：1°C，0xFE：异常，0xFF：无效
 			// The temperature value of each temperature probe detected of the rechargeable energy storage subsystem
 			short[] tempValueOfProbe = new short[numOfRechargeESTempProbes];
-			for (int j = 0; j < numOfRechargeESTempProbes; i++) {
+			for (int j = 0; j < numOfRechargeESTempProbes; j++) {
 				tempValueOfProbe[j] = Unsigned.getUnsignedByte(bytes[pos]);
 				pos = pos + 1;
 			}
 		
 			length = length + 3 + numOfRechargeESTempProbes;
+			
 			tempInfoListOfRESD[i] = new TemperatureData();
 			tempInfoListOfRESD[i].setRechargeESSNum(rechargeESSNum);
 			tempInfoListOfRESD[i].setNumOfRechargeESTempProbes(numOfRechargeESTempProbes);

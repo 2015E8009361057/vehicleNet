@@ -138,6 +138,8 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 				dataEncryModeType.equals(DataEncryModeType.INVALID_ENCRY)) {
 			return;
 		}
+		
+		
 		// 否则，运用相应的解密算法对数据单元部分进行解密
 		DataDecrypt.Decrypt(bytes, dataEncryModeType);
 		
@@ -239,6 +241,7 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 		}
 		sendResponseMessage(ctx, newBytes, responseTypeBack);
 		logger.info(vehicleVIN + " Terminal Correction succeed!");
+		System.out.println(vehicleVIN + " Terminal Correction succeed!");
 	}
 
 	
@@ -260,6 +263,7 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 		ByteBuf responMessage = Unpooled.buffer(bytes.length);
 		responMessage.writeBytes(bytes);
 		ctx.writeAndFlush(responMessage);
+		System.out.println("服务端发送心跳应答成功");
 	}
 
 
@@ -281,7 +285,7 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 		String date = ByteUtil.getInstance().getStringDateFromByteArray(bytes, 24);	
 		System.out.println(date);
 		int pos = 30;
-		while (pos < bytes.length) {
+		while (pos < bytes.length - 1) {
 			short realInfoValue = Unsigned.getUnsignedByte(bytes[pos]);
 			RealInformationType realInfoType = RealInformationType.getRealInformationTypeByValue(realInfoValue);
 			pos = pos + 1;
@@ -291,6 +295,7 @@ public class MsgRecvServerHandler extends ChannelInboundHandlerAdapter {
 			 * 每个函数的返回值类型均为int，即该段报文的长度
 			 */
 			logger.info("Real Info Type is " + realInfoType);
+			System.out.println("Real Info Type is " + realInfoType);
 			switch (realInfoType) {
 			case VEHICLE_INFO:
 				int lenOfVeInfo = RealInfoDecoder.vehicleInfoHandler(bytes, pos, vehicleVIN);

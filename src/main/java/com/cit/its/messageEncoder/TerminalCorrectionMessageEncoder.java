@@ -19,10 +19,11 @@ public class TerminalCorrectionMessageEncoder {
 		for (int i = 0; i < headerBytes.length; i++) {
 			correctionBytes[i] = headerBytes[i];
 		}
+
 		// 计算并放入校验码
 		byte checkCode = CheckCode.calculateCheckCode(correctionBytes);
 		correctionBytes[correctionBytes.length - 1] = checkCode;
-		System.out.println("终端校时报文 : " + new Date());
+//		System.out.println("终端校时报文 : " + new Date());
 		return correctionBytes;
 	}
 

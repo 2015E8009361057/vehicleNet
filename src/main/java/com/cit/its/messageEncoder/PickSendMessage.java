@@ -16,10 +16,10 @@ public class PickSendMessage {
 	}
 	
 	public static String getVehicleVINByCount() {
-		if (count % 13 == 0) {
+		if (count % 14 == 0) {
 			vehicleVIN = Pick.pickVehicleVIN();
 		}
-		count = (count + 1 ) % 13;
+		count = (count + 1 ) % 14;
 		return vehicleVIN;
 	}
 	
@@ -28,8 +28,6 @@ public class PickSendMessage {
 		// 获得车辆VIN码
 		getVehicleVINByCount();
 		
-		result = VehicleLoginMessageEncoder.getVehicleLoginBytes(vehicleVIN);
-/*		
 		if (num == 1) {
 			result = VehicleLoginMessageEncoder.getVehicleLoginBytes(vehicleVIN);
 		}else if (num == 2) {
@@ -41,7 +39,7 @@ public class PickSendMessage {
 		}else {
 			result = VehicleLogoutMessageEncoder.getVehicleLogoutBytes(vehicleVIN);
 		}
-*/		
+		
 		return result;
 	}
 
